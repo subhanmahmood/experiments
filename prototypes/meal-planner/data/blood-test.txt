@@ -1,0 +1,151 @@
+### **1. Vitamins & Minerals**
+
+* **Serum Vitamin D (25-OH):** 28 nmol/L
+* *Reference Range: 50 to 200*
+* *Note: Below reference range (25-50 is noted as "May be inadequate").*
+
+
+* **Serum Folate:** 3.1 ug/L
+* *Reference Range: 3.0 to 20.5*
+* *Note: Borderline (3-4.5 ug/L is noted as "indeterminate zone").*
+
+
+* **Serum Vitamin B12:** 491 ng/L
+* *Reference Range: 200 to 900*
+
+
+* **Serum Ferritin:** 224 ug/L
+* *Reference Range: 30 to 300*
+
+
+* **Serum Sodium:** 139 mmol/L
+* *Reference Range: 133 to 146*
+
+
+* **Serum Potassium:** 4.4 mmol/L
+* *Reference Range: 3.5 to 5.3*
+
+
+* **Serum Inorganic Phosphate:** 1.12 mmol/L
+* *Reference Range: 0.80 to 1.50*
+
+
+* **Serum Adjusted Calcium:** 2.44 mmol/L
+* *Reference Range: 2.20 to 2.60*
+
+
+* **Serum Calcium:** 2.35 mmol/L
+* *Reference Range: No range provided*
+
+
+
+### **2. Organ Function (Liver, Kidney, Thyroid)**
+
+* **Serum TSH Level:** 1.33 miu/L
+* *Reference Range: 0.35 to 4.94*
+
+
+* **Serum Total Bilirubin:** 7 umol/L
+* *Reference Range: 0 to 20*
+
+
+* **Serum ALT Level:** 33 u/L
+* *Reference Range: 0 to 55*
+
+
+* **Serum Alkaline Phosphatase:** 97 u/L
+* *Reference Range: 30 to 130*
+
+
+* **Serum Albumin:** 44 g/L
+* *Reference Range: 35 to 50*
+
+
+* **Serum Creatinine:** 78 umol/L
+* *Reference Range: 64 to 104*
+
+
+* **eGFRcreat (CKD-EPI):** > 90 mL/min
+* *Reference Range: 90 to 120*
+
+
+
+### **3. Full Blood Count (Red Blood Cells)**
+
+* **Haemoglobin Estimation:** 148 g/L
+* *Reference Range: 130 to 180*
+
+
+* **Red Blood Cell (RBC) Count:** 5.44 10*12/L
+* *Reference Range: 4.5 to 5.6*
+
+
+* **Haematocrit:** 0.452 Ratio
+* *Reference Range: 0.4 to 0.54*
+
+
+* **MCV (Mean Corpuscular Volume):** 83.0 fL
+* *Reference Range: 75 to 105*
+
+
+* **MCH (Mean Corpusc. Haemoglobin):** 27.2 pg
+* *Reference Range: 26 to 35*
+
+
+* **MCHC (Mean Corpusc. Hb. Conc.):** 327 g/L
+* *Reference Range: 290 to 350*
+
+
+* **Red Blood Cell Distribut Width (RDW):** 13.1 %
+* *Reference Range: 11 to 15*
+
+
+* **Percentage Hypochromic Cells:** 0.4 %
+* *Reference Range: No range provided*
+
+
+
+### **4. Full Blood Count (White Blood Cells)**
+
+* **Total White Cell Count:** 6.0 10*9/L
+* *Reference Range: 4 to 11*
+
+
+* **Neutrophil Count:** 3.0 10*9/L
+* *Reference Range: 2 to 7.5*
+
+
+* **Lymphocyte Count:** 2.6 10*9/L
+* *Reference Range: 1 to 4*
+
+
+* **Monocyte Count:** 0.3 10*9/L
+* *Reference Range: 0.2 to 0.8*
+
+
+* **Eosinophil Count:** 0.1 10*9/L
+* *Reference Range: 0 to 0.4*
+
+
+* **Basophil Count:** 0.0 10*9/L
+* *Reference Range: 0 to 0.1*
+
+
+
+### **5. Full Blood Count (Platelets)**
+
+* **Platelet Count:** 245 10*9/L
+* *Reference Range: 150 to 450*
+
+
+* **Mean Platelet Volume:** 10.1 fL
+* *Reference Range: 8.2 to 11.9*
+
+
+
+### **6. Physical Measurements**
+
+* **Blood Pressure:** 116/75 mmHg
+* **Pulse Rate:** 73 beats/min
+* **Body Weight:** 84 kg
+* **Body Mass Index (BMI):** 32.4 kg/m2

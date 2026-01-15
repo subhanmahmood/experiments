@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pnp.*
+.yarn/
+
+# Build outputs
+dist/
+build/
+out/
+*.egg-info/
+*.egg
+*.whl
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing and coverage
+coverage/
+.coverage
+.nyc_output/
+.pytest_cache/
+htmlcov/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+
+# Package manager locks (uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+*data/Takeout/Fitbit*

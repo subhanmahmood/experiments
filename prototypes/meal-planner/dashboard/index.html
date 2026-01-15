@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .date-filter {
+            display: flex;
+            gap: 8px;
+        }
+
+        .date-filter button {
+            padding: 8px 16px;
+            border: 1px solid #333;
+            background: #1a1a1a;
+            color: #999;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .date-filter button:hover {
+            background: #252525;
+            color: #fff;
+        }
+
+        .date-filter button.active {
+            background: #3b82f6;
+            border-color: #3b82f6;
+            color: #fff;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #262626;
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        /* Stat cards */
+        .stat-cards {
+            grid-column: span 3;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .stat-card {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 16px;
+            border: 1px solid #262626;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            margin: 4px 0;
+        }
+
+        .stat-change {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stat-change.negative { color: #ef4444; }
+        .stat-change.positive { color: #22c55e; }
+        .stat-change.neutral { color: #888; }
+
+        /* Chart cards */
+        .chart-weight { grid-column: span 9; }
+        .chart-composition { grid-column: span 6; }
+        .chart-correlation { grid-column: span 6; }
+        .chart-macro { grid-column: span 3; }
+        .chart-calories { grid-column: span 5; }
+        .chart-meals { grid-column: span 4; }
+        .chart-foods { grid-column: span 12; }
+
+        .chart-container {
+            position: relative;
+            height: 280px;
+        }
+
+        .chart-container.small {
+            height: 220px;
+        }
+
+        .chart-container.tall {
+            height: 350px;
+        }
+
+        /* Blood test status */
+        .blood-status {
+            grid-column: span 12;
+        }
+
+        .blood-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+        }
+
+        .blood-item {
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .blood-item.critical {
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .blood-item.warning {
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .blood-item.good {
+            background: rgba(34, 197, 94, 0.15);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        .blood-marker {
+            font-size: 13px;
+            font-weight: 500;
+            color: #ccc;
+        }
+
+        .blood-value {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 6px 0;
+        }
+
+        .blood-item.critical .blood-value { color: #ef4444; }
+        .blood-item.warning .blood-value { color: #f59e0b; }
+        .blood-item.good .blood-value { color: #22c55e; }
+
+        .blood-ref {
+            font-size: 11px;
+            color: #666;
+        }
+
+        /* Insights */
+        .insights {
+            grid-column: span 12;
+        }
+
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .insight-item {
+            padding: 16px;
+            background: #252525;
+            border-radius: 8px;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .insight-item.warning {
+            border-left-color: #f59e0b;
+        }
+
+        .insight-item.danger {
+            border-left-color: #ef4444;
+        }
+
+        .insight-text {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .stat-cards { grid-column: span 4; }
+            .chart-weight { grid-column: span 8; }
+            .chart-composition { grid-column: span 6; }
+            .chart-correlation { grid-column: span 6; }
+            .chart-macro { grid-column: span 4; }
+            .chart-calories { grid-column: span 8; }
+            .chart-meals { grid-column: span 6; }
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-cards,
+            .chart-weight,
+            .chart-composition,
+            .chart-correlation,
+            .chart-macro,
+            .chart-calories,
+            .chart-meals,
+            .chart-foods,
+            .blood-status,
+            .insights {
+                grid-column: span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Health Dashboard</h1>
+            <div class="date-filter">
+                <button data-filter="all" class="active">All Time</button>
+                <button data-filter="2024">2024</button>
+                <button data-filter="2025">2025</button>
+                <button data-filter="6m">Last 6 Months</button>
+            </div>
+        </header>
+
+        <div class="dashboard-grid">
+            <!-- Stat Cards -->
+            <div class="stat-cards">
+                <div class="stat-card">
+                    <div class="stat-label">Current Weight</div>
+                    <div class="stat-value" id="stat-weight">--</div>
+                    <div class="stat-change" id="stat-weight-change"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Body Fat</div>
+                    <div class="stat-value" id="stat-bodyfat">--</div>
+                    <div class="stat-change" id="stat-bodyfat-change"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Muscle Mass</div>
+                    <div class="stat-value" id="stat-muscle">--</div>
+                    <div class="stat-change" id="stat-muscle-change"></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Daily Protein</div>
+                    <div class="stat-value" id="stat-protein">--</div>
+                    <div class="stat-change" id="stat-protein-change"></div>
+                </div>
+            </div>
+
+            <!-- Weight Timeline -->
+            <div class="card chart-weight">
+                <div class="card-title">Weight Over Time</div>
+                <div class="chart-container">
+                    <canvas id="weightChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Body Composition -->
+            <div class="card chart-composition">
+                <div class="card-title">Body Composition</div>
+                <div class="chart-container">
+                    <canvas id="compositionChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Correlation -->
+            <div class="card chart-correlation">
+                <div class="card-title">Calories vs Weight Change (Weekly)</div>
+                <div class="chart-container">
+                    <canvas id="correlationChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Macro Distribution -->
+            <div class="card chart-macro">
+                <div class="card-title">Macro Split (Avg)</div>
+                <div class="chart-container small">
+                    <canvas id="macroChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Calories by Day -->
+            <div class="card chart-calories">
+                <div class="card-title">Daily Calorie Intake</div>
+                <div class="chart-container">
+                    <canvas id="caloriesChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Meal Distribution -->
+            <div class="card chart-meals">
+                <div class="card-title">Calories by Meal</div>
+                <div class="chart-container">
+                    <canvas id="mealsChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Top Foods -->
+            <div class="card chart-foods">
+                <div class="card-title">Most Frequent Foods</div>
+                <div class="chart-container tall">
+                    <canvas id="foodsChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Blood Test Status -->
+            <div class="card blood-status">
+                <div class="card-title">Blood Test Results</div>
+                <div class="blood-grid" id="blood-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Insights -->
+            <div class="card insights">
+                <div class="card-title">Key Insights</div>
+                <div class="insights-grid" id="insights-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dashboardData = null;
+        let charts = {};
+        let currentFilter = 'all';
+
+        // Chart.js defaults
+        Chart.defaults.color = '#888';
+        Chart.defaults.borderColor = '#333';
+        Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+
+        // Colors
+        const colors = {
+            primary: '#3b82f6',
+            secondary: '#8b5cf6',
+            success: '#22c55e',
+            warning: '#f59e0b',
+            danger: '#ef4444',
+            gray: '#666',
+            fat: '#ef4444',
+            muscle: '#22c55e',
+            protein: '#3b82f6',
+            carbs: '#f59e0b',
+            fatMacro: '#8b5cf6'
+        };
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('data/dashboard_data.json');
+                dashboardData = await response.json();
+                initDashboard();
+            } catch (error) {
+                console.error('Failed to load data:', error);
+            }
+        }
+
+        // Initialize dashboard
+        function initDashboard() {
+            updateStats();
+            createWeightChart();
+            createCompositionChart();
+            createCorrelationChart();
+            createMacroChart();
+            createCaloriesChart();
+            createMealsChart();
+            createFoodsChart();
+            populateBloodTest();
+            populateInsights();
+
+            // Date filter handlers
+            document.querySelectorAll('.date-filter button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelector('.date-filter button.active').classList.remove('active');
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    updateCharts();
+                });
+            });
+        }
+
+        // Filter data by date
+        function filterByDate(data, dateKey = 'date') {
+            if (currentFilter === 'all') return data;
+
+            const now = new Date();
+            let startDate;
+
+            switch (currentFilter) {
+                case '2024':
+                    startDate = new Date('2024-01-01');
+                    return data.filter(d => {
+                        const date = new Date(d[dateKey]);
+                        return date >= startDate && date < new Date('2025-01-01');
+                    });
+                case '2025':
+                    startDate = new Date('2025-01-01');
+                    break;
+                case '6m':
+                    startDate = new Date(now.setMonth(now.getMonth() - 6));
+                    break;
+            }
+
+            return data.filter(d => new Date(d[dateKey]) >= startDate);
+        }
+
+        // Update stats
+        function updateStats() {
+            const weights = dashboardData.weight_timeline;
+            const comp = dashboardData.body_composition;
+            const nutrition = dashboardData.daily_nutrition;
+
+            if (weights.length > 0) {
+                const latest = weights[weights.length - 1];
+                const earliest = weights[0];
+                const change = latest.weight - earliest.weight;
+
+                document.getElementById('stat-weight').textContent = `${latest.weight.toFixed(1)} kg`;
+                document.getElementById('stat-weight-change').innerHTML =
+                    `<span class="${change > 0 ? 'negative' : 'positive'}">${change > 0 ? '+' : ''}${change.toFixed(1)} kg since ${earliest.date.slice(0, 4)}</span>`;
+            }
+
+            if (comp.length > 0) {
+                const latest = comp[comp.length - 1];
+                const earliest = comp[0];
+
+                document.getElementById('stat-bodyfat').textContent = `${latest.body_fat_pct.toFixed(1)}%`;
+                const bfChange = latest.body_fat_pct - earliest.body_fat_pct;
+                document.getElementById('stat-bodyfat-change').innerHTML =
+                    `<span class="${bfChange > 0 ? 'negative' : 'positive'}">${bfChange > 0 ? '+' : ''}${bfChange.toFixed(1)}% since ${earliest.date.slice(0, 7)}</span>`;
+
+                document.getElementById('stat-muscle').textContent = `${latest.muscle_mass.toFixed(1)} kg`;
+                const muscleChange = latest.muscle_mass - earliest.muscle_mass;
+                document.getElementById('stat-muscle-change').innerHTML =
+                    `<span class="${muscleChange > 0 ? 'positive' : 'negative'}">${muscleChange > 0 ? '+' : ''}${muscleChange.toFixed(1)} kg</span>`;
+            }
+
+            if (nutrition.length > 0) {
+                const avgProtein = nutrition.reduce((sum, d) => sum + d.protein, 0) / nutrition.length;
+                document.getElementById('stat-protein').textContent = `${avgProtein.toFixed(0)} g`;
+
+                // Calculate protein per kg (using latest weight)
+                const latestWeight = weights.length > 0 ? weights[weights.length - 1].weight : 80;
+                const proteinPerKg = avgProtein / latestWeight;
+                document.getElementById('stat-protein-change').innerHTML =
+                    `<span class="${proteinPerKg < 1.6 ? 'warning' : 'positive'}">${proteinPerKg.toFixed(2)} g/kg (target: 1.6+)</span>`;
+            }
+        }
+
+        // Weight Chart
+        function createWeightChart() {
+            const ctx = document.getElementById('weightChart').getContext('2d');
+            const data = filterByDate(dashboardData.weight_timeline);
+
+            charts.weight = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.map(d => d.date),
+                    datasets: [{
+                        label: 'Weight (kg)',
+                        data: data.map(d => d.weight),
+                        borderColor: colors.primary,
+                        backgroundColor: colors.primary + '20',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 2,
+                        pointHoverRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: { unit: 'month' },
+                            grid: { display: false }
+                        },
+                        y: {
+                            min: 55,
+                            max: 90,
+                            grid: { color: '#252525' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Body Composition Chart
+        function createCompositionChart() {
+            const ctx = document.getElementById('compositionChart').getContext('2d');
+            const data = filterByDate(dashboardData.body_composition);
+
+            charts.composition = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.map(d => d.date),
+                    datasets: [
+                        {
+                            label: 'Muscle Mass',
+                            data: data.map(d => d.muscle_mass),
+                            borderColor: colors.muscle,
+                            backgroundColor: colors.muscle + '30',
+                            fill: true,
+                            tension: 0.3
+                        },
+                        {
+                            label: 'Fat Mass',
+                            data: data.map(d => d.fat_mass),
+                            borderColor: colors.fat,
+                            backgroundColor: colors.fat + '30',
+                            fill: true,
+                            tension: 0.3
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: { unit: 'month' },
+                            grid: { display: false }
+                        },
+                        y: {
+                            stacked: false,
+                            grid: { color: '#252525' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Correlation Chart
+        function createCorrelationChart() {
+            const ctx = document.getElementById('correlationChart').getContext('2d');
+            const corrData = dashboardData.correlations?.calories_vs_weight_change || [];
+
+            charts.correlation = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Weekly Data',
+                        data: corrData.map(d => ({ x: d.weight_change, y: d.avg_calories })),
+                        backgroundColor: colors.primary + '80',
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: (ctx) => `${ctx.raw.x > 0 ? '+' : ''}${ctx.raw.x.toFixed(2)} kg @ ${ctx.raw.y.toFixed(0)} kcal/day`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Weight Change (kg)', color: '#888' },
+                            grid: { color: '#252525' }
+                        },
+                        y: {
+                            title: { display: true, text: 'Avg Daily Calories', color: '#888' },
+                            grid: { color: '#252525' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Macro Chart
+        function createMacroChart() {
+            const ctx = document.getElementById('macroChart').getContext('2d');
+            const nutrition = dashboardData.daily_nutrition;
+
+            const avgProtein = nutrition.reduce((s, d) => s + (d.protein_pct || 0), 0) / nutrition.length;
+            const avgCarbs = nutrition.reduce((s, d) => s + (d.carbs_pct || 0), 0) / nutrition.length;
+            const avgFat = nutrition.reduce((s, d) => s + (d.fat_pct || 0), 0) / nutrition.length;
+
+            charts.macro = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Protein', 'Carbs', 'Fat'],
+                    datasets: [{
+                        data: [avgProtein, avgCarbs, avgFat],
+                        backgroundColor: [colors.protein, colors.carbs, colors.fatMacro],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%',
+                    plugins: {
+                        legend: { position: 'bottom' },
+                        tooltip: {
+                            callbacks: {
+                                label: (ctx) => `${ctx.label}: ${ctx.raw.toFixed(1)}%`
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Calories Chart
+        function createCaloriesChart() {
+            const ctx = document.getElementById('caloriesChart').getContext('2d');
+            const data = filterByDate(dashboardData.daily_nutrition).slice(-60); // Last 60 days
+
+            charts.calories = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.map(d => d.date),
+                    datasets: [{
+                        label: 'Calories',
+                        data: data.map(d => d.calories),
+                        backgroundColor: data.map(d => d.calories > 2200 ? colors.warning : colors.primary),
+                        borderRadius: 3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        annotation: {
+                            annotations: {
+                                line1: {
+                                    type: 'line',
+                                    yMin: 2000,
+                                    yMax: 2000,
+                                    borderColor: colors.danger,
+                                    borderWidth: 2,
+                                    borderDash: [5, 5]
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: { unit: 'week' },
+                            grid: { display: false }
+                        },
+                        y: {
+                            grid: { color: '#252525' },
+                            suggestedMax: 3000
+                        }
+                    }
+                }
+            });
+        }
+
+        // Meals Chart
+        function createMealsChart() {
+            const ctx = document.getElementById('mealsChart').getContext('2d');
+            const data = dashboardData.meal_distribution || [];
+
+            charts.meals = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.map(d => d.meal),
+                    datasets: [{
+                        label: 'Avg Calories',
+                        data: data.map(d => d.avg_calories),
+                        backgroundColor: [colors.warning, colors.primary, colors.secondary, colors.gray],
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { grid: { color: '#252525' } },
+                        y: { grid: { display: false } }
+                    }
+                }
+            });
+        }
+
+        // Foods Chart
+        function createFoodsChart() {
+            const ctx = document.getElementById('foodsChart').getContext('2d');
+            const data = dashboardData.food_frequency.slice(0, 15);
+
+            const categoryColors = {
+                'Protein': colors.protein,
+                'Carb': colors.carbs,
+                'Dairy': colors.secondary,
+                'Beverage': colors.gray,
+                'Vegetable': colors.success,
+                'Other': '#888'
+            };
+
+            charts.foods = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.map(d => d.food.length > 30 ? d.food.substring(0, 30) + '...' : d.food),
+                    datasets: [{
+                        label: 'Frequency',
+                        data: data.map(d => d.count),
+                        backgroundColor: data.map(d => categoryColors[d.category] || '#888'),
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { grid: { color: '#252525' } },
+                        y: { grid: { display: false } }
+                    }
+                }
+            });
+        }
+
+        // Blood Test
+        function populateBloodTest() {
+            const blood = dashboardData.blood_test || {};
+            const grid = document.getElementById('blood-grid');
+
+            const markers = [
+                { key: 'vitamin_d', label: 'Vitamin D', ref: '50-200' },
+                { key: 'folate', label: 'Folate', ref: '3.0-20.5' },
+                { key: 'b12', label: 'Vitamin B12', ref: '200-900' },
+                { key: 'ferritin', label: 'Ferritin', ref: '30-300' },
+                { key: 'tsh', label: 'TSH', ref: '0.35-4.94' },
+                { key: 'blood_pressure', label: 'Blood Pressure', ref: '<120/80' }
+            ];
+
+            grid.innerHTML = markers.map(m => {
+                const data = blood[m.key];
+                if (!data) return '';
+
+                // Determine status class
+                let status = 'good';
+                if (data.status === 'low' || data.status === 'deficient') status = 'critical';
+                else if (data.status === 'borderline') status = 'warning';
+                else if (data.status === 'optimal' || data.status === 'normal') status = 'good';
+
+                // Format display value
+                let displayValue;
+                if (m.key === 'blood_pressure') {
+                    displayValue = `${data.systolic}/${data.diastolic}`;
+                } else {
+                    displayValue = data.value;
+                }
+
+                const unit = data.unit || '';
+
+                return `
+                    <div class="blood-item ${status}">
+                        <div class="blood-marker">${m.label}</div>
+                        <div class="blood-value">${displayValue} ${unit}</div>
+                        <div class="blood-ref">Ref: ${m.ref}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Insights
+        function populateInsights() {
+            const insights = dashboardData.insights || [];
+            const grid = document.getElementById('insights-grid');
+
+            grid.innerHTML = insights.map(insight => {
+                let cls = '';
+                if (insight.status === 'warning') cls = 'warning';
+                else if (insight.status === 'danger' || insight.category === 'blood') cls = 'danger';
+
+                return `
+                    <div class="insight-item ${cls}">
+                        <strong>${insight.title}:</strong> ${insight.text}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Update charts on filter change
+        function updateCharts() {
+            // Destroy and recreate charts with filtered data
+            Object.values(charts).forEach(chart => chart.destroy());
+            charts = {};
+
+            createWeightChart();
+            createCompositionChart();
+            createCaloriesChart();
+        }
+
+        // Load on page load
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

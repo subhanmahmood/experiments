@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(enhance-plan)",
+      "WebFetch(domain:www.alislam.org)",
+      "WebFetch(domain:new.alislam.org)"
+    ]
+  }
+}

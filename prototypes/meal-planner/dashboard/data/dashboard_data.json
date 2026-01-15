@@ -1,0 +1,8498 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-08T18:47:06.746584",
+    "data_sources": {
+      "body_composition": 40,
+      "measurements": 118,
+      "nutrition_entries": 891,
+      "food_items": 215,
+      "exercise_entries": 37
+    }
+  },
+  "weight_timeline": [
+    {
+      "date": "2017-01-09",
+      "weight": 80.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2017-03-06",
+      "weight": 80.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2017-07-26",
+      "weight": 80.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2018-01-22",
+      "weight": 77.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2018-03-26",
+      "weight": 78.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2018-06-26",
+      "weight": 78.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2019-01-11",
+      "weight": 72.2,
+      "source": "measurement"
+    },
+    {
+      "date": "2019-01-14",
+      "weight": 71.6,
+      "source": "measurement"
+    },
+    {
+      "date": "2019-10-09",
+      "weight": 71.6,
+      "source": "measurement"
+    },
+    {
+      "date": "2020-09-12",
+      "weight": 67.8,
+      "source": "measurement"
+    },
+    {
+      "date": "2020-11-01",
+      "weight": 69.5,
+      "source": "measurement"
+    },
+    {
+      "date": "2020-11-22",
+      "weight": 64.6,
+      "source": "measurement"
+    },
+    {
+      "date": "2020-12-01",
+      "weight": 63.8,
+      "source": "measurement"
+    },
+    {
+      "date": "2021-01-11",
+      "weight": 61.5,
+      "source": "measurement"
+    },
+    {
+      "date": "2021-06-06",
+      "weight": 66.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2022-01-04",
+      "weight": 72.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2022-06-30",
+      "weight": 75.6,
+      "source": "measurement"
+    },
+    {
+      "date": "2022-10-15",
+      "weight": 74.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-06-23",
+      "weight": 76.6,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-06-24",
+      "weight": 76.9,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-06-25",
+      "weight": 76.9,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-06-26",
+      "weight": 76.7,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-06-27",
+      "weight": 76.3,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-06-28",
+      "weight": 76.1,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-06-29",
+      "weight": 75.8,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-06-30",
+      "weight": 76.2,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-07-01",
+      "weight": 75.0,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-03",
+      "weight": 76.4,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-04",
+      "weight": 77.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-07-05",
+      "weight": 76.3,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-06",
+      "weight": 77.0,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-07",
+      "weight": 76.4,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-07-10",
+      "weight": 76.5,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-11",
+      "weight": 76.3,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-13",
+      "weight": 74.6,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-07-14",
+      "weight": 75.2,
+      "source": "body_comp"
+    },
+    {
+      "date": "2023-09-29",
+      "weight": 79.3,
+      "source": "measurement"
+    },
+    {
+      "date": "2023-10-26",
+      "weight": 74.3,
+      "source": "body_comp"
+    },
+    {
+      "date": "2024-01-02",
+      "weight": 77.7,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-03",
+      "weight": 77.1,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-04",
+      "weight": 76.4,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-05",
+      "weight": 76.2,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-06",
+      "weight": 76.4,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-11",
+      "weight": 76.0,
+      "source": "body_comp"
+    },
+    {
+      "date": "2024-01-13",
+      "weight": 75.5,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-14",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-15",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-16",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-17",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-18",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-19",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-20",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-21",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-22",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-23",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-24",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-25",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-26",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-27",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-28",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-29",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-30",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-01-31",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-01",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-02",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-03",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-04",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-05",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-06",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-07",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-08",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-09",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-10",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-11",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-12",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-13",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-14",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-15",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-16",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-17",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-18",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-19",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-20",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-21",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-22",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-23",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-24",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-25",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-26",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-27",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-28",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-02-29",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-01",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-02",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-03",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-04",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-05",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-06",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-03-07",
+      "weight": 76.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-04-22",
+      "weight": 75.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-08-22",
+      "weight": 80.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-09-09",
+      "weight": 80.0,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-09-11",
+      "weight": 79.2,
+      "source": "body_comp"
+    },
+    {
+      "date": "2024-09-12",
+      "weight": 78.9,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-09-13",
+      "weight": 78.4,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-09-16",
+      "weight": 78.1,
+      "source": "measurement"
+    },
+    {
+      "date": "2024-09-17",
+      "weight": 78.2,
+      "source": "measurement"
+    },
+    {
+      "date": "2025-01-25",
+      "weight": 80.7,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-04-15",
+      "weight": 83.3,
+      "source": "measurement"
+    },
+    {
+      "date": "2025-04-17",
+      "weight": 81.8,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-05-30",
+      "weight": 83.0,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-05-31",
+      "weight": 82.4,
+      "source": "measurement"
+    },
+    {
+      "date": "2025-07-28",
+      "weight": 84.2,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-07-30",
+      "weight": 83.5,
+      "source": "measurement"
+    },
+    {
+      "date": "2025-07-31",
+      "weight": 83.2,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-08-05",
+      "weight": 83.1,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-08-07",
+      "weight": 82.9,
+      "source": "body_comp"
+    },
+    {
+      "date": "2025-08-08",
+      "weight": 82.7,
+      "source": "body_comp"
+    }
+  ],
+  "body_composition": [
+    {
+      "date": "2023-06-23",
+      "weight": 78.8,
+      "body_fat_pct": 22.9,
+      "muscle_mass": 57.7,
+      "fat_mass": 18.0,
+      "visceral_fat": 11,
+      "bmr": 1679,
+      "bmi": 28.6
+    },
+    {
+      "date": "2023-06-23",
+      "weight": 76.6,
+      "body_fat_pct": 21.7,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.6,
+      "visceral_fat": 10,
+      "bmr": 1662,
+      "bmi": 27.8
+    },
+    {
+      "date": "2023-06-24",
+      "weight": 76.9,
+      "body_fat_pct": 21.8,
+      "muscle_mass": 57.0,
+      "fat_mass": 16.8,
+      "visceral_fat": 10,
+      "bmr": 1665,
+      "bmi": 27.9
+    },
+    {
+      "date": "2023-06-25",
+      "weight": 76.9,
+      "body_fat_pct": 21.8,
+      "muscle_mass": 57.0,
+      "fat_mass": 16.8,
+      "visceral_fat": 10,
+      "bmr": 1665,
+      "bmi": 27.9
+    },
+    {
+      "date": "2023-06-26",
+      "weight": 76.7,
+      "body_fat_pct": 21.7,
+      "muscle_mass": 57.0,
+      "fat_mass": 16.6,
+      "visceral_fat": 10,
+      "bmr": 1662,
+      "bmi": 27.8
+    },
+    {
+      "date": "2023-06-27",
+      "weight": 76.3,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.8,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-06-28",
+      "weight": 76.1,
+      "body_fat_pct": 21.4,
+      "muscle_mass": 56.8,
+      "fat_mass": 16.3,
+      "visceral_fat": 10,
+      "bmr": 1658,
+      "bmi": 27.6
+    },
+    {
+      "date": "2023-06-29",
+      "weight": 75.8,
+      "body_fat_pct": 21.2,
+      "muscle_mass": 56.7,
+      "fat_mass": 16.1,
+      "visceral_fat": 10,
+      "bmr": 1656,
+      "bmi": 27.5
+    },
+    {
+      "date": "2023-06-30",
+      "weight": 76.2,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.8,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-07-01",
+      "weight": 75.0,
+      "body_fat_pct": 20.8,
+      "muscle_mass": 56.4,
+      "fat_mass": 15.6,
+      "visceral_fat": 9,
+      "bmr": 1650,
+      "bmi": 27.2
+    },
+    {
+      "date": "2023-07-03",
+      "weight": 76.4,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-07-04",
+      "weight": 77.0,
+      "body_fat_pct": 22.0,
+      "muscle_mass": 57.0,
+      "fat_mass": 17.0,
+      "visceral_fat": 10,
+      "bmr": 1667,
+      "bmi": 28.0
+    },
+    {
+      "date": "2023-07-05",
+      "weight": 76.3,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-07-06",
+      "weight": 77.0,
+      "body_fat_pct": 21.8,
+      "muscle_mass": 57.1,
+      "fat_mass": 16.8,
+      "visceral_fat": 10,
+      "bmr": 1665,
+      "bmi": 27.9
+    },
+    {
+      "date": "2023-07-07",
+      "weight": 76.5,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-07-10",
+      "weight": 76.5,
+      "body_fat_pct": 21.7,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.6,
+      "visceral_fat": 10,
+      "bmr": 1662,
+      "bmi": 27.8
+    },
+    {
+      "date": "2023-07-11",
+      "weight": 76.3,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2023-07-13",
+      "weight": 74.6,
+      "body_fat_pct": 20.6,
+      "muscle_mass": 56.2,
+      "fat_mass": 15.4,
+      "visceral_fat": 9,
+      "bmr": 1647,
+      "bmi": 27.1
+    },
+    {
+      "date": "2023-07-14",
+      "weight": 75.2,
+      "body_fat_pct": 20.6,
+      "muscle_mass": 56.2,
+      "fat_mass": 15.5,
+      "visceral_fat": 0,
+      "bmr": 0,
+      "bmi": 27.3
+    },
+    {
+      "date": "2023-10-26",
+      "weight": 74.3,
+      "body_fat_pct": 20.5,
+      "muscle_mass": 56.1,
+      "fat_mass": 15.2,
+      "visceral_fat": 9,
+      "bmr": 1645,
+      "bmi": 27.0
+    },
+    {
+      "date": "2024-01-03",
+      "weight": 77.1,
+      "body_fat_pct": 22.0,
+      "muscle_mass": 57.1,
+      "fat_mass": 17.0,
+      "visceral_fat": 10,
+      "bmr": 1667,
+      "bmi": 28.0
+    },
+    {
+      "date": "2024-01-04",
+      "weight": 76.5,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2024-01-05",
+      "weight": 76.2,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.8,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2024-01-06",
+      "weight": 76.5,
+      "body_fat_pct": 21.5,
+      "muscle_mass": 56.9,
+      "fat_mass": 16.4,
+      "visceral_fat": 10,
+      "bmr": 1660,
+      "bmi": 27.7
+    },
+    {
+      "date": "2024-01-11",
+      "weight": 76.0,
+      "body_fat_pct": 21.4,
+      "muscle_mass": 56.7,
+      "fat_mass": 16.3,
+      "visceral_fat": 10,
+      "bmr": 1658,
+      "bmi": 27.6
+    },
+    {
+      "date": "2024-01-13",
+      "weight": 75.5,
+      "body_fat_pct": 21.1,
+      "muscle_mass": 56.6,
+      "fat_mass": 15.9,
+      "visceral_fat": 10,
+      "bmr": 1654,
+      "bmi": 27.4
+    },
+    {
+      "date": "2024-09-09",
+      "weight": 80.0,
+      "body_fat_pct": 23.5,
+      "muscle_mass": 58.1,
+      "fat_mass": 18.8,
+      "visceral_fat": 11,
+      "bmr": 1686,
+      "bmi": 29.0
+    },
+    {
+      "date": "2024-09-11",
+      "weight": 79.2,
+      "body_fat_pct": 23.2,
+      "muscle_mass": 57.8,
+      "fat_mass": 18.4,
+      "visceral_fat": 11,
+      "bmr": 1682,
+      "bmi": 28.8
+    },
+    {
+      "date": "2024-09-13",
+      "weight": 78.4,
+      "body_fat_pct": 22.8,
+      "muscle_mass": 57.5,
+      "fat_mass": 17.9,
+      "visceral_fat": 11,
+      "bmr": 1677,
+      "bmi": 28.5
+    },
+    {
+      "date": "2024-09-16",
+      "weight": 78.2,
+      "body_fat_pct": 22.6,
+      "muscle_mass": 57.4,
+      "fat_mass": 17.7,
+      "visceral_fat": 11,
+      "bmr": 1675,
+      "bmi": 28.4
+    },
+    {
+      "date": "2024-09-17",
+      "weight": 78.2,
+      "body_fat_pct": 22.6,
+      "muscle_mass": 57.5,
+      "fat_mass": 17.7,
+      "visceral_fat": 11,
+      "bmr": 1675,
+      "bmi": 28.4
+    },
+    {
+      "date": "2025-01-25",
+      "weight": 80.7,
+      "body_fat_pct": 24.0,
+      "muscle_mass": 58.2,
+      "fat_mass": 19.4,
+      "visceral_fat": 11,
+      "bmr": 1692,
+      "bmi": 29.3
+    },
+    {
+      "date": "2025-04-17",
+      "weight": 81.8,
+      "body_fat_pct": 24.6,
+      "muscle_mass": 58.5,
+      "fat_mass": 20.1,
+      "visceral_fat": 12,
+      "bmr": 1699,
+      "bmi": 29.7
+    },
+    {
+      "date": "2025-05-30",
+      "weight": 83.0,
+      "body_fat_pct": 25.2,
+      "muscle_mass": 58.9,
+      "fat_mass": 20.9,
+      "visceral_fat": 12,
+      "bmr": 1706,
+      "bmi": 30.1
+    },
+    {
+      "date": "2025-07-28",
+      "weight": 84.2,
+      "body_fat_pct": 26.0,
+      "muscle_mass": 59.2,
+      "fat_mass": 21.9,
+      "visceral_fat": 13,
+      "bmr": 1714,
+      "bmi": 30.6
+    },
+    {
+      "date": "2025-07-30",
+      "weight": 83.5,
+      "body_fat_pct": 25.5,
+      "muscle_mass": 59.0,
+      "fat_mass": 21.3,
+      "visceral_fat": 12,
+      "bmr": 1709,
+      "bmi": 30.3
+    },
+    {
+      "date": "2025-07-31",
+      "weight": 83.2,
+      "body_fat_pct": 25.3,
+      "muscle_mass": 59.0,
+      "fat_mass": 21.0,
+      "visceral_fat": 12,
+      "bmr": 1707,
+      "bmi": 30.2
+    },
+    {
+      "date": "2025-08-05",
+      "weight": 83.1,
+      "body_fat_pct": 25.3,
+      "muscle_mass": 58.9,
+      "fat_mass": 21.0,
+      "visceral_fat": 12,
+      "bmr": 1707,
+      "bmi": 30.2
+    },
+    {
+      "date": "2025-08-07",
+      "weight": 82.9,
+      "body_fat_pct": 25.2,
+      "muscle_mass": 58.9,
+      "fat_mass": 20.9,
+      "visceral_fat": 12,
+      "bmr": 1706,
+      "bmi": 30.1
+    },
+    {
+      "date": "2025-08-08",
+      "weight": 82.7,
+      "body_fat_pct": 25.0,
+      "muscle_mass": 58.8,
+      "fat_mass": 20.7,
+      "visceral_fat": 12,
+      "bmr": 1704,
+      "bmi": 30.0
+    }
+  ],
+  "daily_nutrition": [
+    {
+      "date": "2016-11-14",
+      "calories": 963,
+      "protein": 37.0,
+      "carbs": 57.5,
+      "fat": 27.4,
+      "fiber": 2.3,
+      "sugar": 18.7,
+      "sodium": 1090,
+      "protein_pct": 23.7,
+      "carbs_pct": 36.8,
+      "fat_pct": 39.5
+    },
+    {
+      "date": "2016-11-15",
+      "calories": 1292,
+      "protein": 56.8,
+      "carbs": 101.0,
+      "fat": 46.9,
+      "fiber": 2.8,
+      "sugar": 34.7,
+      "sodium": 500,
+      "protein_pct": 21.6,
+      "carbs_pct": 38.4,
+      "fat_pct": 40.1
+    },
+    {
+      "date": "2017-01-12",
+      "calories": 1540,
+      "protein": 85.7,
+      "carbs": 197.0,
+      "fat": 39.2,
+      "fiber": 22.0,
+      "sugar": 28.2,
+      "sodium": 3035,
+      "protein_pct": 23.1,
+      "carbs_pct": 53.1,
+      "fat_pct": 23.8
+    },
+    {
+      "date": "2017-01-13",
+      "calories": 476,
+      "protein": 23.8,
+      "carbs": 71.1,
+      "fat": 7.9,
+      "fiber": 11.0,
+      "sugar": 12.1,
+      "sodium": 673,
+      "protein_pct": 21.1,
+      "carbs_pct": 63.1,
+      "fat_pct": 15.8
+    },
+    {
+      "date": "2017-07-26",
+      "calories": 270,
+      "protein": 19.0,
+      "carbs": 26.0,
+      "fat": 9.0,
+      "fiber": 1.0,
+      "sugar": 2.0,
+      "sodium": 1180,
+      "protein_pct": 29.1,
+      "carbs_pct": 39.8,
+      "fat_pct": 31.0
+    },
+    {
+      "date": "2018-01-23",
+      "calories": 991,
+      "protein": 30.7,
+      "carbs": 157.7,
+      "fat": 31.5,
+      "fiber": 25.3,
+      "sugar": 34.2,
+      "sodium": 1330,
+      "protein_pct": 11.8,
+      "carbs_pct": 60.8,
+      "fat_pct": 27.3
+    },
+    {
+      "date": "2018-01-24",
+      "calories": 1367,
+      "protein": 54.0,
+      "carbs": 211.8,
+      "fat": 41.3,
+      "fiber": 24.5,
+      "sugar": 41.0,
+      "sodium": 1140,
+      "protein_pct": 15.1,
+      "carbs_pct": 59.0,
+      "fat_pct": 25.9
+    },
+    {
+      "date": "2018-01-25",
+      "calories": 985,
+      "protein": 24.4,
+      "carbs": 170.6,
+      "fat": 21.1,
+      "fiber": 16.8,
+      "sugar": 33.8,
+      "sodium": 302,
+      "protein_pct": 10.1,
+      "carbs_pct": 70.4,
+      "fat_pct": 19.6
+    },
+    {
+      "date": "2018-01-26",
+      "calories": 900,
+      "protein": 26.0,
+      "carbs": 130.6,
+      "fat": 30.4,
+      "fiber": 1.0,
+      "sugar": 1.0,
+      "sodium": 640,
+      "protein_pct": 11.6,
+      "carbs_pct": 58.0,
+      "fat_pct": 30.4
+    },
+    {
+      "date": "2018-01-27",
+      "calories": 490,
+      "protein": 17.5,
+      "carbs": 57.0,
+      "fat": 22.4,
+      "fiber": 4.3,
+      "sugar": 18.4,
+      "sodium": 0,
+      "protein_pct": 14.0,
+      "carbs_pct": 45.6,
+      "fat_pct": 40.4
+    },
+    {
+      "date": "2018-01-28",
+      "calories": 707,
+      "protein": 20.8,
+      "carbs": 91.5,
+      "fat": 28.8,
+      "fiber": 15.2,
+      "sugar": 23.4,
+      "sodium": 823,
+      "protein_pct": 11.7,
+      "carbs_pct": 51.7,
+      "fat_pct": 36.6
+    },
+    {
+      "date": "2018-01-29",
+      "calories": 851,
+      "protein": 23.2,
+      "carbs": 119.1,
+      "fat": 37.3,
+      "fiber": 12.8,
+      "sugar": 7.5,
+      "sodium": 679,
+      "protein_pct": 10.3,
+      "carbs_pct": 52.6,
+      "fat_pct": 37.1
+    },
+    {
+      "date": "2018-01-30",
+      "calories": 475,
+      "protein": 5.0,
+      "carbs": 54.0,
+      "fat": 20.5,
+      "fiber": 0.0,
+      "sugar": 2.0,
+      "sodium": 702,
+      "protein_pct": 4.8,
+      "carbs_pct": 51.4,
+      "fat_pct": 43.9
+    },
+    {
+      "date": "2018-02-03",
+      "calories": 200,
+      "protein": 15.5,
+      "carbs": 1.4,
+      "fat": 11.8,
+      "fiber": 0.0,
+      "sugar": 1.3,
+      "sodium": 124,
+      "protein_pct": 35.7,
+      "carbs_pct": 3.2,
+      "fat_pct": 61.1
+    },
+    {
+      "date": "2018-04-14",
+      "calories": 304,
+      "protein": 16.4,
+      "carbs": 18.5,
+      "fat": 16.9,
+      "fiber": 2.3,
+      "sugar": 1.7,
+      "sodium": 140,
+      "protein_pct": 22.5,
+      "carbs_pct": 25.4,
+      "fat_pct": 52.1
+    },
+    {
+      "date": "2018-04-16",
+      "calories": 304,
+      "protein": 16.4,
+      "carbs": 18.5,
+      "fat": 16.9,
+      "fiber": 2.3,
+      "sugar": 1.7,
+      "sodium": 140,
+      "protein_pct": 22.5,
+      "carbs_pct": 25.4,
+      "fat_pct": 52.1
+    },
+    {
+      "date": "2018-04-19",
+      "calories": 611,
+      "protein": 32.4,
+      "carbs": 64.3,
+      "fat": 23.1,
+      "fiber": 0.0,
+      "sugar": 0.1,
+      "sodium": 140,
+      "protein_pct": 21.8,
+      "carbs_pct": 43.2,
+      "fat_pct": 35.0
+    },
+    {
+      "date": "2018-04-24",
+      "calories": 541,
+      "protein": 20.5,
+      "carbs": 40.7,
+      "fat": 6.7,
+      "fiber": 3.5,
+      "sugar": 4.2,
+      "sodium": 430,
+      "protein_pct": 26.9,
+      "carbs_pct": 53.4,
+      "fat_pct": 19.8
+    },
+    {
+      "date": "2018-04-25",
+      "calories": 505,
+      "protein": 5.1,
+      "carbs": 64.6,
+      "fat": 23.8,
+      "fiber": 1.0,
+      "sugar": 45.7,
+      "sodium": 48,
+      "protein_pct": 4.1,
+      "carbs_pct": 52.4,
+      "fat_pct": 43.4
+    },
+    {
+      "date": "2018-04-26",
+      "calories": 462,
+      "protein": 16.7,
+      "carbs": 48.0,
+      "fat": 21.6,
+      "fiber": 3.2,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 14.7,
+      "carbs_pct": 42.4,
+      "fat_pct": 42.9
+    },
+    {
+      "date": "2018-05-05",
+      "calories": 221,
+      "protein": 10.4,
+      "carbs": 23.2,
+      "fat": 11.3,
+      "fiber": 8.4,
+      "sugar": 1.5,
+      "sodium": 115,
+      "protein_pct": 17.6,
+      "carbs_pct": 39.3,
+      "fat_pct": 43.1
+    },
+    {
+      "date": "2018-06-26",
+      "calories": 504,
+      "protein": 15.7,
+      "carbs": 54.9,
+      "fat": 24.8,
+      "fiber": 0.8,
+      "sugar": 1.1,
+      "sodium": 540,
+      "protein_pct": 12.4,
+      "carbs_pct": 43.4,
+      "fat_pct": 44.1
+    },
+    {
+      "date": "2019-10-09",
+      "calories": 1091,
+      "protein": 50.6,
+      "carbs": 107.7,
+      "fat": 42.7,
+      "fiber": 0.4,
+      "sugar": 37.4,
+      "sodium": 1018,
+      "protein_pct": 19.9,
+      "carbs_pct": 42.3,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2020-05-29",
+      "calories": 832,
+      "protein": 37.3,
+      "carbs": 98.5,
+      "fat": 31.3,
+      "fiber": 0.0,
+      "sugar": 0.4,
+      "sodium": 0,
+      "protein_pct": 18.1,
+      "carbs_pct": 47.8,
+      "fat_pct": 34.1
+    },
+    {
+      "date": "2020-09-11",
+      "calories": 1101,
+      "protein": 40.6,
+      "carbs": 144.4,
+      "fat": 41.2,
+      "fiber": 9.3,
+      "sugar": 37.7,
+      "sodium": 562,
+      "protein_pct": 14.6,
+      "carbs_pct": 52.0,
+      "fat_pct": 33.4
+    },
+    {
+      "date": "2020-09-12",
+      "calories": 372,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2020-09-13",
+      "calories": 1509,
+      "protein": 3.8,
+      "carbs": 53.3,
+      "fat": 7.2,
+      "fiber": 4.3,
+      "sugar": 25.3,
+      "sodium": 1,
+      "protein_pct": 5.2,
+      "carbs_pct": 72.7,
+      "fat_pct": 22.1
+    },
+    {
+      "date": "2020-09-14",
+      "calories": 446,
+      "protein": 23.1,
+      "carbs": 46.3,
+      "fat": 20.5,
+      "fiber": 5.3,
+      "sugar": 17.0,
+      "sodium": 238,
+      "protein_pct": 20.0,
+      "carbs_pct": 40.1,
+      "fat_pct": 39.9
+    },
+    {
+      "date": "2020-09-15",
+      "calories": 169,
+      "protein": 2.5,
+      "carbs": 46.2,
+      "fat": 0.9,
+      "fiber": 6.5,
+      "sugar": 24.4,
+      "sodium": 2,
+      "protein_pct": 4.9,
+      "carbs_pct": 91.1,
+      "fat_pct": 4.0
+    },
+    {
+      "date": "2020-09-16",
+      "calories": 308,
+      "protein": 6.6,
+      "carbs": 47.7,
+      "fat": 10.1,
+      "fiber": 3.0,
+      "sugar": 7.4,
+      "sodium": 1,
+      "protein_pct": 8.6,
+      "carbs_pct": 61.9,
+      "fat_pct": 29.5
+    },
+    {
+      "date": "2020-09-21",
+      "calories": 446,
+      "protein": 8.4,
+      "carbs": 58.3,
+      "fat": 3.1,
+      "fiber": 1.3,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 11.4,
+      "carbs_pct": 79.1,
+      "fat_pct": 9.5
+    },
+    {
+      "date": "2020-09-24",
+      "calories": 566,
+      "protein": 22.8,
+      "carbs": 71.1,
+      "fat": 21.9,
+      "fiber": 5.5,
+      "sugar": 2.9,
+      "sodium": 720,
+      "protein_pct": 15.9,
+      "carbs_pct": 49.7,
+      "fat_pct": 34.4
+    },
+    {
+      "date": "2020-10-10",
+      "calories": 862,
+      "protein": 39.9,
+      "carbs": 99.0,
+      "fat": 36.4,
+      "fiber": 8.2,
+      "sugar": 12.4,
+      "sodium": 150,
+      "protein_pct": 18.1,
+      "carbs_pct": 44.8,
+      "fat_pct": 37.1
+    },
+    {
+      "date": "2020-10-14",
+      "calories": 818,
+      "protein": 73.1,
+      "carbs": 78.5,
+      "fat": 32.5,
+      "fiber": 11.2,
+      "sugar": 5.8,
+      "sodium": 453,
+      "protein_pct": 32.5,
+      "carbs_pct": 34.9,
+      "fat_pct": 32.5
+    },
+    {
+      "date": "2020-10-15",
+      "calories": 631,
+      "protein": 57.8,
+      "carbs": 47.8,
+      "fat": 26.9,
+      "fiber": 2.9,
+      "sugar": 2.8,
+      "sodium": 501,
+      "protein_pct": 34.8,
+      "carbs_pct": 28.8,
+      "fat_pct": 36.4
+    },
+    {
+      "date": "2020-10-16",
+      "calories": 1103,
+      "protein": 38.1,
+      "carbs": 125.5,
+      "fat": 36.6,
+      "fiber": 15.0,
+      "sugar": 21.1,
+      "sodium": 1444,
+      "protein_pct": 15.5,
+      "carbs_pct": 51.0,
+      "fat_pct": 33.5
+    },
+    {
+      "date": "2020-10-17",
+      "calories": 1260,
+      "protein": 80.0,
+      "carbs": 116.8,
+      "fat": 55.1,
+      "fiber": 12.0,
+      "sugar": 10.2,
+      "sodium": 4,
+      "protein_pct": 24.9,
+      "carbs_pct": 36.4,
+      "fat_pct": 38.6
+    },
+    {
+      "date": "2020-10-18",
+      "calories": 694,
+      "protein": 25.0,
+      "carbs": 111.5,
+      "fat": 19.9,
+      "fiber": 13.6,
+      "sugar": 14.2,
+      "sodium": 810,
+      "protein_pct": 13.8,
+      "carbs_pct": 61.5,
+      "fat_pct": 24.7
+    },
+    {
+      "date": "2020-10-19",
+      "calories": 278,
+      "protein": 16.6,
+      "carbs": 24.1,
+      "fat": 13.0,
+      "fiber": 2.8,
+      "sugar": 1.3,
+      "sodium": 142,
+      "protein_pct": 23.7,
+      "carbs_pct": 34.5,
+      "fat_pct": 41.8
+    },
+    {
+      "date": "2020-10-20",
+      "calories": 1306,
+      "protein": 71.4,
+      "carbs": 206.2,
+      "fat": 30.1,
+      "fiber": 18.1,
+      "sugar": 54.4,
+      "sodium": 1645,
+      "protein_pct": 20.7,
+      "carbs_pct": 59.7,
+      "fat_pct": 19.6
+    },
+    {
+      "date": "2020-10-22",
+      "calories": 819,
+      "protein": 29.3,
+      "carbs": 97.8,
+      "fat": 18.4,
+      "fiber": 3.1,
+      "sugar": 19.4,
+      "sodium": 558,
+      "protein_pct": 17.4,
+      "carbs_pct": 58.0,
+      "fat_pct": 24.6
+    },
+    {
+      "date": "2020-10-26",
+      "calories": 479,
+      "protein": 61.8,
+      "carbs": 28.4,
+      "fat": 18.7,
+      "fiber": 3.5,
+      "sugar": 3.9,
+      "sodium": 453,
+      "protein_pct": 46.7,
+      "carbs_pct": 21.5,
+      "fat_pct": 31.8
+    },
+    {
+      "date": "2020-10-27",
+      "calories": 181,
+      "protein": 5.6,
+      "carbs": 32.4,
+      "fat": 4.4,
+      "fiber": 3.8,
+      "sugar": 11.8,
+      "sodium": 371,
+      "protein_pct": 11.7,
+      "carbs_pct": 67.6,
+      "fat_pct": 20.7
+    },
+    {
+      "date": "2020-10-28",
+      "calories": 872,
+      "protein": 24.6,
+      "carbs": 156.7,
+      "fat": 18.2,
+      "fiber": 8.3,
+      "sugar": 20.7,
+      "sodium": 755,
+      "protein_pct": 11.1,
+      "carbs_pct": 70.5,
+      "fat_pct": 18.4
+    },
+    {
+      "date": "2020-10-29",
+      "calories": 1443,
+      "protein": 12.0,
+      "carbs": 78.7,
+      "fat": 17.6,
+      "fiber": 9.6,
+      "sugar": 51.6,
+      "sodium": 291,
+      "protein_pct": 9.2,
+      "carbs_pct": 60.4,
+      "fat_pct": 30.4
+    },
+    {
+      "date": "2020-10-30",
+      "calories": 476,
+      "protein": 18.6,
+      "carbs": 45.6,
+      "fat": 25.6,
+      "fiber": 9.8,
+      "sugar": 4.7,
+      "sodium": 807,
+      "protein_pct": 15.3,
+      "carbs_pct": 37.4,
+      "fat_pct": 47.3
+    },
+    {
+      "date": "2020-10-31",
+      "calories": 273,
+      "protein": 4.3,
+      "carbs": 60.2,
+      "fat": 4.0,
+      "fiber": 8.2,
+      "sugar": 21.6,
+      "sodium": 251,
+      "protein_pct": 5.9,
+      "carbs_pct": 81.9,
+      "fat_pct": 12.2
+    },
+    {
+      "date": "2020-11-01",
+      "calories": 168,
+      "protein": 3.0,
+      "carbs": 33.2,
+      "fat": 3.6,
+      "fiber": 5.1,
+      "sugar": 7.2,
+      "sodium": 250,
+      "protein_pct": 6.8,
+      "carbs_pct": 74.9,
+      "fat_pct": 18.3
+    },
+    {
+      "date": "2020-11-03",
+      "calories": 595,
+      "protein": 20.4,
+      "carbs": 101.8,
+      "fat": 13.5,
+      "fiber": 7.0,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 13.4,
+      "carbs_pct": 66.7,
+      "fat_pct": 19.9
+    },
+    {
+      "date": "2020-11-05",
+      "calories": 975,
+      "protein": 62.6,
+      "carbs": 123.4,
+      "fat": 33.8,
+      "fiber": 18.4,
+      "sugar": 22.7,
+      "sodium": 707,
+      "protein_pct": 23.9,
+      "carbs_pct": 47.1,
+      "fat_pct": 29.0
+    },
+    {
+      "date": "2020-11-06",
+      "calories": 1300,
+      "protein": 66.3,
+      "carbs": 109.4,
+      "fat": 21.8,
+      "fiber": 9.6,
+      "sugar": 44.0,
+      "sodium": 536,
+      "protein_pct": 29.5,
+      "carbs_pct": 48.7,
+      "fat_pct": 21.8
+    },
+    {
+      "date": "2020-11-07",
+      "calories": 1273,
+      "protein": 81.2,
+      "carbs": 138.7,
+      "fat": 47.5,
+      "fiber": 11.6,
+      "sugar": 5.0,
+      "sodium": 704,
+      "protein_pct": 24.8,
+      "carbs_pct": 42.4,
+      "fat_pct": 32.7
+    },
+    {
+      "date": "2020-11-08",
+      "calories": 1182,
+      "protein": 81.1,
+      "carbs": 147.1,
+      "fat": 32.7,
+      "fiber": 19.0,
+      "sugar": 16.0,
+      "sodium": 699,
+      "protein_pct": 26.9,
+      "carbs_pct": 48.7,
+      "fat_pct": 24.4
+    },
+    {
+      "date": "2020-11-09",
+      "calories": 1512,
+      "protein": 50.6,
+      "carbs": 200.8,
+      "fat": 55.4,
+      "fiber": 19.4,
+      "sugar": 43.7,
+      "sodium": 479,
+      "protein_pct": 13.5,
+      "carbs_pct": 53.4,
+      "fat_pct": 33.1
+    },
+    {
+      "date": "2020-11-10",
+      "calories": 1443,
+      "protein": 84.6,
+      "carbs": 195.5,
+      "fat": 37.7,
+      "fiber": 11.7,
+      "sugar": 29.8,
+      "sodium": 205,
+      "protein_pct": 23.2,
+      "carbs_pct": 53.6,
+      "fat_pct": 23.2
+    },
+    {
+      "date": "2020-11-11",
+      "calories": 1440,
+      "protein": 84.2,
+      "carbs": 139.1,
+      "fat": 67.3,
+      "fiber": 25.4,
+      "sugar": 21.2,
+      "sodium": 952,
+      "protein_pct": 22.5,
+      "carbs_pct": 37.1,
+      "fat_pct": 40.4
+    },
+    {
+      "date": "2020-11-12",
+      "calories": 602,
+      "protein": 22.6,
+      "carbs": 65.7,
+      "fat": 27.9,
+      "fiber": 10.6,
+      "sugar": 3.6,
+      "sodium": 129,
+      "protein_pct": 15.0,
+      "carbs_pct": 43.5,
+      "fat_pct": 41.6
+    },
+    {
+      "date": "2020-11-13",
+      "calories": 1566,
+      "protein": 35.9,
+      "carbs": 36.8,
+      "fat": 22.8,
+      "fiber": 2.1,
+      "sugar": 15.1,
+      "sodium": 939,
+      "protein_pct": 29.0,
+      "carbs_pct": 29.7,
+      "fat_pct": 41.4
+    },
+    {
+      "date": "2020-11-14",
+      "calories": 1613,
+      "protein": 57.3,
+      "carbs": 193.6,
+      "fat": 67.8,
+      "fiber": 17.3,
+      "sugar": 61.5,
+      "sodium": 732,
+      "protein_pct": 14.2,
+      "carbs_pct": 48.0,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2020-11-15",
+      "calories": 1365,
+      "protein": 13.5,
+      "carbs": 90.0,
+      "fat": 6.4,
+      "fiber": 4.1,
+      "sugar": 4.1,
+      "sodium": 0,
+      "protein_pct": 11.5,
+      "carbs_pct": 76.3,
+      "fat_pct": 12.2
+    },
+    {
+      "date": "2020-11-16",
+      "calories": 1564,
+      "protein": 52.1,
+      "carbs": 155.7,
+      "fat": 76.1,
+      "fiber": 14.4,
+      "sugar": 26.5,
+      "sodium": 554,
+      "protein_pct": 13.7,
+      "carbs_pct": 41.1,
+      "fat_pct": 45.2
+    },
+    {
+      "date": "2020-11-17",
+      "calories": 1441,
+      "protein": 80.0,
+      "carbs": 159.4,
+      "fat": 56.6,
+      "fiber": 14.4,
+      "sugar": 30.6,
+      "sodium": 1523,
+      "protein_pct": 21.8,
+      "carbs_pct": 43.5,
+      "fat_pct": 34.7
+    },
+    {
+      "date": "2020-11-18",
+      "calories": 1574,
+      "protein": 40.6,
+      "carbs": 76.6,
+      "fat": 14.8,
+      "fiber": 9.3,
+      "sugar": 24.3,
+      "sodium": 325,
+      "protein_pct": 27.0,
+      "carbs_pct": 50.9,
+      "fat_pct": 22.1
+    },
+    {
+      "date": "2020-11-19",
+      "calories": 1393,
+      "protein": 37.9,
+      "carbs": 115.0,
+      "fat": 41.3,
+      "fiber": 10.8,
+      "sugar": 57.3,
+      "sodium": 2612,
+      "protein_pct": 15.4,
+      "carbs_pct": 46.8,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2020-11-20",
+      "calories": 1606,
+      "protein": 7.4,
+      "carbs": 45.7,
+      "fat": 13.5,
+      "fiber": 9.9,
+      "sugar": 7.8,
+      "sodium": 250,
+      "protein_pct": 8.9,
+      "carbs_pct": 54.7,
+      "fat_pct": 36.4
+    },
+    {
+      "date": "2020-11-21",
+      "calories": 1288,
+      "protein": 1.7,
+      "carbs": 35.2,
+      "fat": 5.4,
+      "fiber": 11.9,
+      "sugar": 12.7,
+      "sodium": 460,
+      "protein_pct": 3.5,
+      "carbs_pct": 71.8,
+      "fat_pct": 24.8
+    },
+    {
+      "date": "2020-11-22",
+      "calories": 1282,
+      "protein": 0.8,
+      "carbs": 16.9,
+      "fat": 3.1,
+      "fiber": 6.6,
+      "sugar": 5.5,
+      "sodium": 300,
+      "protein_pct": 3.2,
+      "carbs_pct": 68.5,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2020-11-23",
+      "calories": 1596,
+      "protein": 6.2,
+      "carbs": 96.1,
+      "fat": 14.7,
+      "fiber": 8.4,
+      "sugar": 46.4,
+      "sodium": 521,
+      "protein_pct": 4.6,
+      "carbs_pct": 71.0,
+      "fat_pct": 24.4
+    },
+    {
+      "date": "2020-11-24",
+      "calories": 1770,
+      "protein": 63.8,
+      "carbs": 126.4,
+      "fat": 57.1,
+      "fiber": 20.0,
+      "sugar": 21.8,
+      "sodium": 854,
+      "protein_pct": 20.0,
+      "carbs_pct": 39.7,
+      "fat_pct": 40.3
+    },
+    {
+      "date": "2020-11-25",
+      "calories": 1587,
+      "protein": 95.7,
+      "carbs": 177.2,
+      "fat": 49.2,
+      "fiber": 8.2,
+      "sugar": 52.7,
+      "sodium": 243,
+      "protein_pct": 24.9,
+      "carbs_pct": 46.2,
+      "fat_pct": 28.9
+    },
+    {
+      "date": "2020-11-26",
+      "calories": 1400,
+      "protein": 61.5,
+      "carbs": 157.1,
+      "fat": 42.9,
+      "fiber": 18.7,
+      "sugar": 15.1,
+      "sodium": 1377,
+      "protein_pct": 19.5,
+      "carbs_pct": 49.9,
+      "fat_pct": 30.6
+    },
+    {
+      "date": "2020-11-27",
+      "calories": 1265,
+      "protein": 67.1,
+      "carbs": 129.2,
+      "fat": 19.0,
+      "fiber": 9.9,
+      "sugar": 41.1,
+      "sodium": 100,
+      "protein_pct": 28.1,
+      "carbs_pct": 54.0,
+      "fat_pct": 17.9
+    },
+    {
+      "date": "2020-11-28",
+      "calories": 1673,
+      "protein": 56.1,
+      "carbs": 70.3,
+      "fat": 17.0,
+      "fiber": 11.3,
+      "sugar": 1.3,
+      "sodium": 251,
+      "protein_pct": 34.1,
+      "carbs_pct": 42.7,
+      "fat_pct": 23.2
+    },
+    {
+      "date": "2020-11-29",
+      "calories": 813,
+      "protein": 53.2,
+      "carbs": 68.2,
+      "fat": 29.6,
+      "fiber": 9.1,
+      "sugar": 2.4,
+      "sodium": 377,
+      "protein_pct": 28.3,
+      "carbs_pct": 36.3,
+      "fat_pct": 35.4
+    },
+    {
+      "date": "2020-11-30",
+      "calories": 1474,
+      "protein": 115.2,
+      "carbs": 123.6,
+      "fat": 45.5,
+      "fiber": 10.0,
+      "sugar": 19.8,
+      "sodium": 492,
+      "protein_pct": 33.8,
+      "carbs_pct": 36.2,
+      "fat_pct": 30.0
+    },
+    {
+      "date": "2020-12-01",
+      "calories": 1521,
+      "protein": 64.0,
+      "carbs": 182.4,
+      "fat": 49.1,
+      "fiber": 9.0,
+      "sugar": 37.0,
+      "sodium": 1421,
+      "protein_pct": 17.9,
+      "carbs_pct": 51.1,
+      "fat_pct": 31.0
+    },
+    {
+      "date": "2020-12-02",
+      "calories": 1575,
+      "protein": 40.7,
+      "carbs": 149.4,
+      "fat": 43.0,
+      "fiber": 14.5,
+      "sugar": 48.8,
+      "sodium": 429,
+      "protein_pct": 14.2,
+      "carbs_pct": 52.1,
+      "fat_pct": 33.7
+    },
+    {
+      "date": "2020-12-03",
+      "calories": 977,
+      "protein": 90.6,
+      "carbs": 76.5,
+      "fat": 34.6,
+      "fiber": 9.6,
+      "sugar": 9.8,
+      "sodium": 134,
+      "protein_pct": 37.0,
+      "carbs_pct": 31.2,
+      "fat_pct": 31.8
+    },
+    {
+      "date": "2020-12-04",
+      "calories": 1167,
+      "protein": 89.5,
+      "carbs": 126.7,
+      "fat": 34.7,
+      "fiber": 16.5,
+      "sugar": 25.0,
+      "sodium": 717,
+      "protein_pct": 30.4,
+      "carbs_pct": 43.1,
+      "fat_pct": 26.5
+    },
+    {
+      "date": "2020-12-05",
+      "calories": 1414,
+      "protein": 17.1,
+      "carbs": 89.4,
+      "fat": 9.6,
+      "fiber": 6.0,
+      "sugar": 5.7,
+      "sodium": 230,
+      "protein_pct": 13.3,
+      "carbs_pct": 69.8,
+      "fat_pct": 16.9
+    },
+    {
+      "date": "2020-12-06",
+      "calories": 1957,
+      "protein": 19.3,
+      "carbs": 54.9,
+      "fat": 20.5,
+      "fiber": 13.4,
+      "sugar": 14.0,
+      "sodium": 774,
+      "protein_pct": 16.0,
+      "carbs_pct": 45.6,
+      "fat_pct": 38.3
+    },
+    {
+      "date": "2020-12-07",
+      "calories": 1520,
+      "protein": 34.0,
+      "carbs": 80.0,
+      "fat": 28.0,
+      "fiber": 8.0,
+      "sugar": 4.0,
+      "sodium": 1840,
+      "protein_pct": 19.2,
+      "carbs_pct": 45.2,
+      "fat_pct": 35.6
+    },
+    {
+      "date": "2020-12-08",
+      "calories": 2558,
+      "protein": 4.2,
+      "carbs": 23.9,
+      "fat": 2.8,
+      "fiber": 0.8,
+      "sugar": 4.2,
+      "sodium": 0,
+      "protein_pct": 12.2,
+      "carbs_pct": 69.5,
+      "fat_pct": 18.3
+    },
+    {
+      "date": "2020-12-09",
+      "calories": 1375,
+      "protein": 50.2,
+      "carbs": 170.0,
+      "fat": 22.8,
+      "fiber": 0.0,
+      "sugar": 1.6,
+      "sodium": 1,
+      "protein_pct": 18.5,
+      "carbs_pct": 62.6,
+      "fat_pct": 18.9
+    },
+    {
+      "date": "2020-12-10",
+      "calories": 1329,
+      "protein": 42.3,
+      "carbs": 143.3,
+      "fat": 40.4,
+      "fiber": 11.7,
+      "sugar": 72.6,
+      "sodium": 560,
+      "protein_pct": 15.3,
+      "carbs_pct": 51.8,
+      "fat_pct": 32.9
+    },
+    {
+      "date": "2020-12-11",
+      "calories": 2045,
+      "protein": 18.7,
+      "carbs": 108.3,
+      "fat": 15.2,
+      "fiber": 5.1,
+      "sugar": 7.2,
+      "sodium": 250,
+      "protein_pct": 11.6,
+      "carbs_pct": 67.2,
+      "fat_pct": 21.2
+    },
+    {
+      "date": "2020-12-12",
+      "calories": 1303,
+      "protein": 115.3,
+      "carbs": 127.3,
+      "fat": 39.8,
+      "fiber": 6.0,
+      "sugar": 24.6,
+      "sodium": 170,
+      "protein_pct": 34.7,
+      "carbs_pct": 38.3,
+      "fat_pct": 27.0
+    },
+    {
+      "date": "2020-12-13",
+      "calories": 1665,
+      "protein": 68.7,
+      "carbs": 72.3,
+      "fat": 12.6,
+      "fiber": 5.5,
+      "sugar": 18.1,
+      "sodium": 141,
+      "protein_pct": 40.6,
+      "carbs_pct": 42.7,
+      "fat_pct": 16.7
+    },
+    {
+      "date": "2020-12-14",
+      "calories": 1448,
+      "protein": 4.3,
+      "carbs": 40.6,
+      "fat": 3.4,
+      "fiber": 3.1,
+      "sugar": 27.1,
+      "sodium": 1,
+      "protein_pct": 8.2,
+      "carbs_pct": 77.3,
+      "fat_pct": 14.6
+    },
+    {
+      "date": "2020-12-15",
+      "calories": 1619,
+      "protein": 28.9,
+      "carbs": 42.4,
+      "fat": 7.2,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 33.0,
+      "carbs_pct": 48.5,
+      "fat_pct": 18.5
+    },
+    {
+      "date": "2020-12-16",
+      "calories": 1643,
+      "protein": 19.5,
+      "carbs": 87.1,
+      "fat": 18.0,
+      "fiber": 7.9,
+      "sugar": 15.2,
+      "sodium": 1,
+      "protein_pct": 13.3,
+      "carbs_pct": 59.2,
+      "fat_pct": 27.5
+    },
+    {
+      "date": "2020-12-17",
+      "calories": 1555,
+      "protein": 1.8,
+      "carbs": 40.0,
+      "fat": 0.5,
+      "fiber": 4.5,
+      "sugar": 24.4,
+      "sodium": 2,
+      "protein_pct": 4.2,
+      "carbs_pct": 93.2,
+      "fat_pct": 2.6
+    },
+    {
+      "date": "2020-12-18",
+      "calories": 620,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2020-12-19",
+      "calories": 825,
+      "protein": 1.3,
+      "carbs": 27.0,
+      "fat": 0.4,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 4.5,
+      "carbs_pct": 92.5,
+      "fat_pct": 3.1
+    },
+    {
+      "date": "2020-12-20",
+      "calories": 1549,
+      "protein": 16.4,
+      "carbs": 20.9,
+      "fat": 10.9,
+      "fiber": 1.4,
+      "sugar": 2.2,
+      "sodium": 62,
+      "protein_pct": 26.5,
+      "carbs_pct": 33.8,
+      "fat_pct": 39.7
+    },
+    {
+      "date": "2020-12-21",
+      "calories": 1769,
+      "protein": 16.4,
+      "carbs": 20.9,
+      "fat": 10.9,
+      "fiber": 1.4,
+      "sugar": 2.2,
+      "sodium": 62,
+      "protein_pct": 26.5,
+      "carbs_pct": 33.8,
+      "fat_pct": 39.7
+    },
+    {
+      "date": "2020-12-22",
+      "calories": 1439,
+      "protein": 89.6,
+      "carbs": 93.4,
+      "fat": 36.4,
+      "fiber": 11.2,
+      "sugar": 10.4,
+      "sodium": 1501,
+      "protein_pct": 33.8,
+      "carbs_pct": 35.3,
+      "fat_pct": 30.9
+    },
+    {
+      "date": "2020-12-23",
+      "calories": 1734,
+      "protein": 19.4,
+      "carbs": 37.7,
+      "fat": 26.8,
+      "fiber": 1.4,
+      "sugar": 17.2,
+      "sodium": 62,
+      "protein_pct": 16.5,
+      "carbs_pct": 32.1,
+      "fat_pct": 51.4
+    },
+    {
+      "date": "2020-12-24",
+      "calories": 1620,
+      "protein": 4.4,
+      "carbs": 20.6,
+      "fat": 8.0,
+      "fiber": 0.0,
+      "sugar": 5.0,
+      "sodium": 0,
+      "protein_pct": 10.2,
+      "carbs_pct": 47.9,
+      "fat_pct": 41.9
+    },
+    {
+      "date": "2020-12-25",
+      "calories": 82,
+      "protein": 0.8,
+      "carbs": 16.9,
+      "fat": 3.1,
+      "fiber": 6.6,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 3.2,
+      "carbs_pct": 68.5,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2020-12-26",
+      "calories": 300,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2020-12-27",
+      "calories": 1052,
+      "protein": 53.4,
+      "carbs": 160.4,
+      "fat": 23.2,
+      "fiber": 11.1,
+      "sugar": 20.1,
+      "sodium": 809,
+      "protein_pct": 20.1,
+      "carbs_pct": 60.3,
+      "fat_pct": 19.6
+    },
+    {
+      "date": "2020-12-28",
+      "calories": 1410,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2020-12-29",
+      "calories": 164,
+      "protein": 1.6,
+      "carbs": 33.8,
+      "fat": 6.2,
+      "fiber": 13.2,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 3.2,
+      "carbs_pct": 68.5,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2020-12-31",
+      "calories": 1100,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-01",
+      "calories": 1464,
+      "protein": 1.6,
+      "carbs": 33.8,
+      "fat": 6.2,
+      "fiber": 13.2,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 3.2,
+      "carbs_pct": 68.5,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2021-01-02",
+      "calories": 495,
+      "protein": 25.6,
+      "carbs": 45.0,
+      "fat": 7.8,
+      "fiber": 3.4,
+      "sugar": 1.9,
+      "sodium": 520,
+      "protein_pct": 29.0,
+      "carbs_pct": 51.0,
+      "fat_pct": 19.9
+    },
+    {
+      "date": "2021-01-03",
+      "calories": 330,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-04",
+      "calories": 450,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-05",
+      "calories": 459,
+      "protein": 45.8,
+      "carbs": 34.5,
+      "fat": 13.6,
+      "fiber": 1.1,
+      "sugar": 2.7,
+      "sodium": 524,
+      "protein_pct": 41.3,
+      "carbs_pct": 31.1,
+      "fat_pct": 27.6
+    },
+    {
+      "date": "2021-01-06",
+      "calories": 276,
+      "protein": 20.4,
+      "carbs": 31.8,
+      "fat": 2.2,
+      "fiber": 2.0,
+      "sugar": 2.2,
+      "sodium": 520,
+      "protein_pct": 35.7,
+      "carbs_pct": 55.6,
+      "fat_pct": 8.7
+    },
+    {
+      "date": "2021-01-08",
+      "calories": 880,
+      "protein": 18.0,
+      "carbs": 81.0,
+      "fat": 35.0,
+      "fiber": 2.0,
+      "sugar": 5.0,
+      "sodium": 590,
+      "protein_pct": 10.1,
+      "carbs_pct": 45.6,
+      "fat_pct": 44.3
+    },
+    {
+      "date": "2021-01-09",
+      "calories": 380,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-11",
+      "calories": 900,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-12",
+      "calories": 1000,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-13",
+      "calories": 350,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-14",
+      "calories": 400,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-15",
+      "calories": 1200,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-01-25",
+      "calories": 750,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-02-03",
+      "calories": 523,
+      "protein": 38.1,
+      "carbs": 75.1,
+      "fat": 7.0,
+      "fiber": 0.0,
+      "sugar": 4.8,
+      "sodium": 82,
+      "protein_pct": 29.5,
+      "carbs_pct": 58.2,
+      "fat_pct": 12.2
+    },
+    {
+      "date": "2021-02-04",
+      "calories": 623,
+      "protein": 38.1,
+      "carbs": 75.1,
+      "fat": 7.0,
+      "fiber": 0.0,
+      "sugar": 4.8,
+      "sodium": 82,
+      "protein_pct": 29.5,
+      "carbs_pct": 58.2,
+      "fat_pct": 12.2
+    },
+    {
+      "date": "2021-02-14",
+      "calories": 119,
+      "protein": 7.1,
+      "carbs": 1.4,
+      "fat": 9.4,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 23.9,
+      "carbs_pct": 4.7,
+      "fat_pct": 71.3
+    },
+    {
+      "date": "2021-02-20",
+      "calories": 1020,
+      "protein": 41.0,
+      "carbs": 106.7,
+      "fat": 21.9,
+      "fiber": 7.0,
+      "sugar": 31.7,
+      "sodium": 57,
+      "protein_pct": 20.8,
+      "carbs_pct": 54.2,
+      "fat_pct": 25.0
+    },
+    {
+      "date": "2021-02-21",
+      "calories": 529,
+      "protein": 17.3,
+      "carbs": 99.4,
+      "fat": 6.6,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 13.2,
+      "carbs_pct": 75.6,
+      "fat_pct": 11.3
+    },
+    {
+      "date": "2021-02-22",
+      "calories": 576,
+      "protein": 10.4,
+      "carbs": 70.3,
+      "fat": 11.1,
+      "fiber": 1.5,
+      "sugar": 14.3,
+      "sodium": 60,
+      "protein_pct": 9.8,
+      "carbs_pct": 66.5,
+      "fat_pct": 23.6
+    },
+    {
+      "date": "2021-02-27",
+      "calories": 180,
+      "protein": 1.9,
+      "carbs": 26.9,
+      "fat": 7.9,
+      "fiber": 1.1,
+      "sugar": 15.3,
+      "sodium": 119,
+      "protein_pct": 4.1,
+      "carbs_pct": 57.8,
+      "fat_pct": 38.2
+    },
+    {
+      "date": "2021-03-01",
+      "calories": 940,
+      "protein": 14.2,
+      "carbs": 50.8,
+      "fat": 11.6,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 444,
+      "protein_pct": 15.6,
+      "carbs_pct": 55.8,
+      "fat_pct": 28.6
+    },
+    {
+      "date": "2021-03-02",
+      "calories": 631,
+      "protein": 17.2,
+      "carbs": 60.1,
+      "fat": 19.6,
+      "fiber": 5.2,
+      "sugar": 12.6,
+      "sodium": 670,
+      "protein_pct": 14.2,
+      "carbs_pct": 49.5,
+      "fat_pct": 36.3
+    },
+    {
+      "date": "2021-03-03",
+      "calories": 420,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2021-03-04",
+      "calories": 531,
+      "protein": 19.6,
+      "carbs": 76.3,
+      "fat": 9.2,
+      "fiber": 0.3,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 16.8,
+      "carbs_pct": 65.4,
+      "fat_pct": 17.8
+    },
+    {
+      "date": "2021-03-05",
+      "calories": 887,
+      "protein": 21.2,
+      "carbs": 112.2,
+      "fat": 29.2,
+      "fiber": 6.4,
+      "sugar": 17.4,
+      "sodium": 978,
+      "protein_pct": 10.6,
+      "carbs_pct": 56.4,
+      "fat_pct": 33.0
+    },
+    {
+      "date": "2021-03-06",
+      "calories": 1516,
+      "protein": 34.7,
+      "carbs": 87.6,
+      "fat": 17.0,
+      "fiber": 3.3,
+      "sugar": 10.5,
+      "sodium": 520,
+      "protein_pct": 21.6,
+      "carbs_pct": 54.6,
+      "fat_pct": 23.8
+    },
+    {
+      "date": "2021-03-07",
+      "calories": 887,
+      "protein": 23.3,
+      "carbs": 42.4,
+      "fat": 2.5,
+      "fiber": 2.4,
+      "sugar": 2.4,
+      "sodium": 1160,
+      "protein_pct": 32.7,
+      "carbs_pct": 59.4,
+      "fat_pct": 7.9
+    },
+    {
+      "date": "2021-03-08",
+      "calories": 1621,
+      "protein": 81.1,
+      "carbs": 143.5,
+      "fat": 26.8,
+      "fiber": 11.2,
+      "sugar": 8.4,
+      "sodium": 1347,
+      "protein_pct": 28.5,
+      "carbs_pct": 50.4,
+      "fat_pct": 21.2
+    },
+    {
+      "date": "2021-03-09",
+      "calories": 790,
+      "protein": 11.9,
+      "carbs": 127.2,
+      "fat": 11.6,
+      "fiber": 5.7,
+      "sugar": 38.9,
+      "sodium": 21,
+      "protein_pct": 7.2,
+      "carbs_pct": 77.0,
+      "fat_pct": 15.8
+    },
+    {
+      "date": "2021-03-10",
+      "calories": 748,
+      "protein": 30.8,
+      "carbs": 80.9,
+      "fat": 31.9,
+      "fiber": 3.8,
+      "sugar": 38.4,
+      "sodium": 144,
+      "protein_pct": 16.8,
+      "carbs_pct": 44.1,
+      "fat_pct": 39.1
+    },
+    {
+      "date": "2021-03-11",
+      "calories": 1340,
+      "protein": 85.0,
+      "carbs": 177.9,
+      "fat": 33.2,
+      "fiber": 14.3,
+      "sugar": 49.4,
+      "sodium": 91,
+      "protein_pct": 25.2,
+      "carbs_pct": 52.7,
+      "fat_pct": 22.1
+    },
+    {
+      "date": "2021-03-12",
+      "calories": 1242,
+      "protein": 79.2,
+      "carbs": 147.6,
+      "fat": 37.1,
+      "fiber": 7.9,
+      "sugar": 14.0,
+      "sodium": 115,
+      "protein_pct": 25.5,
+      "carbs_pct": 47.6,
+      "fat_pct": 26.9
+    },
+    {
+      "date": "2021-03-16",
+      "calories": 516,
+      "protein": 12.5,
+      "carbs": 68.1,
+      "fat": 21.9,
+      "fiber": 2.4,
+      "sugar": 27.0,
+      "sodium": 80,
+      "protein_pct": 9.6,
+      "carbs_pct": 52.4,
+      "fat_pct": 37.9
+    },
+    {
+      "date": "2021-03-17",
+      "calories": 569,
+      "protein": 17.5,
+      "carbs": 91.9,
+      "fat": 13.2,
+      "fiber": 0.5,
+      "sugar": 9.5,
+      "sodium": 0,
+      "protein_pct": 12.6,
+      "carbs_pct": 66.1,
+      "fat_pct": 21.4
+    },
+    {
+      "date": "2021-03-18",
+      "calories": 466,
+      "protein": 32.8,
+      "carbs": 22.3,
+      "fat": 10.4,
+      "fiber": 1.3,
+      "sugar": 2.9,
+      "sodium": 59,
+      "protein_pct": 41.8,
+      "carbs_pct": 28.4,
+      "fat_pct": 29.8
+    },
+    {
+      "date": "2021-03-19",
+      "calories": 365,
+      "protein": 39.1,
+      "carbs": 22.6,
+      "fat": 11.9,
+      "fiber": 1.3,
+      "sugar": 3.0,
+      "sodium": 74,
+      "protein_pct": 44.2,
+      "carbs_pct": 25.5,
+      "fat_pct": 30.3
+    },
+    {
+      "date": "2021-03-24",
+      "calories": 170,
+      "protein": 7.0,
+      "carbs": 30.6,
+      "fat": 1.2,
+      "fiber": 4.2,
+      "sugar": 2.2,
+      "sodium": 272,
+      "protein_pct": 17.4,
+      "carbs_pct": 75.9,
+      "fat_pct": 6.7
+    },
+    {
+      "date": "2021-03-26",
+      "calories": 283,
+      "protein": 24.6,
+      "carbs": 29.8,
+      "fat": 6.8,
+      "fiber": 1.9,
+      "sugar": 2.9,
+      "sodium": 520,
+      "protein_pct": 35.3,
+      "carbs_pct": 42.8,
+      "fat_pct": 22.0
+    },
+    {
+      "date": "2021-06-08",
+      "calories": 1247,
+      "protein": 88.0,
+      "carbs": 96.4,
+      "fat": 34.0,
+      "fiber": 5.5,
+      "sugar": 19.0,
+      "sodium": 200,
+      "protein_pct": 33.7,
+      "carbs_pct": 36.9,
+      "fat_pct": 29.3
+    },
+    {
+      "date": "2021-06-10",
+      "calories": 1262,
+      "protein": 62.2,
+      "carbs": 113.6,
+      "fat": 46.1,
+      "fiber": 3.0,
+      "sugar": 26.8,
+      "sodium": 133,
+      "protein_pct": 22.3,
+      "carbs_pct": 40.6,
+      "fat_pct": 37.1
+    },
+    {
+      "date": "2021-06-26",
+      "calories": 358,
+      "protein": 10.3,
+      "carbs": 60.7,
+      "fat": 9.9,
+      "fiber": 4.6,
+      "sugar": 32.4,
+      "sodium": 81,
+      "protein_pct": 11.0,
+      "carbs_pct": 65.1,
+      "fat_pct": 23.9
+    },
+    {
+      "date": "2021-07-05",
+      "calories": 1213,
+      "protein": 81.6,
+      "carbs": 135.7,
+      "fat": 35.8,
+      "fiber": 3.4,
+      "sugar": 7.8,
+      "sodium": 126,
+      "protein_pct": 27.4,
+      "carbs_pct": 45.6,
+      "fat_pct": 27.0
+    },
+    {
+      "date": "2021-07-06",
+      "calories": 1176,
+      "protein": 114.7,
+      "carbs": 113.7,
+      "fat": 32.4,
+      "fiber": 4.3,
+      "sugar": 36.9,
+      "sodium": 290,
+      "protein_pct": 38.1,
+      "carbs_pct": 37.7,
+      "fat_pct": 24.2
+    },
+    {
+      "date": "2021-07-07",
+      "calories": 470,
+      "protein": 13.7,
+      "carbs": 50.6,
+      "fat": 24.4,
+      "fiber": 1.8,
+      "sugar": 5.0,
+      "sodium": 1865,
+      "protein_pct": 11.5,
+      "carbs_pct": 42.4,
+      "fat_pct": 46.1
+    },
+    {
+      "date": "2021-07-08",
+      "calories": 428,
+      "protein": 14.9,
+      "carbs": 42.2,
+      "fat": 6.2,
+      "fiber": 2.2,
+      "sugar": 5.1,
+      "sodium": 0,
+      "protein_pct": 21.0,
+      "carbs_pct": 59.4,
+      "fat_pct": 19.6
+    },
+    {
+      "date": "2021-07-09",
+      "calories": 222,
+      "protein": 8.4,
+      "carbs": 33.1,
+      "fat": 6.7,
+      "fiber": 2.1,
+      "sugar": 13.7,
+      "sodium": 68,
+      "protein_pct": 14.8,
+      "carbs_pct": 58.5,
+      "fat_pct": 26.6
+    },
+    {
+      "date": "2021-07-22",
+      "calories": 503,
+      "protein": 32.3,
+      "carbs": 50.6,
+      "fat": 12.1,
+      "fiber": 3.0,
+      "sugar": 8.4,
+      "sodium": 168,
+      "protein_pct": 29.3,
+      "carbs_pct": 45.9,
+      "fat_pct": 24.7
+    },
+    {
+      "date": "2021-07-23",
+      "calories": 433,
+      "protein": 32.3,
+      "carbs": 50.6,
+      "fat": 12.1,
+      "fiber": 3.0,
+      "sugar": 8.4,
+      "sodium": 168,
+      "protein_pct": 29.3,
+      "carbs_pct": 45.9,
+      "fat_pct": 24.7
+    },
+    {
+      "date": "2021-07-24",
+      "calories": 491,
+      "protein": 29.2,
+      "carbs": 58.0,
+      "fat": 17.1,
+      "fiber": 4.7,
+      "sugar": 6.6,
+      "sodium": 65,
+      "protein_pct": 23.2,
+      "carbs_pct": 46.2,
+      "fat_pct": 30.6
+    },
+    {
+      "date": "2021-08-25",
+      "calories": 542,
+      "protein": 33.9,
+      "carbs": 81.6,
+      "fat": 12.0,
+      "fiber": 2.4,
+      "sugar": 15.7,
+      "sodium": 0,
+      "protein_pct": 23.8,
+      "carbs_pct": 57.3,
+      "fat_pct": 18.9
+    },
+    {
+      "date": "2021-12-02",
+      "calories": 904,
+      "protein": 39.0,
+      "carbs": 131.3,
+      "fat": 26.8,
+      "fiber": 11.2,
+      "sugar": 8.1,
+      "sodium": 255,
+      "protein_pct": 16.9,
+      "carbs_pct": 56.9,
+      "fat_pct": 26.1
+    },
+    {
+      "date": "2022-01-04",
+      "calories": 362,
+      "protein": 8.4,
+      "carbs": 51.6,
+      "fat": 15.5,
+      "fiber": 10.8,
+      "sugar": 16.4,
+      "sodium": 6,
+      "protein_pct": 8.9,
+      "carbs_pct": 54.4,
+      "fat_pct": 36.8
+    },
+    {
+      "date": "2022-01-10",
+      "calories": 1485,
+      "protein": 75.0,
+      "carbs": 116.1,
+      "fat": 81.9,
+      "fiber": 17.0,
+      "sugar": 22.7,
+      "sodium": 195,
+      "protein_pct": 20.0,
+      "carbs_pct": 30.9,
+      "fat_pct": 49.1
+    },
+    {
+      "date": "2022-01-11",
+      "calories": 1791,
+      "protein": 61.4,
+      "carbs": 193.0,
+      "fat": 72.4,
+      "fiber": 17.0,
+      "sugar": 44.8,
+      "sodium": 954,
+      "protein_pct": 14.7,
+      "carbs_pct": 46.2,
+      "fat_pct": 39.0
+    },
+    {
+      "date": "2022-01-12",
+      "calories": 650,
+      "protein": 40.0,
+      "carbs": 104.9,
+      "fat": 10.1,
+      "fiber": 8.3,
+      "sugar": 28.9,
+      "sodium": 309,
+      "protein_pct": 23.9,
+      "carbs_pct": 62.6,
+      "fat_pct": 13.6
+    },
+    {
+      "date": "2022-01-13",
+      "calories": 658,
+      "protein": 21.5,
+      "carbs": 119.3,
+      "fat": 12.9,
+      "fiber": 7.7,
+      "sugar": 23.6,
+      "sodium": 1940,
+      "protein_pct": 12.7,
+      "carbs_pct": 70.2,
+      "fat_pct": 17.1
+    },
+    {
+      "date": "2022-01-17",
+      "calories": 342,
+      "protein": 23.2,
+      "carbs": 39.1,
+      "fat": 12.2,
+      "fiber": 5.4,
+      "sugar": 4.7,
+      "sodium": 130,
+      "protein_pct": 25.8,
+      "carbs_pct": 43.6,
+      "fat_pct": 30.6
+    },
+    {
+      "date": "2022-02-22",
+      "calories": 282,
+      "protein": 16.9,
+      "carbs": 48.3,
+      "fat": 3.2,
+      "fiber": 3.7,
+      "sugar": 7.4,
+      "sodium": 248,
+      "protein_pct": 23.3,
+      "carbs_pct": 66.7,
+      "fat_pct": 9.9
+    },
+    {
+      "date": "2022-02-24",
+      "calories": 588,
+      "protein": 28.7,
+      "carbs": 48.8,
+      "fat": 33.6,
+      "fiber": 7.6,
+      "sugar": 5.1,
+      "sodium": 895,
+      "protein_pct": 18.7,
+      "carbs_pct": 31.9,
+      "fat_pct": 49.4
+    },
+    {
+      "date": "2022-03-01",
+      "calories": 539,
+      "protein": 17.2,
+      "carbs": 67.3,
+      "fat": 24.1,
+      "fiber": 11.4,
+      "sugar": 16.5,
+      "sodium": 6,
+      "protein_pct": 12.4,
+      "carbs_pct": 48.5,
+      "fat_pct": 39.1
+    },
+    {
+      "date": "2022-03-02",
+      "calories": 307,
+      "protein": 15.1,
+      "carbs": 24.6,
+      "fat": 17.1,
+      "fiber": 7.7,
+      "sugar": 2.0,
+      "sodium": 5,
+      "protein_pct": 19.3,
+      "carbs_pct": 31.5,
+      "fat_pct": 49.2
+    },
+    {
+      "date": "2022-03-08",
+      "calories": 1210,
+      "protein": 33.2,
+      "carbs": 61.8,
+      "fat": 31.7,
+      "fiber": 9.0,
+      "sugar": 11.8,
+      "sodium": 65,
+      "protein_pct": 20.0,
+      "carbs_pct": 37.2,
+      "fat_pct": 42.9
+    },
+    {
+      "date": "2022-03-09",
+      "calories": 1547,
+      "protein": 71.4,
+      "carbs": 168.4,
+      "fat": 68.8,
+      "fiber": 7.8,
+      "sugar": 12.1,
+      "sodium": 1470,
+      "protein_pct": 18.1,
+      "carbs_pct": 42.7,
+      "fat_pct": 39.2
+    },
+    {
+      "date": "2022-03-21",
+      "calories": 350,
+      "protein": 31.0,
+      "carbs": 35.4,
+      "fat": 9.6,
+      "fiber": 4.4,
+      "sugar": 11.4,
+      "sodium": 147,
+      "protein_pct": 35.2,
+      "carbs_pct": 40.2,
+      "fat_pct": 24.5
+    },
+    {
+      "date": "2022-03-29",
+      "calories": 1205,
+      "protein": 75.1,
+      "carbs": 132.0,
+      "fat": 46.5,
+      "fiber": 20.2,
+      "sugar": 27.4,
+      "sodium": 987,
+      "protein_pct": 24.1,
+      "carbs_pct": 42.3,
+      "fat_pct": 33.6
+    },
+    {
+      "date": "2022-03-30",
+      "calories": 1454,
+      "protein": 103.2,
+      "carbs": 145.3,
+      "fat": 54.1,
+      "fiber": 16.9,
+      "sugar": 28.7,
+      "sodium": 1556,
+      "protein_pct": 27.9,
+      "carbs_pct": 39.2,
+      "fat_pct": 32.9
+    },
+    {
+      "date": "2022-03-31",
+      "calories": 1506,
+      "protein": 97.7,
+      "carbs": 150.4,
+      "fat": 45.7,
+      "fiber": 10.3,
+      "sugar": 47.9,
+      "sodium": 2222,
+      "protein_pct": 27.8,
+      "carbs_pct": 42.9,
+      "fat_pct": 29.3
+    },
+    {
+      "date": "2022-04-01",
+      "calories": 535,
+      "protein": 22.8,
+      "carbs": 72.1,
+      "fat": 19.4,
+      "fiber": 8.9,
+      "sugar": 23.0,
+      "sodium": 71,
+      "protein_pct": 16.5,
+      "carbs_pct": 52.0,
+      "fat_pct": 31.5
+    },
+    {
+      "date": "2022-04-02",
+      "calories": 1366,
+      "protein": 52.6,
+      "carbs": 130.2,
+      "fat": 36.4,
+      "fiber": 14.1,
+      "sugar": 11.4,
+      "sodium": 75,
+      "protein_pct": 19.9,
+      "carbs_pct": 49.2,
+      "fat_pct": 30.9
+    },
+    {
+      "date": "2022-04-03",
+      "calories": 1609,
+      "protein": 104.2,
+      "carbs": 134.0,
+      "fat": 59.8,
+      "fiber": 12.1,
+      "sugar": 12.2,
+      "sodium": 505,
+      "protein_pct": 28.0,
+      "carbs_pct": 35.9,
+      "fat_pct": 36.1
+    },
+    {
+      "date": "2022-04-04",
+      "calories": 1278,
+      "protein": 45.1,
+      "carbs": 129.4,
+      "fat": 32.4,
+      "fiber": 10.2,
+      "sugar": 9.9,
+      "sodium": 722,
+      "protein_pct": 18.2,
+      "carbs_pct": 52.3,
+      "fat_pct": 29.5
+    },
+    {
+      "date": "2022-04-05",
+      "calories": 1571,
+      "protein": 115.0,
+      "carbs": 125.5,
+      "fat": 39.2,
+      "fiber": 12.3,
+      "sugar": 29.8,
+      "sodium": 520,
+      "protein_pct": 35.0,
+      "carbs_pct": 38.2,
+      "fat_pct": 26.8
+    },
+    {
+      "date": "2022-04-06",
+      "calories": 1371,
+      "protein": 79.6,
+      "carbs": 133.2,
+      "fat": 35.0,
+      "fiber": 15.0,
+      "sugar": 25.3,
+      "sodium": 6,
+      "protein_pct": 27.3,
+      "carbs_pct": 45.7,
+      "fat_pct": 27.0
+    },
+    {
+      "date": "2022-04-07",
+      "calories": 1214,
+      "protein": 5.8,
+      "carbs": 31.8,
+      "fat": 5.2,
+      "fiber": 4.0,
+      "sugar": 5.8,
+      "sodium": 0,
+      "protein_pct": 11.8,
+      "carbs_pct": 64.5,
+      "fat_pct": 23.7
+    },
+    {
+      "date": "2022-04-08",
+      "calories": 332,
+      "protein": 17.7,
+      "carbs": 54.5,
+      "fat": 5.8,
+      "fiber": 5.2,
+      "sugar": 23.1,
+      "sodium": 40,
+      "protein_pct": 20.8,
+      "carbs_pct": 63.9,
+      "fat_pct": 15.3
+    },
+    {
+      "date": "2022-04-09",
+      "calories": 482,
+      "protein": 17.7,
+      "carbs": 54.5,
+      "fat": 5.8,
+      "fiber": 5.2,
+      "sugar": 23.1,
+      "sodium": 40,
+      "protein_pct": 20.8,
+      "carbs_pct": 63.9,
+      "fat_pct": 15.3
+    },
+    {
+      "date": "2022-04-12",
+      "calories": 1067,
+      "protein": 19.5,
+      "carbs": 50.3,
+      "fat": 39.1,
+      "fiber": 7.9,
+      "sugar": 4.2,
+      "sodium": 712,
+      "protein_pct": 12.4,
+      "carbs_pct": 31.9,
+      "fat_pct": 55.8
+    },
+    {
+      "date": "2022-04-13",
+      "calories": 648,
+      "protein": 38.3,
+      "carbs": 75.7,
+      "fat": 22.6,
+      "fiber": 7.5,
+      "sugar": 22.1,
+      "sodium": 474,
+      "protein_pct": 23.2,
+      "carbs_pct": 45.9,
+      "fat_pct": 30.8
+    },
+    {
+      "date": "2022-05-11",
+      "calories": 762,
+      "protein": 26.3,
+      "carbs": 9.0,
+      "fat": 29.5,
+      "fiber": 5.2,
+      "sugar": 1.7,
+      "sodium": 470,
+      "protein_pct": 25.9,
+      "carbs_pct": 8.9,
+      "fat_pct": 65.3
+    },
+    {
+      "date": "2022-05-12",
+      "calories": 1051,
+      "protein": 57.1,
+      "carbs": 94.6,
+      "fat": 48.2,
+      "fiber": 11.6,
+      "sugar": 47.4,
+      "sodium": 537,
+      "protein_pct": 21.9,
+      "carbs_pct": 36.4,
+      "fat_pct": 41.7
+    },
+    {
+      "date": "2022-05-13",
+      "calories": 324,
+      "protein": 11.6,
+      "carbs": 31.3,
+      "fat": 17.8,
+      "fiber": 5.0,
+      "sugar": 7.4,
+      "sodium": 5,
+      "protein_pct": 14.0,
+      "carbs_pct": 37.7,
+      "fat_pct": 48.3
+    },
+    {
+      "date": "2022-05-16",
+      "calories": 247,
+      "protein": 15.7,
+      "carbs": 38.2,
+      "fat": 4.1,
+      "fiber": 4.0,
+      "sugar": 12.1,
+      "sodium": 40,
+      "protein_pct": 24.9,
+      "carbs_pct": 60.5,
+      "fat_pct": 14.6
+    },
+    {
+      "date": "2022-05-17",
+      "calories": 342,
+      "protein": 16.5,
+      "carbs": 49.1,
+      "fat": 4.4,
+      "fiber": 6.4,
+      "sugar": 19.3,
+      "sodium": 41,
+      "protein_pct": 21.9,
+      "carbs_pct": 65.0,
+      "fat_pct": 13.1
+    },
+    {
+      "date": "2022-05-19",
+      "calories": 736,
+      "protein": 26.3,
+      "carbs": 94.4,
+      "fat": 28.8,
+      "fiber": 8.0,
+      "sugar": 40.8,
+      "sodium": 859,
+      "protein_pct": 14.2,
+      "carbs_pct": 50.9,
+      "fat_pct": 34.9
+    },
+    {
+      "date": "2022-05-20",
+      "calories": 312,
+      "protein": 25.1,
+      "carbs": 26.1,
+      "fat": 12.7,
+      "fiber": 1.9,
+      "sugar": 3.3,
+      "sodium": 65,
+      "protein_pct": 31.5,
+      "carbs_pct": 32.7,
+      "fat_pct": 35.8
+    },
+    {
+      "date": "2022-05-24",
+      "calories": 403,
+      "protein": 18.0,
+      "carbs": 57.4,
+      "fat": 12.1,
+      "fiber": 7.5,
+      "sugar": 13.6,
+      "sodium": 177,
+      "protein_pct": 17.5,
+      "carbs_pct": 55.9,
+      "fat_pct": 26.5
+    },
+    {
+      "date": "2022-06-16",
+      "calories": 1444,
+      "protein": 93.4,
+      "carbs": 186.7,
+      "fat": 41.5,
+      "fiber": 18.4,
+      "sugar": 61.7,
+      "sodium": 1061,
+      "protein_pct": 25.0,
+      "carbs_pct": 50.0,
+      "fat_pct": 25.0
+    },
+    {
+      "date": "2022-06-17",
+      "calories": 569,
+      "protein": 27.5,
+      "carbs": 59.8,
+      "fat": 25.5,
+      "fiber": 3.3,
+      "sugar": 2.0,
+      "sodium": 970,
+      "protein_pct": 19.0,
+      "carbs_pct": 41.3,
+      "fat_pct": 39.7
+    },
+    {
+      "date": "2022-06-20",
+      "calories": 880,
+      "protein": 39.9,
+      "carbs": 59.3,
+      "fat": 34.4,
+      "fiber": 0.0,
+      "sugar": 4.4,
+      "sodium": 132,
+      "protein_pct": 22.6,
+      "carbs_pct": 33.6,
+      "fat_pct": 43.8
+    },
+    {
+      "date": "2022-06-21",
+      "calories": 691,
+      "protein": 6.0,
+      "carbs": 1.0,
+      "fat": 5.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 65,
+      "protein_pct": 32.9,
+      "carbs_pct": 5.5,
+      "fat_pct": 61.6
+    },
+    {
+      "date": "2022-06-22",
+      "calories": 958,
+      "protein": 59.1,
+      "carbs": 38.4,
+      "fat": 26.6,
+      "fiber": 0.9,
+      "sugar": 34.5,
+      "sodium": 230,
+      "protein_pct": 37.6,
+      "carbs_pct": 24.4,
+      "fat_pct": 38.0
+    },
+    {
+      "date": "2022-06-23",
+      "calories": 699,
+      "protein": 25.8,
+      "carbs": 73.5,
+      "fat": 21.8,
+      "fiber": 2.9,
+      "sugar": 8.5,
+      "sodium": 950,
+      "protein_pct": 17.4,
+      "carbs_pct": 49.5,
+      "fat_pct": 33.1
+    },
+    {
+      "date": "2022-06-24",
+      "calories": 1034,
+      "protein": 25.3,
+      "carbs": 47.0,
+      "fat": 36.6,
+      "fiber": 1.0,
+      "sugar": 6.2,
+      "sodium": 0,
+      "protein_pct": 16.4,
+      "carbs_pct": 30.4,
+      "fat_pct": 53.2
+    },
+    {
+      "date": "2022-06-27",
+      "calories": 308,
+      "protein": 12.0,
+      "carbs": 2.0,
+      "fat": 10.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 130,
+      "protein_pct": 32.9,
+      "carbs_pct": 5.5,
+      "fat_pct": 61.6
+    },
+    {
+      "date": "2022-06-28",
+      "calories": 1623,
+      "protein": 27.7,
+      "carbs": 20.9,
+      "fat": 17.6,
+      "fiber": 1.2,
+      "sugar": 1.6,
+      "sodium": 130,
+      "protein_pct": 31.4,
+      "carbs_pct": 23.7,
+      "fat_pct": 44.9
+    },
+    {
+      "date": "2022-06-29",
+      "calories": 1808,
+      "protein": 126.4,
+      "carbs": 181.8,
+      "fat": 62.6,
+      "fiber": 0.5,
+      "sugar": 12.4,
+      "sodium": 2988,
+      "protein_pct": 28.1,
+      "carbs_pct": 40.5,
+      "fat_pct": 31.4
+    },
+    {
+      "date": "2022-06-30",
+      "calories": 1737,
+      "protein": 97.7,
+      "carbs": 163.3,
+      "fat": 48.8,
+      "fiber": 5.6,
+      "sugar": 8.6,
+      "sodium": 1037,
+      "protein_pct": 26.3,
+      "carbs_pct": 44.0,
+      "fat_pct": 29.6
+    },
+    {
+      "date": "2022-07-01",
+      "calories": 1814,
+      "protein": 101.9,
+      "carbs": 160.8,
+      "fat": 54.2,
+      "fiber": 5.4,
+      "sugar": 13.9,
+      "sodium": 271,
+      "protein_pct": 26.5,
+      "carbs_pct": 41.8,
+      "fat_pct": 31.7
+    },
+    {
+      "date": "2022-07-02",
+      "calories": 105,
+      "protein": 1.3,
+      "carbs": 27.0,
+      "fat": 0.4,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 4.5,
+      "carbs_pct": 92.5,
+      "fat_pct": 3.1
+    },
+    {
+      "date": "2022-07-04",
+      "calories": 954,
+      "protein": 70.6,
+      "carbs": 59.1,
+      "fat": 39.2,
+      "fiber": 1.0,
+      "sugar": 0.6,
+      "sodium": 619,
+      "protein_pct": 32.4,
+      "carbs_pct": 27.1,
+      "fat_pct": 40.5
+    },
+    {
+      "date": "2022-07-05",
+      "calories": 1156,
+      "protein": 75.5,
+      "carbs": 147.3,
+      "fat": 30.2,
+      "fiber": 6.8,
+      "sugar": 19.3,
+      "sodium": 59,
+      "protein_pct": 26.0,
+      "carbs_pct": 50.7,
+      "fat_pct": 23.4
+    },
+    {
+      "date": "2022-07-06",
+      "calories": 1722,
+      "protein": 107.9,
+      "carbs": 161.2,
+      "fat": 51.2,
+      "fiber": 5.4,
+      "sugar": 15.0,
+      "sodium": 717,
+      "protein_pct": 28.1,
+      "carbs_pct": 41.9,
+      "fat_pct": 30.0
+    },
+    {
+      "date": "2022-07-07",
+      "calories": 2740,
+      "protein": 45.0,
+      "carbs": 120.8,
+      "fat": 35.4,
+      "fiber": 11.3,
+      "sugar": 15.0,
+      "sodium": 1,
+      "protein_pct": 18.3,
+      "carbs_pct": 49.2,
+      "fat_pct": 32.5
+    },
+    {
+      "date": "2022-07-08",
+      "calories": 1881,
+      "protein": 103.2,
+      "carbs": 144.2,
+      "fat": 30.4,
+      "fiber": 10.7,
+      "sugar": 36.9,
+      "sodium": 403,
+      "protein_pct": 32.7,
+      "carbs_pct": 45.7,
+      "fat_pct": 21.7
+    },
+    {
+      "date": "2022-07-09",
+      "calories": 1336,
+      "protein": 78.7,
+      "carbs": 166.3,
+      "fat": 36.7,
+      "fiber": 12.9,
+      "sugar": 48.7,
+      "sodium": 137,
+      "protein_pct": 24.0,
+      "carbs_pct": 50.8,
+      "fat_pct": 25.2
+    },
+    {
+      "date": "2022-07-11",
+      "calories": 913,
+      "protein": 43.0,
+      "carbs": 130.4,
+      "fat": 24.4,
+      "fiber": 4.1,
+      "sugar": 30.3,
+      "sodium": 1,
+      "protein_pct": 18.8,
+      "carbs_pct": 57.1,
+      "fat_pct": 24.0
+    },
+    {
+      "date": "2022-07-12",
+      "calories": 1414,
+      "protein": 86.0,
+      "carbs": 109.7,
+      "fat": 43.4,
+      "fiber": 2.8,
+      "sugar": 5.6,
+      "sodium": 166,
+      "protein_pct": 29.3,
+      "carbs_pct": 37.4,
+      "fat_pct": 33.3
+    },
+    {
+      "date": "2022-07-13",
+      "calories": 1138,
+      "protein": 17.3,
+      "carbs": 35.7,
+      "fat": 14.3,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 130,
+      "protein_pct": 20.3,
+      "carbs_pct": 41.9,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2022-07-18",
+      "calories": 697,
+      "protein": 1.2,
+      "carbs": 17.2,
+      "fat": 2.0,
+      "fiber": 0.0,
+      "sugar": 12.8,
+      "sodium": 0,
+      "protein_pct": 5.2,
+      "carbs_pct": 75.1,
+      "fat_pct": 19.7
+    },
+    {
+      "date": "2022-08-31",
+      "calories": 474,
+      "protein": 56.7,
+      "carbs": 42.2,
+      "fat": 6.5,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 125,
+      "protein_pct": 49.9,
+      "carbs_pct": 37.2,
+      "fat_pct": 12.9
+    },
+    {
+      "date": "2022-10-13",
+      "calories": 1033,
+      "protein": 56.8,
+      "carbs": 108.5,
+      "fat": 44.1,
+      "fiber": 12.1,
+      "sugar": 26.5,
+      "sodium": 571,
+      "protein_pct": 21.5,
+      "carbs_pct": 41.0,
+      "fat_pct": 37.5
+    },
+    {
+      "date": "2023-01-19",
+      "calories": 1514,
+      "protein": 2.8,
+      "carbs": 30.8,
+      "fat": 4.5,
+      "fiber": 2.3,
+      "sugar": 24.8,
+      "sodium": 30,
+      "protein_pct": 6.4,
+      "carbs_pct": 70.4,
+      "fat_pct": 23.2
+    },
+    {
+      "date": "2023-01-20",
+      "calories": 870,
+      "protein": 24.8,
+      "carbs": 155.2,
+      "fat": 20.5,
+      "fiber": 8.6,
+      "sugar": 64.9,
+      "sodium": 272,
+      "protein_pct": 11.0,
+      "carbs_pct": 68.6,
+      "fat_pct": 20.4
+    },
+    {
+      "date": "2023-01-24",
+      "calories": 1400,
+      "protein": 33.0,
+      "carbs": 58.3,
+      "fat": 19.7,
+      "fiber": 3.6,
+      "sugar": 22.0,
+      "sodium": 1,
+      "protein_pct": 24.3,
+      "carbs_pct": 43.0,
+      "fat_pct": 32.7
+    },
+    {
+      "date": "2023-01-25",
+      "calories": 1306,
+      "protein": 7.0,
+      "carbs": 11.4,
+      "fat": 5.0,
+      "fiber": 0.5,
+      "sugar": 0.6,
+      "sodium": 124,
+      "protein_pct": 23.6,
+      "carbs_pct": 38.4,
+      "fat_pct": 37.9
+    },
+    {
+      "date": "2023-02-01",
+      "calories": 827,
+      "protein": 61.4,
+      "carbs": 72.2,
+      "fat": 36.1,
+      "fiber": 10.5,
+      "sugar": 14.8,
+      "sodium": 178,
+      "protein_pct": 28.6,
+      "carbs_pct": 33.6,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2023-02-13",
+      "calories": 1606,
+      "protein": 99.1,
+      "carbs": 217.0,
+      "fat": 45.2,
+      "fiber": 23.8,
+      "sugar": 51.0,
+      "sodium": 2070,
+      "protein_pct": 23.7,
+      "carbs_pct": 51.9,
+      "fat_pct": 24.3
+    },
+    {
+      "date": "2023-02-14",
+      "calories": 1827,
+      "protein": 103.3,
+      "carbs": 153.0,
+      "fat": 54.1,
+      "fiber": 9.6,
+      "sugar": 5.3,
+      "sodium": 149,
+      "protein_pct": 27.3,
+      "carbs_pct": 40.5,
+      "fat_pct": 32.2
+    },
+    {
+      "date": "2023-02-15",
+      "calories": 1782,
+      "protein": 96.1,
+      "carbs": 120.5,
+      "fat": 55.3,
+      "fiber": 4.0,
+      "sugar": 28.7,
+      "sodium": 1104,
+      "protein_pct": 28.2,
+      "carbs_pct": 35.3,
+      "fat_pct": 36.5
+    },
+    {
+      "date": "2023-02-16",
+      "calories": 988,
+      "protein": 28.7,
+      "carbs": 56.7,
+      "fat": 6.8,
+      "fiber": 6.2,
+      "sugar": 31.2,
+      "sodium": 2,
+      "protein_pct": 28.5,
+      "carbs_pct": 56.3,
+      "fat_pct": 15.2
+    },
+    {
+      "date": "2023-02-17",
+      "calories": 1037,
+      "protein": 63.7,
+      "carbs": 107.8,
+      "fat": 42.2,
+      "fiber": 10.0,
+      "sugar": 27.4,
+      "sodium": 808,
+      "protein_pct": 23.9,
+      "carbs_pct": 40.5,
+      "fat_pct": 35.6
+    },
+    {
+      "date": "2023-02-18",
+      "calories": 409,
+      "protein": 15.0,
+      "carbs": 67.6,
+      "fat": 10.3,
+      "fiber": 5.8,
+      "sugar": 25.7,
+      "sodium": 102,
+      "protein_pct": 14.2,
+      "carbs_pct": 63.9,
+      "fat_pct": 21.9
+    },
+    {
+      "date": "2023-02-20",
+      "calories": 310,
+      "protein": 11.2,
+      "carbs": 50.4,
+      "fat": 8.1,
+      "fiber": 3.9,
+      "sugar": 22.5,
+      "sodium": 81,
+      "protein_pct": 14.0,
+      "carbs_pct": 63.1,
+      "fat_pct": 22.8
+    },
+    {
+      "date": "2023-03-21",
+      "calories": 1259,
+      "protein": 86.1,
+      "carbs": 126.9,
+      "fat": 47.9,
+      "fiber": 17.7,
+      "sugar": 48.7,
+      "sodium": 782,
+      "protein_pct": 26.8,
+      "carbs_pct": 39.6,
+      "fat_pct": 33.6
+    },
+    {
+      "date": "2023-03-22",
+      "calories": 590,
+      "protein": 35.7,
+      "carbs": 54.5,
+      "fat": 27.0,
+      "fiber": 3.3,
+      "sugar": 28.1,
+      "sodium": 407,
+      "protein_pct": 23.7,
+      "carbs_pct": 36.1,
+      "fat_pct": 40.2
+    },
+    {
+      "date": "2023-03-23",
+      "calories": 1433,
+      "protein": 75.7,
+      "carbs": 157.9,
+      "fat": 56.9,
+      "fiber": 10.2,
+      "sugar": 33.1,
+      "sodium": 690,
+      "protein_pct": 20.9,
+      "carbs_pct": 43.7,
+      "fat_pct": 35.4
+    },
+    {
+      "date": "2023-03-24",
+      "calories": 619,
+      "protein": 33.1,
+      "carbs": 96.1,
+      "fat": 13.4,
+      "fiber": 5.9,
+      "sugar": 37.1,
+      "sodium": 239,
+      "protein_pct": 20.8,
+      "carbs_pct": 60.3,
+      "fat_pct": 18.9
+    },
+    {
+      "date": "2023-03-25",
+      "calories": 437,
+      "protein": 27.3,
+      "carbs": 39.6,
+      "fat": 19.5,
+      "fiber": 3.3,
+      "sugar": 19.3,
+      "sodium": 130,
+      "protein_pct": 24.6,
+      "carbs_pct": 35.7,
+      "fat_pct": 39.6
+    },
+    {
+      "date": "2023-04-27",
+      "calories": 723,
+      "protein": 24.7,
+      "carbs": 68.0,
+      "fat": 14.9,
+      "fiber": 0.0,
+      "sugar": 41.5,
+      "sodium": 170,
+      "protein_pct": 19.6,
+      "carbs_pct": 53.9,
+      "fat_pct": 26.6
+    },
+    {
+      "date": "2023-05-02",
+      "calories": 1265,
+      "protein": 108.6,
+      "carbs": 111.5,
+      "fat": 43.0,
+      "fiber": 6.6,
+      "sugar": 11.8,
+      "sodium": 690,
+      "protein_pct": 34.3,
+      "carbs_pct": 35.2,
+      "fat_pct": 30.5
+    },
+    {
+      "date": "2023-05-03",
+      "calories": 1461,
+      "protein": 125.8,
+      "carbs": 137.5,
+      "fat": 47.7,
+      "fiber": 17.4,
+      "sugar": 3.7,
+      "sodium": 769,
+      "protein_pct": 33.9,
+      "carbs_pct": 37.1,
+      "fat_pct": 29.0
+    },
+    {
+      "date": "2023-05-04",
+      "calories": 750,
+      "protein": 38.0,
+      "carbs": 73.0,
+      "fat": 2.7,
+      "fiber": 9.0,
+      "sugar": 3.0,
+      "sodium": 0,
+      "protein_pct": 32.5,
+      "carbs_pct": 62.4,
+      "fat_pct": 5.2
+    },
+    {
+      "date": "2023-05-29",
+      "calories": 391,
+      "protein": 36.3,
+      "carbs": 40.4,
+      "fat": 10.4,
+      "fiber": 2.3,
+      "sugar": 7.1,
+      "sodium": 210,
+      "protein_pct": 36.3,
+      "carbs_pct": 40.4,
+      "fat_pct": 23.4
+    },
+    {
+      "date": "2023-06-21",
+      "calories": 690,
+      "protein": 28.3,
+      "carbs": 47.0,
+      "fat": 46.9,
+      "fiber": 9.9,
+      "sugar": 2.7,
+      "sodium": 517,
+      "protein_pct": 15.7,
+      "carbs_pct": 26.0,
+      "fat_pct": 58.4
+    },
+    {
+      "date": "2023-06-23",
+      "calories": 1023,
+      "protein": 56.6,
+      "carbs": 113.0,
+      "fat": 39.3,
+      "fiber": 2.3,
+      "sugar": 37.3,
+      "sodium": 1175,
+      "protein_pct": 21.9,
+      "carbs_pct": 43.8,
+      "fat_pct": 34.3
+    },
+    {
+      "date": "2023-06-27",
+      "calories": 155,
+      "protein": 12.9,
+      "carbs": 27.3,
+      "fat": 0.8,
+      "fiber": 5.3,
+      "sugar": 18.6,
+      "sodium": 2,
+      "protein_pct": 30.7,
+      "carbs_pct": 65.0,
+      "fat_pct": 4.3
+    },
+    {
+      "date": "2023-06-29",
+      "calories": 340,
+      "protein": 3.6,
+      "carbs": 18.2,
+      "fat": 28.2,
+      "fiber": 0.0,
+      "sugar": 12.2,
+      "sodium": 0,
+      "protein_pct": 4.2,
+      "carbs_pct": 21.3,
+      "fat_pct": 74.4
+    },
+    {
+      "date": "2023-07-06",
+      "calories": 479,
+      "protein": 33.3,
+      "carbs": 61.0,
+      "fat": 15.3,
+      "fiber": 5.0,
+      "sugar": 5.5,
+      "sodium": 837,
+      "protein_pct": 25.9,
+      "carbs_pct": 47.4,
+      "fat_pct": 26.7
+    },
+    {
+      "date": "2023-07-12",
+      "calories": 531,
+      "protein": 35.7,
+      "carbs": 48.9,
+      "fat": 22.2,
+      "fiber": 3.0,
+      "sugar": 4.4,
+      "sodium": 396,
+      "protein_pct": 26.5,
+      "carbs_pct": 36.3,
+      "fat_pct": 37.1
+    },
+    {
+      "date": "2023-07-18",
+      "calories": 798,
+      "protein": 36.1,
+      "carbs": 110.0,
+      "fat": 24.2,
+      "fiber": 3.4,
+      "sugar": 48.6,
+      "sodium": 980,
+      "protein_pct": 18.0,
+      "carbs_pct": 54.8,
+      "fat_pct": 27.2
+    },
+    {
+      "date": "2023-08-23",
+      "calories": 987,
+      "protein": 56.6,
+      "carbs": 121.9,
+      "fat": 34.6,
+      "fiber": 7.7,
+      "sugar": 8.9,
+      "sodium": 1711,
+      "protein_pct": 22.1,
+      "carbs_pct": 47.6,
+      "fat_pct": 30.4
+    },
+    {
+      "date": "2023-08-24",
+      "calories": 518,
+      "protein": 35.1,
+      "carbs": 55.8,
+      "fat": 20.4,
+      "fiber": 4.8,
+      "sugar": 3.6,
+      "sodium": 632,
+      "protein_pct": 25.7,
+      "carbs_pct": 40.8,
+      "fat_pct": 33.6
+    },
+    {
+      "date": "2023-09-06",
+      "calories": 570,
+      "protein": 45.9,
+      "carbs": 44.8,
+      "fat": 24.6,
+      "fiber": 4.0,
+      "sugar": 9.3,
+      "sodium": 346,
+      "protein_pct": 31.4,
+      "carbs_pct": 30.7,
+      "fat_pct": 37.9
+    },
+    {
+      "date": "2023-09-08",
+      "calories": 821,
+      "protein": 68.4,
+      "carbs": 58.5,
+      "fat": 37.3,
+      "fiber": 8.0,
+      "sugar": 4.9,
+      "sodium": 644,
+      "protein_pct": 32.4,
+      "carbs_pct": 27.7,
+      "fat_pct": 39.8
+    },
+    {
+      "date": "2023-09-21",
+      "calories": 943,
+      "protein": 68.5,
+      "carbs": 98.0,
+      "fat": 32.3,
+      "fiber": 8.6,
+      "sugar": 12.6,
+      "sodium": 1274,
+      "protein_pct": 28.6,
+      "carbs_pct": 41.0,
+      "fat_pct": 30.4
+    },
+    {
+      "date": "2023-09-22",
+      "calories": 1799,
+      "protein": 134.4,
+      "carbs": 198.9,
+      "fat": 53.6,
+      "fiber": 17.5,
+      "sugar": 32.4,
+      "sodium": 1748,
+      "protein_pct": 29.6,
+      "carbs_pct": 43.8,
+      "fat_pct": 26.6
+    },
+    {
+      "date": "2023-09-23",
+      "calories": 214,
+      "protein": 21.0,
+      "carbs": 27.0,
+      "fat": 3.3,
+      "fiber": 2.9,
+      "sugar": 15.4,
+      "sodium": 1,
+      "protein_pct": 37.9,
+      "carbs_pct": 48.7,
+      "fat_pct": 13.4
+    },
+    {
+      "date": "2023-09-24",
+      "calories": 581,
+      "protein": 48.6,
+      "carbs": 31.4,
+      "fat": 30.9,
+      "fiber": 4.0,
+      "sugar": 2.6,
+      "sodium": 574,
+      "protein_pct": 32.5,
+      "carbs_pct": 21.0,
+      "fat_pct": 46.5
+    },
+    {
+      "date": "2023-09-25",
+      "calories": 1421,
+      "protein": 100.9,
+      "carbs": 139.0,
+      "fat": 54.4,
+      "fiber": 8.3,
+      "sugar": 47.3,
+      "sodium": 685,
+      "protein_pct": 27.8,
+      "carbs_pct": 38.4,
+      "fat_pct": 33.8
+    },
+    {
+      "date": "2023-09-26",
+      "calories": 1446,
+      "protein": 100.1,
+      "carbs": 154.6,
+      "fat": 48.0,
+      "fiber": 8.0,
+      "sugar": 43.3,
+      "sodium": 1041,
+      "protein_pct": 27.6,
+      "carbs_pct": 42.6,
+      "fat_pct": 29.8
+    },
+    {
+      "date": "2023-09-27",
+      "calories": 509,
+      "protein": 53.4,
+      "carbs": 38.5,
+      "fat": 15.0,
+      "fiber": 2.3,
+      "sugar": 6.0,
+      "sodium": 413,
+      "protein_pct": 42.5,
+      "carbs_pct": 30.6,
+      "fat_pct": 26.9
+    },
+    {
+      "date": "2023-09-28",
+      "calories": 2288,
+      "protein": 87.4,
+      "carbs": 277.9,
+      "fat": 96.1,
+      "fiber": 20.0,
+      "sugar": 49.4,
+      "sodium": 2785,
+      "protein_pct": 15.0,
+      "carbs_pct": 47.8,
+      "fat_pct": 37.2
+    },
+    {
+      "date": "2023-09-29",
+      "calories": 1135,
+      "protein": 83.2,
+      "carbs": 111.3,
+      "fat": 39.9,
+      "fiber": 7.4,
+      "sugar": 26.2,
+      "sodium": 407,
+      "protein_pct": 29.3,
+      "carbs_pct": 39.2,
+      "fat_pct": 31.6
+    },
+    {
+      "date": "2023-09-30",
+      "calories": 1485,
+      "protein": 50.9,
+      "carbs": 74.6,
+      "fat": 30.7,
+      "fiber": 2.8,
+      "sugar": 5.9,
+      "sodium": 420,
+      "protein_pct": 26.2,
+      "carbs_pct": 38.3,
+      "fat_pct": 35.5
+    },
+    {
+      "date": "2023-10-01",
+      "calories": 1057,
+      "protein": 29.1,
+      "carbs": 171.4,
+      "fat": 61.6,
+      "fiber": 2.9,
+      "sugar": 88.9,
+      "sodium": 697,
+      "protein_pct": 8.6,
+      "carbs_pct": 50.5,
+      "fat_pct": 40.9
+    },
+    {
+      "date": "2023-10-02",
+      "calories": 534,
+      "protein": 47.9,
+      "carbs": 46.1,
+      "fat": 17.2,
+      "fiber": 2.8,
+      "sugar": 6.0,
+      "sodium": 414,
+      "protein_pct": 36.1,
+      "carbs_pct": 34.7,
+      "fat_pct": 29.2
+    },
+    {
+      "date": "2023-10-03",
+      "calories": 905,
+      "protein": 62.6,
+      "carbs": 103.4,
+      "fat": 26.6,
+      "fiber": 0.5,
+      "sugar": 25.1,
+      "sodium": 65,
+      "protein_pct": 27.7,
+      "carbs_pct": 45.8,
+      "fat_pct": 26.5
+    },
+    {
+      "date": "2023-10-04",
+      "calories": 534,
+      "protein": 47.9,
+      "carbs": 46.1,
+      "fat": 17.2,
+      "fiber": 2.8,
+      "sugar": 6.0,
+      "sodium": 414,
+      "protein_pct": 36.1,
+      "carbs_pct": 34.7,
+      "fat_pct": 29.2
+    },
+    {
+      "date": "2023-10-05",
+      "calories": 1398,
+      "protein": 115.3,
+      "carbs": 132.2,
+      "fat": 43.3,
+      "fiber": 4.7,
+      "sugar": 9.6,
+      "sodium": 528,
+      "protein_pct": 33.4,
+      "carbs_pct": 38.3,
+      "fat_pct": 28.2
+    },
+    {
+      "date": "2023-10-06",
+      "calories": 1547,
+      "protein": 117.3,
+      "carbs": 185.8,
+      "fat": 36.8,
+      "fiber": 7.7,
+      "sugar": 57.0,
+      "sodium": 709,
+      "protein_pct": 30.4,
+      "carbs_pct": 48.1,
+      "fat_pct": 21.5
+    },
+    {
+      "date": "2023-10-07",
+      "calories": 1698,
+      "protein": 112.7,
+      "carbs": 187.5,
+      "fat": 55.8,
+      "fiber": 10.7,
+      "sugar": 37.9,
+      "sodium": 1548,
+      "protein_pct": 26.5,
+      "carbs_pct": 44.0,
+      "fat_pct": 29.5
+    },
+    {
+      "date": "2023-10-08",
+      "calories": 1437,
+      "protein": 109.4,
+      "carbs": 128.0,
+      "fat": 53.2,
+      "fiber": 8.6,
+      "sugar": 40.4,
+      "sodium": 502,
+      "protein_pct": 30.6,
+      "carbs_pct": 35.8,
+      "fat_pct": 33.5
+    },
+    {
+      "date": "2023-10-09",
+      "calories": 1446,
+      "protein": 91.3,
+      "carbs": 169.6,
+      "fat": 43.6,
+      "fiber": 12.9,
+      "sugar": 52.6,
+      "sodium": 1330,
+      "protein_pct": 25.4,
+      "carbs_pct": 47.2,
+      "fat_pct": 27.3
+    },
+    {
+      "date": "2023-10-10",
+      "calories": 856,
+      "protein": 62.6,
+      "carbs": 89.2,
+      "fat": 26.7,
+      "fiber": 2.8,
+      "sugar": 36.8,
+      "sodium": 705,
+      "protein_pct": 29.5,
+      "carbs_pct": 42.1,
+      "fat_pct": 28.4
+    },
+    {
+      "date": "2023-10-11",
+      "calories": 717,
+      "protein": 48.5,
+      "carbs": 90.1,
+      "fat": 17.8,
+      "fiber": 3.1,
+      "sugar": 14.1,
+      "sodium": 197,
+      "protein_pct": 27.1,
+      "carbs_pct": 50.4,
+      "fat_pct": 22.4
+    },
+    {
+      "date": "2023-10-12",
+      "calories": 1000,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 0.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 0.0
+    },
+    {
+      "date": "2023-10-13",
+      "calories": 899,
+      "protein": 21.3,
+      "carbs": 107.7,
+      "fat": 44.2,
+      "fiber": 8.0,
+      "sugar": 28.2,
+      "sodium": 1310,
+      "protein_pct": 9.3,
+      "carbs_pct": 47.1,
+      "fat_pct": 43.5
+    },
+    {
+      "date": "2023-10-16",
+      "calories": 1017,
+      "protein": 43.4,
+      "carbs": 140.5,
+      "fat": 31.1,
+      "fiber": 0.0,
+      "sugar": 1.8,
+      "sodium": 2,
+      "protein_pct": 17.1,
+      "carbs_pct": 55.3,
+      "fat_pct": 27.6
+    },
+    {
+      "date": "2023-12-31",
+      "calories": 175,
+      "protein": 20.0,
+      "carbs": 16.1,
+      "fat": 3.5,
+      "fiber": 0.0,
+      "sugar": 15.4,
+      "sodium": 0,
+      "protein_pct": 45.5,
+      "carbs_pct": 36.6,
+      "fat_pct": 17.9
+    },
+    {
+      "date": "2024-01-02",
+      "calories": 347,
+      "protein": 5.4,
+      "carbs": 49.9,
+      "fat": 13.2,
+      "fiber": 0.5,
+      "sugar": 5.8,
+      "sodium": 67,
+      "protein_pct": 6.4,
+      "carbs_pct": 58.7,
+      "fat_pct": 34.9
+    },
+    {
+      "date": "2024-01-03",
+      "calories": 1187,
+      "protein": 135.3,
+      "carbs": 91.1,
+      "fat": 30.8,
+      "fiber": 6.2,
+      "sugar": 6.2,
+      "sodium": 170,
+      "protein_pct": 45.8,
+      "carbs_pct": 30.8,
+      "fat_pct": 23.4
+    },
+    {
+      "date": "2024-01-04",
+      "calories": 1705,
+      "protein": 138.4,
+      "carbs": 172.2,
+      "fat": 47.0,
+      "fiber": 6.2,
+      "sugar": 55.7,
+      "sodium": 871,
+      "protein_pct": 33.2,
+      "carbs_pct": 41.4,
+      "fat_pct": 25.4
+    },
+    {
+      "date": "2024-01-05",
+      "calories": 1292,
+      "protein": 80.4,
+      "carbs": 128.1,
+      "fat": 53.1,
+      "fiber": 6.5,
+      "sugar": 26.8,
+      "sodium": 1099,
+      "protein_pct": 24.5,
+      "carbs_pct": 39.1,
+      "fat_pct": 36.4
+    },
+    {
+      "date": "2024-01-07",
+      "calories": 1275,
+      "protein": 53.9,
+      "carbs": 105.9,
+      "fat": 32.1,
+      "fiber": 2.5,
+      "sugar": 28.9,
+      "sodium": 1593,
+      "protein_pct": 23.2,
+      "carbs_pct": 45.6,
+      "fat_pct": 31.1
+    },
+    {
+      "date": "2024-01-08",
+      "calories": 1599,
+      "protein": 139.3,
+      "carbs": 93.3,
+      "fat": 41.6,
+      "fiber": 6.5,
+      "sugar": 8.5,
+      "sodium": 766,
+      "protein_pct": 42.7,
+      "carbs_pct": 28.6,
+      "fat_pct": 28.7
+    },
+    {
+      "date": "2024-01-09",
+      "calories": 1804,
+      "protein": 180.5,
+      "carbs": 149.1,
+      "fat": 53.5,
+      "fiber": 12.8,
+      "sugar": 7.0,
+      "sodium": 822,
+      "protein_pct": 40.1,
+      "carbs_pct": 33.1,
+      "fat_pct": 26.8
+    },
+    {
+      "date": "2024-01-10",
+      "calories": 1514,
+      "protein": 127.8,
+      "carbs": 129.5,
+      "fat": 55.2,
+      "fiber": 7.9,
+      "sugar": 7.5,
+      "sodium": 1071,
+      "protein_pct": 33.5,
+      "carbs_pct": 33.9,
+      "fat_pct": 32.6
+    },
+    {
+      "date": "2024-01-11",
+      "calories": 1446,
+      "protein": 120.0,
+      "carbs": 124.5,
+      "fat": 58.7,
+      "fiber": 11.7,
+      "sugar": 9.6,
+      "sodium": 1390,
+      "protein_pct": 31.9,
+      "carbs_pct": 33.1,
+      "fat_pct": 35.1
+    },
+    {
+      "date": "2024-01-12",
+      "calories": 1218,
+      "protein": 98.8,
+      "carbs": 129.5,
+      "fat": 35.2,
+      "fiber": 9.8,
+      "sugar": 8.0,
+      "sodium": 1320,
+      "protein_pct": 32.1,
+      "carbs_pct": 42.1,
+      "fat_pct": 25.8
+    },
+    {
+      "date": "2024-01-13",
+      "calories": 1775,
+      "protein": 152.3,
+      "carbs": 171.5,
+      "fat": 52.0,
+      "fiber": 5.0,
+      "sugar": 50.2,
+      "sodium": 582,
+      "protein_pct": 34.6,
+      "carbs_pct": 38.9,
+      "fat_pct": 26.5
+    },
+    {
+      "date": "2024-01-14",
+      "calories": 589,
+      "protein": 29.8,
+      "carbs": 84.1,
+      "fat": 15.8,
+      "fiber": 0.0,
+      "sugar": 0.1,
+      "sodium": 360,
+      "protein_pct": 19.9,
+      "carbs_pct": 56.3,
+      "fat_pct": 23.8
+    },
+    {
+      "date": "2024-01-15",
+      "calories": 1594,
+      "protein": 131.5,
+      "carbs": 157.6,
+      "fat": 49.7,
+      "fiber": 13.3,
+      "sugar": 27.7,
+      "sodium": 1248,
+      "protein_pct": 32.8,
+      "carbs_pct": 39.3,
+      "fat_pct": 27.9
+    },
+    {
+      "date": "2024-01-16",
+      "calories": 999,
+      "protein": 61.1,
+      "carbs": 134.5,
+      "fat": 26.9,
+      "fiber": 9.6,
+      "sugar": 13.5,
+      "sodium": 757,
+      "protein_pct": 23.9,
+      "carbs_pct": 52.5,
+      "fat_pct": 23.6
+    },
+    {
+      "date": "2024-01-17",
+      "calories": 1523,
+      "protein": 98.2,
+      "carbs": 154.8,
+      "fat": 59.8,
+      "fiber": 12.9,
+      "sugar": 25.3,
+      "sodium": 144,
+      "protein_pct": 25.3,
+      "carbs_pct": 39.9,
+      "fat_pct": 34.7
+    },
+    {
+      "date": "2024-01-18",
+      "calories": 1577,
+      "protein": 78.0,
+      "carbs": 200.8,
+      "fat": 52.5,
+      "fiber": 6.5,
+      "sugar": 32.7,
+      "sodium": 1210,
+      "protein_pct": 19.7,
+      "carbs_pct": 50.6,
+      "fat_pct": 29.8
+    },
+    {
+      "date": "2024-01-20",
+      "calories": 635,
+      "protein": 26.7,
+      "carbs": 111.0,
+      "fat": 11.6,
+      "fiber": 3.1,
+      "sugar": 14.4,
+      "sodium": 1,
+      "protein_pct": 16.3,
+      "carbs_pct": 67.8,
+      "fat_pct": 15.9
+    },
+    {
+      "date": "2024-01-21",
+      "calories": 591,
+      "protein": 39.8,
+      "carbs": 36.9,
+      "fat": 32.3,
+      "fiber": 1.5,
+      "sugar": 0.7,
+      "sodium": 573,
+      "protein_pct": 26.6,
+      "carbs_pct": 24.7,
+      "fat_pct": 48.7
+    },
+    {
+      "date": "2024-01-22",
+      "calories": 747,
+      "protein": 39.8,
+      "carbs": 90.2,
+      "fat": 28.4,
+      "fiber": 7.3,
+      "sugar": 6.2,
+      "sodium": 1000,
+      "protein_pct": 20.5,
+      "carbs_pct": 46.5,
+      "fat_pct": 33.0
+    },
+    {
+      "date": "2024-01-23",
+      "calories": 1014,
+      "protein": 57.6,
+      "carbs": 135.8,
+      "fat": 29.1,
+      "fiber": 5.7,
+      "sugar": 8.6,
+      "sodium": 759,
+      "protein_pct": 22.3,
+      "carbs_pct": 52.5,
+      "fat_pct": 25.3
+    },
+    {
+      "date": "2024-01-24",
+      "calories": 1136,
+      "protein": 105.7,
+      "carbs": 90.8,
+      "fat": 40.1,
+      "fiber": 6.5,
+      "sugar": 20.6,
+      "sodium": 132,
+      "protein_pct": 36.9,
+      "carbs_pct": 31.7,
+      "fat_pct": 31.5
+    },
+    {
+      "date": "2024-01-25",
+      "calories": 1776,
+      "protein": 88.7,
+      "carbs": 189.8,
+      "fat": 77.2,
+      "fiber": 6.8,
+      "sugar": 33.5,
+      "sodium": 1337,
+      "protein_pct": 19.6,
+      "carbs_pct": 42.0,
+      "fat_pct": 38.4
+    },
+    {
+      "date": "2024-01-26",
+      "calories": 368,
+      "protein": 28.0,
+      "carbs": 30.9,
+      "fat": 16.3,
+      "fiber": 3.7,
+      "sugar": 5.2,
+      "sodium": 0,
+      "protein_pct": 29.3,
+      "carbs_pct": 32.3,
+      "fat_pct": 38.4
+    },
+    {
+      "date": "2024-01-27",
+      "calories": 351,
+      "protein": 27.0,
+      "carbs": 51.8,
+      "fat": 4.7,
+      "fiber": 3.1,
+      "sugar": 30.2,
+      "sodium": 68,
+      "protein_pct": 30.2,
+      "carbs_pct": 58.0,
+      "fat_pct": 11.8
+    },
+    {
+      "date": "2024-01-29",
+      "calories": 1738,
+      "protein": 132.5,
+      "carbs": 178.6,
+      "fat": 51.9,
+      "fiber": 4.9,
+      "sugar": 35.7,
+      "sodium": 1123,
+      "protein_pct": 31.0,
+      "carbs_pct": 41.7,
+      "fat_pct": 27.3
+    },
+    {
+      "date": "2024-01-30",
+      "calories": 612,
+      "protein": 26.0,
+      "carbs": 103.0,
+      "fat": 11.7,
+      "fiber": 0.4,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 16.7,
+      "carbs_pct": 66.3,
+      "fat_pct": 16.9
+    },
+    {
+      "date": "2024-01-31",
+      "calories": 1408,
+      "protein": 135.7,
+      "carbs": 88.4,
+      "fat": 55.3,
+      "fiber": 0.2,
+      "sugar": 1.4,
+      "sodium": 178,
+      "protein_pct": 38.9,
+      "carbs_pct": 25.4,
+      "fat_pct": 35.7
+    },
+    {
+      "date": "2024-02-01",
+      "calories": 1174,
+      "protein": 131.7,
+      "carbs": 49.9,
+      "fat": 48.0,
+      "fiber": 9.2,
+      "sugar": 3.0,
+      "sodium": 263,
+      "protein_pct": 45.5,
+      "carbs_pct": 17.2,
+      "fat_pct": 37.3
+    },
+    {
+      "date": "2024-02-02",
+      "calories": 1635,
+      "protein": 87.5,
+      "carbs": 165.8,
+      "fat": 69.3,
+      "fiber": 2.4,
+      "sugar": 15.0,
+      "sodium": 1006,
+      "protein_pct": 21.4,
+      "carbs_pct": 40.5,
+      "fat_pct": 38.1
+    },
+    {
+      "date": "2024-02-03",
+      "calories": 478,
+      "protein": 31.9,
+      "carbs": 27.5,
+      "fat": 25.6,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 100,
+      "protein_pct": 27.3,
+      "carbs_pct": 23.5,
+      "fat_pct": 49.2
+    },
+    {
+      "date": "2024-02-04",
+      "calories": 1250,
+      "protein": 79.3,
+      "carbs": 116.5,
+      "fat": 49.4,
+      "fiber": 4.4,
+      "sugar": 0.0,
+      "sodium": 150,
+      "protein_pct": 25.8,
+      "carbs_pct": 38.0,
+      "fat_pct": 36.2
+    },
+    {
+      "date": "2024-02-05",
+      "calories": 468,
+      "protein": 24.1,
+      "carbs": 56.2,
+      "fat": 14.7,
+      "fiber": 0.0,
+      "sugar": 0.6,
+      "sodium": 213,
+      "protein_pct": 21.3,
+      "carbs_pct": 49.6,
+      "fat_pct": 29.2
+    },
+    {
+      "date": "2024-02-06",
+      "calories": 1438,
+      "protein": 27.5,
+      "carbs": 110.6,
+      "fat": 19.6,
+      "fiber": 1.4,
+      "sugar": 23.0,
+      "sodium": 96,
+      "protein_pct": 15.1,
+      "carbs_pct": 60.7,
+      "fat_pct": 24.2
+    },
+    {
+      "date": "2024-02-07",
+      "calories": 1004,
+      "protein": 61.4,
+      "carbs": 104.8,
+      "fat": 44.4,
+      "fiber": 0.0,
+      "sugar": 5.2,
+      "sodium": 1582,
+      "protein_pct": 23.1,
+      "carbs_pct": 39.4,
+      "fat_pct": 37.5
+    },
+    {
+      "date": "2024-02-08",
+      "calories": 1912,
+      "protein": 122.0,
+      "carbs": 249.2,
+      "fat": 48.5,
+      "fiber": 21.3,
+      "sugar": 39.5,
+      "sodium": 2216,
+      "protein_pct": 25.4,
+      "carbs_pct": 51.9,
+      "fat_pct": 22.7
+    },
+    {
+      "date": "2024-02-09",
+      "calories": 494,
+      "protein": 28.7,
+      "carbs": 27.2,
+      "fat": 30.6,
+      "fiber": 1.0,
+      "sugar": 1.3,
+      "sodium": 0,
+      "protein_pct": 23.0,
+      "carbs_pct": 21.8,
+      "fat_pct": 55.2
+    },
+    {
+      "date": "2024-02-12",
+      "calories": 483,
+      "protein": 21.4,
+      "carbs": 61.1,
+      "fat": 16.2,
+      "fiber": 0.1,
+      "sugar": 6.1,
+      "sodium": 0,
+      "protein_pct": 18.0,
+      "carbs_pct": 51.4,
+      "fat_pct": 30.6
+    },
+    {
+      "date": "2024-02-20",
+      "calories": 220,
+      "protein": 35.0,
+      "carbs": 16.2,
+      "fat": 1.5,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 64.1,
+      "carbs_pct": 29.7,
+      "fat_pct": 6.2
+    },
+    {
+      "date": "2024-02-22",
+      "calories": 1276,
+      "protein": 69.3,
+      "carbs": 126.5,
+      "fat": 54.2,
+      "fiber": 4.4,
+      "sugar": 30.2,
+      "sodium": 368,
+      "protein_pct": 21.8,
+      "carbs_pct": 39.8,
+      "fat_pct": 38.4
+    },
+    {
+      "date": "2024-02-28",
+      "calories": 763,
+      "protein": 47.2,
+      "carbs": 55.1,
+      "fat": 37.4,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 150,
+      "protein_pct": 25.3,
+      "carbs_pct": 29.6,
+      "fat_pct": 45.1
+    },
+    {
+      "date": "2024-03-01",
+      "calories": 847,
+      "protein": 75.1,
+      "carbs": 72.4,
+      "fat": 27.9,
+      "fiber": 1.7,
+      "sugar": 0.4,
+      "sodium": 150,
+      "protein_pct": 35.7,
+      "carbs_pct": 34.4,
+      "fat_pct": 29.9
+    },
+    {
+      "date": "2024-03-05",
+      "calories": 1394,
+      "protein": 121.6,
+      "carbs": 80.9,
+      "fat": 61.2,
+      "fiber": 3.0,
+      "sugar": 0.0,
+      "sodium": 200,
+      "protein_pct": 35.7,
+      "carbs_pct": 23.8,
+      "fat_pct": 40.5
+    },
+    {
+      "date": "2024-03-06",
+      "calories": 504,
+      "protein": 23.0,
+      "carbs": 32.5,
+      "fat": 31.2,
+      "fiber": 5.0,
+      "sugar": 1.7,
+      "sodium": 218,
+      "protein_pct": 18.3,
+      "carbs_pct": 25.9,
+      "fat_pct": 55.8
+    },
+    {
+      "date": "2024-03-11",
+      "calories": 604,
+      "protein": 30.2,
+      "carbs": 48.2,
+      "fat": 30.1,
+      "fiber": 0.0,
+      "sugar": 1.9,
+      "sodium": 284,
+      "protein_pct": 20.7,
+      "carbs_pct": 33.0,
+      "fat_pct": 46.3
+    },
+    {
+      "date": "2024-03-12",
+      "calories": 1767,
+      "protein": 179.5,
+      "carbs": 141.1,
+      "fat": 54.8,
+      "fiber": 9.4,
+      "sugar": 16.1,
+      "sodium": 703,
+      "protein_pct": 40.4,
+      "carbs_pct": 31.8,
+      "fat_pct": 27.8
+    },
+    {
+      "date": "2024-03-13",
+      "calories": 1882,
+      "protein": 156.6,
+      "carbs": 179.2,
+      "fat": 60.1,
+      "fiber": 14.6,
+      "sugar": 37.2,
+      "sodium": 522,
+      "protein_pct": 33.2,
+      "carbs_pct": 38.0,
+      "fat_pct": 28.7
+    },
+    {
+      "date": "2024-03-14",
+      "calories": 1757,
+      "protein": 138.5,
+      "carbs": 186.2,
+      "fat": 46.1,
+      "fiber": 7.1,
+      "sugar": 13.3,
+      "sodium": 238,
+      "protein_pct": 32.3,
+      "carbs_pct": 43.5,
+      "fat_pct": 24.2
+    },
+    {
+      "date": "2024-03-15",
+      "calories": 1066,
+      "protein": 68.0,
+      "carbs": 157.9,
+      "fat": 23.9,
+      "fiber": 11.3,
+      "sugar": 17.3,
+      "sodium": 0,
+      "protein_pct": 24.3,
+      "carbs_pct": 56.5,
+      "fat_pct": 19.2
+    },
+    {
+      "date": "2024-03-16",
+      "calories": 1493,
+      "protein": 31.2,
+      "carbs": 35.6,
+      "fat": 20.3,
+      "fiber": 0.0,
+      "sugar": 15.7,
+      "sodium": 284,
+      "protein_pct": 27.7,
+      "carbs_pct": 31.7,
+      "fat_pct": 40.6
+    },
+    {
+      "date": "2024-03-17",
+      "calories": 1719,
+      "protein": 157.4,
+      "carbs": 150.5,
+      "fat": 57.7,
+      "fiber": 16.9,
+      "sugar": 23.5,
+      "sodium": 644,
+      "protein_pct": 36.0,
+      "carbs_pct": 34.4,
+      "fat_pct": 29.7
+    },
+    {
+      "date": "2024-03-18",
+      "calories": 1845,
+      "protein": 126.2,
+      "carbs": 129.5,
+      "fat": 88.6,
+      "fiber": 7.4,
+      "sugar": 13.8,
+      "sodium": 942,
+      "protein_pct": 27.7,
+      "carbs_pct": 28.5,
+      "fat_pct": 43.8
+    },
+    {
+      "date": "2024-03-19",
+      "calories": 1595,
+      "protein": 125.7,
+      "carbs": 92.5,
+      "fat": 77.6,
+      "fiber": 5.7,
+      "sugar": 20.1,
+      "sodium": 1199,
+      "protein_pct": 32.0,
+      "carbs_pct": 23.5,
+      "fat_pct": 44.5
+    },
+    {
+      "date": "2024-03-20",
+      "calories": 1762,
+      "protein": 128.7,
+      "carbs": 169.8,
+      "fat": 60.6,
+      "fiber": 5.7,
+      "sugar": 11.5,
+      "sodium": 556,
+      "protein_pct": 29.6,
+      "carbs_pct": 39.0,
+      "fat_pct": 31.4
+    },
+    {
+      "date": "2024-03-21",
+      "calories": 1378,
+      "protein": 175.7,
+      "carbs": 289.8,
+      "fat": 23.9,
+      "fiber": 11.1,
+      "sugar": 50.4,
+      "sodium": 1213,
+      "protein_pct": 33.8,
+      "carbs_pct": 55.8,
+      "fat_pct": 10.4
+    },
+    {
+      "date": "2024-03-22",
+      "calories": 1702,
+      "protein": 171.9,
+      "carbs": 217.2,
+      "fat": 32.8,
+      "fiber": 6.6,
+      "sugar": 22.4,
+      "sodium": 629,
+      "protein_pct": 37.1,
+      "carbs_pct": 46.9,
+      "fat_pct": 15.9
+    },
+    {
+      "date": "2024-03-23",
+      "calories": 480,
+      "protein": 26.3,
+      "carbs": 28.4,
+      "fat": 27.7,
+      "fiber": 0.0,
+      "sugar": 0.6,
+      "sodium": 270,
+      "protein_pct": 22.5,
+      "carbs_pct": 24.3,
+      "fat_pct": 53.3
+    },
+    {
+      "date": "2024-03-24",
+      "calories": 487,
+      "protein": 43.6,
+      "carbs": 40.9,
+      "fat": 16.7,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 35.7,
+      "carbs_pct": 33.5,
+      "fat_pct": 30.8
+    },
+    {
+      "date": "2024-03-25",
+      "calories": 572,
+      "protein": 50.3,
+      "carbs": 35.8,
+      "fat": 24.8,
+      "fiber": 2.4,
+      "sugar": 12.6,
+      "sodium": 246,
+      "protein_pct": 35.4,
+      "carbs_pct": 25.2,
+      "fat_pct": 39.3
+    },
+    {
+      "date": "2024-04-13",
+      "calories": 295,
+      "protein": 32.8,
+      "carbs": 16.9,
+      "fat": 11.2,
+      "fiber": 2.4,
+      "sugar": 12.2,
+      "sodium": 104,
+      "protein_pct": 43.8,
+      "carbs_pct": 22.6,
+      "fat_pct": 33.6
+    },
+    {
+      "date": "2024-04-16",
+      "calories": 1859,
+      "protein": 101.9,
+      "carbs": 191.2,
+      "fat": 75.0,
+      "fiber": 12.4,
+      "sugar": 44.0,
+      "sodium": 1594,
+      "protein_pct": 22.1,
+      "carbs_pct": 41.4,
+      "fat_pct": 36.5
+    },
+    {
+      "date": "2024-04-17",
+      "calories": 1467,
+      "protein": 108.2,
+      "carbs": 127.5,
+      "fat": 64.2,
+      "fiber": 4.9,
+      "sugar": 26.2,
+      "sodium": 12,
+      "protein_pct": 28.5,
+      "carbs_pct": 33.5,
+      "fat_pct": 38.0
+    },
+    {
+      "date": "2024-04-18",
+      "calories": 321,
+      "protein": 34.2,
+      "carbs": 18.8,
+      "fat": 12.6,
+      "fiber": 2.4,
+      "sugar": 14.1,
+      "sodium": 120,
+      "protein_pct": 42.0,
+      "carbs_pct": 23.1,
+      "fat_pct": 34.8
+    },
+    {
+      "date": "2024-04-19",
+      "calories": 1211,
+      "protein": 30.8,
+      "carbs": 84.6,
+      "fat": 39.9,
+      "fiber": 4.7,
+      "sugar": 9.3,
+      "sodium": 508,
+      "protein_pct": 15.0,
+      "carbs_pct": 41.2,
+      "fat_pct": 43.8
+    },
+    {
+      "date": "2024-04-20",
+      "calories": 1519,
+      "protein": 90.9,
+      "carbs": 144.0,
+      "fat": 69.0,
+      "fiber": 9.6,
+      "sugar": 22.5,
+      "sodium": 518,
+      "protein_pct": 23.3,
+      "carbs_pct": 36.9,
+      "fat_pct": 39.8
+    },
+    {
+      "date": "2024-04-21",
+      "calories": 1732,
+      "protein": 166.5,
+      "carbs": 108.6,
+      "fat": 71.9,
+      "fiber": 2.5,
+      "sugar": 11.8,
+      "sodium": 554,
+      "protein_pct": 38.1,
+      "carbs_pct": 24.9,
+      "fat_pct": 37.0
+    },
+    {
+      "date": "2024-04-22",
+      "calories": 2127,
+      "protein": 119.0,
+      "carbs": 214.8,
+      "fat": 85.9,
+      "fiber": 6.1,
+      "sugar": 67.9,
+      "sodium": 1684,
+      "protein_pct": 22.6,
+      "carbs_pct": 40.8,
+      "fat_pct": 36.7
+    },
+    {
+      "date": "2024-04-23",
+      "calories": 2100,
+      "protein": 139.7,
+      "carbs": 159.2,
+      "fat": 73.6,
+      "fiber": 13.2,
+      "sugar": 85.2,
+      "sodium": 2526,
+      "protein_pct": 30.1,
+      "carbs_pct": 34.3,
+      "fat_pct": 35.7
+    },
+    {
+      "date": "2024-04-24",
+      "calories": 1843,
+      "protein": 155.7,
+      "carbs": 124.1,
+      "fat": 82.4,
+      "fiber": 13.3,
+      "sugar": 56.5,
+      "sodium": 1242,
+      "protein_pct": 33.5,
+      "carbs_pct": 26.7,
+      "fat_pct": 39.9
+    },
+    {
+      "date": "2024-04-25",
+      "calories": 1548,
+      "protein": 149.3,
+      "carbs": 135.4,
+      "fat": 45.8,
+      "fiber": 10.6,
+      "sugar": 67.5,
+      "sodium": 2266,
+      "protein_pct": 38.5,
+      "carbs_pct": 34.9,
+      "fat_pct": 26.6
+    },
+    {
+      "date": "2024-04-26",
+      "calories": 882,
+      "protein": 67.7,
+      "carbs": 74.0,
+      "fat": 36.9,
+      "fiber": 1.8,
+      "sugar": 31.3,
+      "sodium": 2357,
+      "protein_pct": 30.1,
+      "carbs_pct": 32.9,
+      "fat_pct": 36.9
+    },
+    {
+      "date": "2024-04-27",
+      "calories": 1746,
+      "protein": 84.2,
+      "carbs": 220.2,
+      "fat": 53.9,
+      "fiber": 1.3,
+      "sugar": 31.5,
+      "sodium": 1702,
+      "protein_pct": 19.8,
+      "carbs_pct": 51.7,
+      "fat_pct": 28.5
+    },
+    {
+      "date": "2024-04-28",
+      "calories": 1990,
+      "protein": 152.0,
+      "carbs": 171.7,
+      "fat": 81.0,
+      "fiber": 16.0,
+      "sugar": 75.7,
+      "sodium": 2103,
+      "protein_pct": 30.0,
+      "carbs_pct": 33.9,
+      "fat_pct": 36.0
+    },
+    {
+      "date": "2024-04-29",
+      "calories": 674,
+      "protein": 51.5,
+      "carbs": 72.6,
+      "fat": 19.8,
+      "fiber": 2.4,
+      "sugar": 45.2,
+      "sodium": 138,
+      "protein_pct": 30.5,
+      "carbs_pct": 43.0,
+      "fat_pct": 26.4
+    },
+    {
+      "date": "2024-04-30",
+      "calories": 614,
+      "protein": 65.6,
+      "carbs": 37.1,
+      "fat": 21.9,
+      "fiber": 3.8,
+      "sugar": 7.3,
+      "sodium": 123,
+      "protein_pct": 43.2,
+      "carbs_pct": 24.4,
+      "fat_pct": 32.4
+    },
+    {
+      "date": "2024-05-01",
+      "calories": 1567,
+      "protein": 134.0,
+      "carbs": 147.6,
+      "fat": 50.8,
+      "fiber": 13.6,
+      "sugar": 38.8,
+      "sodium": 665,
+      "protein_pct": 33.8,
+      "carbs_pct": 37.3,
+      "fat_pct": 28.9
+    },
+    {
+      "date": "2024-05-02",
+      "calories": 1814,
+      "protein": 140.3,
+      "carbs": 166.6,
+      "fat": 65.6,
+      "fiber": 13.3,
+      "sugar": 44.0,
+      "sodium": 990,
+      "protein_pct": 30.9,
+      "carbs_pct": 36.7,
+      "fat_pct": 32.5
+    },
+    {
+      "date": "2024-05-03",
+      "calories": 868,
+      "protein": 40.2,
+      "carbs": 50.6,
+      "fat": 36.2,
+      "fiber": 1.2,
+      "sugar": 12.1,
+      "sodium": 1339,
+      "protein_pct": 23.3,
+      "carbs_pct": 29.4,
+      "fat_pct": 47.3
+    },
+    {
+      "date": "2024-05-04",
+      "calories": 137,
+      "protein": 13.3,
+      "carbs": 19.9,
+      "fat": 0.7,
+      "fiber": 1.6,
+      "sugar": 16.0,
+      "sodium": 1,
+      "protein_pct": 38.2,
+      "carbs_pct": 57.2,
+      "fat_pct": 4.5
+    },
+    {
+      "date": "2024-05-05",
+      "calories": 1637,
+      "protein": 90.3,
+      "carbs": 100.4,
+      "fat": 18.2,
+      "fiber": 6.2,
+      "sugar": 16.5,
+      "sodium": 394,
+      "protein_pct": 39.0,
+      "carbs_pct": 43.3,
+      "fat_pct": 17.7
+    },
+    {
+      "date": "2024-05-06",
+      "calories": 1798,
+      "protein": 152.4,
+      "carbs": 163.4,
+      "fat": 59.9,
+      "fiber": 10.5,
+      "sugar": 58.2,
+      "sodium": 1833,
+      "protein_pct": 33.8,
+      "carbs_pct": 36.3,
+      "fat_pct": 29.9
+    },
+    {
+      "date": "2024-05-07",
+      "calories": 1849,
+      "protein": 148.4,
+      "carbs": 163.5,
+      "fat": 69.0,
+      "fiber": 18.3,
+      "sugar": 47.2,
+      "sodium": 1238,
+      "protein_pct": 31.8,
+      "carbs_pct": 35.0,
+      "fat_pct": 33.2
+    },
+    {
+      "date": "2024-05-08",
+      "calories": 1898,
+      "protein": 132.2,
+      "carbs": 160.0,
+      "fat": 87.3,
+      "fiber": 5.5,
+      "sugar": 42.1,
+      "sodium": 1763,
+      "protein_pct": 27.1,
+      "carbs_pct": 32.7,
+      "fat_pct": 40.2
+    },
+    {
+      "date": "2024-05-09",
+      "calories": 1893,
+      "protein": 122.1,
+      "carbs": 160.2,
+      "fat": 90.0,
+      "fiber": 6.8,
+      "sugar": 41.7,
+      "sodium": 1962,
+      "protein_pct": 25.2,
+      "carbs_pct": 33.0,
+      "fat_pct": 41.8
+    },
+    {
+      "date": "2024-05-10",
+      "calories": 1623,
+      "protein": 134.5,
+      "carbs": 97.6,
+      "fat": 77.2,
+      "fiber": 3.9,
+      "sugar": 33.6,
+      "sodium": 479,
+      "protein_pct": 33.1,
+      "carbs_pct": 24.1,
+      "fat_pct": 42.8
+    },
+    {
+      "date": "2024-05-13",
+      "calories": 1818,
+      "protein": 136.2,
+      "carbs": 169.0,
+      "fat": 65.1,
+      "fiber": 3.8,
+      "sugar": 45.3,
+      "sodium": 1780,
+      "protein_pct": 30.2,
+      "carbs_pct": 37.4,
+      "fat_pct": 32.4
+    },
+    {
+      "date": "2024-05-14",
+      "calories": 564,
+      "protein": 31.5,
+      "carbs": 40.7,
+      "fat": 29.4,
+      "fiber": 0.3,
+      "sugar": 11.5,
+      "sodium": 925,
+      "protein_pct": 22.8,
+      "carbs_pct": 29.4,
+      "fat_pct": 47.8
+    },
+    {
+      "date": "2024-05-15",
+      "calories": 1986,
+      "protein": 107.5,
+      "carbs": 216.9,
+      "fat": 71.6,
+      "fiber": 2.7,
+      "sugar": 42.1,
+      "sodium": 1405,
+      "protein_pct": 22.1,
+      "carbs_pct": 44.7,
+      "fat_pct": 33.2
+    },
+    {
+      "date": "2024-05-16",
+      "calories": 2094,
+      "protein": 146.2,
+      "carbs": 136.9,
+      "fat": 109.5,
+      "fiber": 11.9,
+      "sugar": 59.3,
+      "sodium": 856,
+      "protein_pct": 27.6,
+      "carbs_pct": 25.9,
+      "fat_pct": 46.5
+    },
+    {
+      "date": "2024-05-17",
+      "calories": 948,
+      "protein": 34.5,
+      "carbs": 90.6,
+      "fat": 50.3,
+      "fiber": 0.0,
+      "sugar": 6.3,
+      "sodium": 2310,
+      "protein_pct": 14.5,
+      "carbs_pct": 38.0,
+      "fat_pct": 47.5
+    },
+    {
+      "date": "2024-05-18",
+      "calories": 895,
+      "protein": 73.7,
+      "carbs": 79.0,
+      "fat": 29.7,
+      "fiber": 0.1,
+      "sugar": 25.9,
+      "sodium": 164,
+      "protein_pct": 33.6,
+      "carbs_pct": 36.0,
+      "fat_pct": 30.4
+    },
+    {
+      "date": "2024-05-19",
+      "calories": 900,
+      "protein": 46.6,
+      "carbs": 78.1,
+      "fat": 49.0,
+      "fiber": 5.8,
+      "sugar": 8.6,
+      "sodium": 1600,
+      "protein_pct": 19.8,
+      "carbs_pct": 33.2,
+      "fat_pct": 46.9
+    },
+    {
+      "date": "2024-05-20",
+      "calories": 1089,
+      "protein": 63.8,
+      "carbs": 149.6,
+      "fat": 30.3,
+      "fiber": 15.5,
+      "sugar": 24.1,
+      "sodium": 3903,
+      "protein_pct": 22.7,
+      "carbs_pct": 53.1,
+      "fat_pct": 24.2
+    },
+    {
+      "date": "2024-05-21",
+      "calories": 832,
+      "protein": 35.1,
+      "carbs": 98.8,
+      "fat": 31.1,
+      "fiber": 0.0,
+      "sugar": 0.7,
+      "sodium": 0,
+      "protein_pct": 17.2,
+      "carbs_pct": 48.5,
+      "fat_pct": 34.3
+    },
+    {
+      "date": "2024-05-25",
+      "calories": 407,
+      "protein": 50.9,
+      "carbs": 0.0,
+      "fat": 22.6,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 706,
+      "protein_pct": 50.0,
+      "carbs_pct": 0.0,
+      "fat_pct": 50.0
+    },
+    {
+      "date": "2024-05-28",
+      "calories": 905,
+      "protein": 69.3,
+      "carbs": 80.0,
+      "fat": 33.4,
+      "fiber": 3.0,
+      "sugar": 20.8,
+      "sodium": 874,
+      "protein_pct": 30.9,
+      "carbs_pct": 35.6,
+      "fat_pct": 33.5
+    },
+    {
+      "date": "2024-05-29",
+      "calories": 502,
+      "protein": 45.2,
+      "carbs": 38.0,
+      "fat": 19.7,
+      "fiber": 2.5,
+      "sugar": 3.6,
+      "sodium": 500,
+      "protein_pct": 35.4,
+      "carbs_pct": 29.8,
+      "fat_pct": 34.8
+    },
+    {
+      "date": "2024-05-30",
+      "calories": 889,
+      "protein": 87.6,
+      "carbs": 41.5,
+      "fat": 42.3,
+      "fiber": 2.4,
+      "sugar": 38.9,
+      "sodium": 853,
+      "protein_pct": 39.1,
+      "carbs_pct": 18.5,
+      "fat_pct": 42.4
+    },
+    {
+      "date": "2024-06-26",
+      "calories": 578,
+      "protein": 45.4,
+      "carbs": 45.4,
+      "fat": 24.9,
+      "fiber": 4.8,
+      "sugar": 14.0,
+      "sodium": 396,
+      "protein_pct": 30.9,
+      "carbs_pct": 30.9,
+      "fat_pct": 38.2
+    },
+    {
+      "date": "2024-07-03",
+      "calories": 1033,
+      "protein": 35.9,
+      "carbs": 132.3,
+      "fat": 40.5,
+      "fiber": 3.2,
+      "sugar": 46.3,
+      "sodium": 292,
+      "protein_pct": 13.8,
+      "carbs_pct": 51.0,
+      "fat_pct": 35.1
+    },
+    {
+      "date": "2024-07-04",
+      "calories": 511,
+      "protein": 8.6,
+      "carbs": 56.4,
+      "fat": 20.8,
+      "fiber": 1.4,
+      "sugar": 29.9,
+      "sodium": 69,
+      "protein_pct": 7.7,
+      "carbs_pct": 50.4,
+      "fat_pct": 41.9
+    },
+    {
+      "date": "2024-08-05",
+      "calories": 551,
+      "protein": 34.0,
+      "carbs": 43.1,
+      "fat": 26.9,
+      "fiber": 1.4,
+      "sugar": 2.5,
+      "sodium": 979,
+      "protein_pct": 24.7,
+      "carbs_pct": 31.3,
+      "fat_pct": 44.0
+    },
+    {
+      "date": "2024-08-07",
+      "calories": 309,
+      "protein": 27.6,
+      "carbs": 19.4,
+      "fat": 13.6,
+      "fiber": 1.4,
+      "sugar": 2.5,
+      "sodium": 650,
+      "protein_pct": 35.6,
+      "carbs_pct": 25.0,
+      "fat_pct": 39.4
+    },
+    {
+      "date": "2024-08-15",
+      "calories": 456,
+      "protein": 15.5,
+      "carbs": 46.1,
+      "fat": 24.3,
+      "fiber": 3.2,
+      "sugar": 18.9,
+      "sodium": 0,
+      "protein_pct": 13.3,
+      "carbs_pct": 39.6,
+      "fat_pct": 47.0
+    },
+    {
+      "date": "2024-08-16",
+      "calories": 391,
+      "protein": 34.0,
+      "carbs": 19.8,
+      "fat": 19.6,
+      "fiber": 1.4,
+      "sugar": 2.9,
+      "sodium": 975,
+      "protein_pct": 34.7,
+      "carbs_pct": 20.2,
+      "fat_pct": 45.0
+    },
+    {
+      "date": "2024-08-20",
+      "calories": 600,
+      "protein": 30.8,
+      "carbs": 54.6,
+      "fat": 28.3,
+      "fiber": 0.0,
+      "sugar": 6.3,
+      "sodium": 279,
+      "protein_pct": 20.7,
+      "carbs_pct": 36.6,
+      "fat_pct": 42.7
+    },
+    {
+      "date": "2024-08-21",
+      "calories": 449,
+      "protein": 24.2,
+      "carbs": 41.0,
+      "fat": 19.7,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 0,
+      "protein_pct": 22.1,
+      "carbs_pct": 37.4,
+      "fat_pct": 40.5
+    },
+    {
+      "date": "2024-09-09",
+      "calories": 653,
+      "protein": 35.4,
+      "carbs": 87.6,
+      "fat": 19.6,
+      "fiber": 7.9,
+      "sugar": 36.5,
+      "sodium": 0,
+      "protein_pct": 21.2,
+      "carbs_pct": 52.4,
+      "fat_pct": 26.4
+    },
+    {
+      "date": "2024-09-10",
+      "calories": 1687,
+      "protein": 111.1,
+      "carbs": 132.9,
+      "fat": 78.0,
+      "fiber": 3.5,
+      "sugar": 16.3,
+      "sodium": 2078,
+      "protein_pct": 26.5,
+      "carbs_pct": 31.7,
+      "fat_pct": 41.8
+    },
+    {
+      "date": "2024-09-11",
+      "calories": 1598,
+      "protein": 112.0,
+      "carbs": 184.3,
+      "fat": 46.7,
+      "fiber": 18.2,
+      "sugar": 49.1,
+      "sodium": 1078,
+      "protein_pct": 27.9,
+      "carbs_pct": 45.9,
+      "fat_pct": 26.2
+    },
+    {
+      "date": "2024-09-12",
+      "calories": 1697,
+      "protein": 81.1,
+      "carbs": 155.4,
+      "fat": 86.7,
+      "fiber": 11.5,
+      "sugar": 14.8,
+      "sodium": 542,
+      "protein_pct": 18.8,
+      "carbs_pct": 36.0,
+      "fat_pct": 45.2
+    },
+    {
+      "date": "2024-09-13",
+      "calories": 1877,
+      "protein": 127.1,
+      "carbs": 149.8,
+      "fat": 85.4,
+      "fiber": 9.1,
+      "sugar": 11.1,
+      "sodium": 1543,
+      "protein_pct": 27.1,
+      "carbs_pct": 31.9,
+      "fat_pct": 41.0
+    },
+    {
+      "date": "2024-09-15",
+      "calories": 1363,
+      "protein": 101.6,
+      "carbs": 141.0,
+      "fat": 42.5,
+      "fiber": 5.7,
+      "sugar": 16.0,
+      "sodium": 571,
+      "protein_pct": 30.0,
+      "carbs_pct": 41.7,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2024-09-16",
+      "calories": 1702,
+      "protein": 110.5,
+      "carbs": 99.4,
+      "fat": 78.2,
+      "fiber": 3.8,
+      "sugar": 2.4,
+      "sodium": 710,
+      "protein_pct": 28.6,
+      "carbs_pct": 25.8,
+      "fat_pct": 45.6
+    },
+    {
+      "date": "2024-09-17",
+      "calories": 1641,
+      "protein": 118.0,
+      "carbs": 127.3,
+      "fat": 67.1,
+      "fiber": 11.4,
+      "sugar": 34.2,
+      "sodium": 1642,
+      "protein_pct": 29.8,
+      "carbs_pct": 32.1,
+      "fat_pct": 38.1
+    },
+    {
+      "date": "2024-09-18",
+      "calories": 1738,
+      "protein": 98.3,
+      "carbs": 135.4,
+      "fat": 75.5,
+      "fiber": 7.9,
+      "sugar": 19.6,
+      "sodium": 2138,
+      "protein_pct": 24.4,
+      "carbs_pct": 33.6,
+      "fat_pct": 42.1
+    },
+    {
+      "date": "2024-09-19",
+      "calories": 827,
+      "protein": 74.5,
+      "carbs": 80.5,
+      "fat": 24.4,
+      "fiber": 7.7,
+      "sugar": 25.0,
+      "sodium": 350,
+      "protein_pct": 35.5,
+      "carbs_pct": 38.4,
+      "fat_pct": 26.2
+    },
+    {
+      "date": "2024-09-21",
+      "calories": 1697,
+      "protein": 67.7,
+      "carbs": 149.8,
+      "fat": 92.8,
+      "fiber": 6.9,
+      "sugar": 3.1,
+      "sodium": 1904,
+      "protein_pct": 15.9,
+      "carbs_pct": 35.1,
+      "fat_pct": 49.0
+    },
+    {
+      "date": "2024-09-25",
+      "calories": 1236,
+      "protein": 81.1,
+      "carbs": 127.1,
+      "fat": 45.0,
+      "fiber": 4.7,
+      "sugar": 24.5,
+      "sodium": 937,
+      "protein_pct": 26.2,
+      "carbs_pct": 41.1,
+      "fat_pct": 32.7
+    },
+    {
+      "date": "2024-10-02",
+      "calories": 796,
+      "protein": 47.6,
+      "carbs": 72.3,
+      "fat": 33.5,
+      "fiber": 0.0,
+      "sugar": 200.0,
+      "sodium": 0,
+      "protein_pct": 24.4,
+      "carbs_pct": 37.0,
+      "fat_pct": 38.6
+    },
+    {
+      "date": "2024-10-03",
+      "calories": 1102,
+      "protein": 76.2,
+      "carbs": 99.5,
+      "fat": 43.7,
+      "fiber": 9.0,
+      "sugar": 25.0,
+      "sodium": 454,
+      "protein_pct": 27.8,
+      "carbs_pct": 36.3,
+      "fat_pct": 35.9
+    },
+    {
+      "date": "2024-10-08",
+      "calories": 606,
+      "protein": 36.7,
+      "carbs": 70.7,
+      "fat": 18.8,
+      "fiber": 0.0,
+      "sugar": 9.3,
+      "sodium": 820,
+      "protein_pct": 24.5,
+      "carbs_pct": 47.2,
+      "fat_pct": 28.3
+    },
+    {
+      "date": "2024-10-22",
+      "calories": 925,
+      "protein": 61.6,
+      "carbs": 103.3,
+      "fat": 28.8,
+      "fiber": 0.0,
+      "sugar": 0.3,
+      "sodium": 319,
+      "protein_pct": 26.8,
+      "carbs_pct": 45.0,
+      "fat_pct": 28.2
+    },
+    {
+      "date": "2024-11-06",
+      "calories": 568,
+      "protein": 39.2,
+      "carbs": 41.1,
+      "fat": 26.4,
+      "fiber": 4.1,
+      "sugar": 13.2,
+      "sodium": 583,
+      "protein_pct": 28.1,
+      "carbs_pct": 29.4,
+      "fat_pct": 42.5
+    },
+    {
+      "date": "2024-12-16",
+      "calories": 1340,
+      "protein": 81.6,
+      "carbs": 123.6,
+      "fat": 59.6,
+      "fiber": 7.9,
+      "sugar": 3.3,
+      "sodium": 411,
+      "protein_pct": 24.0,
+      "carbs_pct": 36.4,
+      "fat_pct": 39.5
+    },
+    {
+      "date": "2025-01-08",
+      "calories": 1929,
+      "protein": 148.0,
+      "carbs": 155.8,
+      "fat": 82.2,
+      "fiber": 11.0,
+      "sugar": 26.1,
+      "sodium": 650,
+      "protein_pct": 30.3,
+      "carbs_pct": 31.9,
+      "fat_pct": 37.8
+    },
+    {
+      "date": "2025-03-02",
+      "calories": 635,
+      "protein": 42.5,
+      "carbs": 61.0,
+      "fat": 25.2,
+      "fiber": 6.3,
+      "sugar": 11.3,
+      "sodium": 389,
+      "protein_pct": 26.5,
+      "carbs_pct": 38.1,
+      "fat_pct": 35.4
+    },
+    {
+      "date": "2025-03-03",
+      "calories": 680,
+      "protein": 51.6,
+      "carbs": 56.8,
+      "fat": 28.0,
+      "fiber": 6.3,
+      "sugar": 8.0,
+      "sodium": 460,
+      "protein_pct": 30.1,
+      "carbs_pct": 33.1,
+      "fat_pct": 36.8
+    },
+    {
+      "date": "2025-04-15",
+      "calories": 510,
+      "protein": 24.2,
+      "carbs": 32.0,
+      "fat": 31.4,
+      "fiber": 3.4,
+      "sugar": 20.8,
+      "sodium": 513,
+      "protein_pct": 19.1,
+      "carbs_pct": 25.2,
+      "fat_pct": 55.7
+    },
+    {
+      "date": "2025-04-16",
+      "calories": 1357,
+      "protein": 82.6,
+      "carbs": 47.2,
+      "fat": 92.5,
+      "fiber": 7.8,
+      "sugar": 23.8,
+      "sodium": 1071,
+      "protein_pct": 24.4,
+      "carbs_pct": 14.0,
+      "fat_pct": 61.6
+    },
+    {
+      "date": "2025-04-17",
+      "calories": 439,
+      "protein": 26.6,
+      "carbs": 18.9,
+      "fat": 28.4,
+      "fiber": 2.8,
+      "sugar": 13.7,
+      "sodium": 240,
+      "protein_pct": 24.3,
+      "carbs_pct": 17.3,
+      "fat_pct": 58.4
+    },
+    {
+      "date": "2025-04-19",
+      "calories": 1747,
+      "protein": 158.7,
+      "carbs": 88.7,
+      "fat": 93.1,
+      "fiber": 20.5,
+      "sugar": 24.5,
+      "sodium": 1246,
+      "protein_pct": 34.7,
+      "carbs_pct": 19.4,
+      "fat_pct": 45.8
+    },
+    {
+      "date": "2025-04-23",
+      "calories": 1527,
+      "protein": 126.2,
+      "carbs": 146.7,
+      "fat": 51.0,
+      "fiber": 11.5,
+      "sugar": 9.3,
+      "sodium": 436,
+      "protein_pct": 32.6,
+      "carbs_pct": 37.8,
+      "fat_pct": 29.6
+    },
+    {
+      "date": "2025-04-24",
+      "calories": 1604,
+      "protein": 99.0,
+      "carbs": 186.1,
+      "fat": 51.4,
+      "fiber": 5.5,
+      "sugar": 40.4,
+      "sodium": 461,
+      "protein_pct": 24.7,
+      "carbs_pct": 46.4,
+      "fat_pct": 28.9
+    },
+    {
+      "date": "2025-05-23",
+      "calories": 1888,
+      "protein": 87.4,
+      "carbs": 206.6,
+      "fat": 77.2,
+      "fiber": 4.5,
+      "sugar": 30.3,
+      "sodium": 983,
+      "protein_pct": 18.7,
+      "carbs_pct": 44.2,
+      "fat_pct": 37.1
+    },
+    {
+      "date": "2025-05-27",
+      "calories": 810,
+      "protein": 57.7,
+      "carbs": 78.2,
+      "fat": 30.0,
+      "fiber": 2.9,
+      "sugar": 12.6,
+      "sodium": 1050,
+      "protein_pct": 28.4,
+      "carbs_pct": 38.4,
+      "fat_pct": 33.2
+    },
+    {
+      "date": "2025-05-28",
+      "calories": 1751,
+      "protein": 101.8,
+      "carbs": 189.6,
+      "fat": 66.9,
+      "fiber": 10.2,
+      "sugar": 60.1,
+      "sodium": 1538,
+      "protein_pct": 23.0,
+      "carbs_pct": 42.9,
+      "fat_pct": 34.1
+    },
+    {
+      "date": "2025-05-29",
+      "calories": 1762,
+      "protein": 126.3,
+      "carbs": 161.4,
+      "fat": 70.4,
+      "fiber": 9.0,
+      "sugar": 24.4,
+      "sodium": 259,
+      "protein_pct": 28.3,
+      "carbs_pct": 36.2,
+      "fat_pct": 35.5
+    },
+    {
+      "date": "2025-06-22",
+      "calories": 1253,
+      "protein": 149.7,
+      "carbs": 60.9,
+      "fat": 43.8,
+      "fiber": 13.1,
+      "sugar": 16.0,
+      "sodium": 865,
+      "protein_pct": 48.4,
+      "carbs_pct": 19.7,
+      "fat_pct": 31.9
+    },
+    {
+      "date": "2025-07-28",
+      "calories": 1008,
+      "protein": 35.8,
+      "carbs": 109.2,
+      "fat": 49.6,
+      "fiber": 12.2,
+      "sugar": 58.6,
+      "sodium": 390,
+      "protein_pct": 14.0,
+      "carbs_pct": 42.6,
+      "fat_pct": 43.5
+    },
+    {
+      "date": "2025-07-29",
+      "calories": 1414,
+      "protein": 134.9,
+      "carbs": 130.3,
+      "fat": 40.9,
+      "fiber": 17.2,
+      "sugar": 36.1,
+      "sodium": 621,
+      "protein_pct": 37.8,
+      "carbs_pct": 36.5,
+      "fat_pct": 25.8
+    },
+    {
+      "date": "2025-07-30",
+      "calories": 1258,
+      "protein": 100.2,
+      "carbs": 72.9,
+      "fat": 64.6,
+      "fiber": 14.7,
+      "sugar": 22.4,
+      "sodium": 321,
+      "protein_pct": 31.5,
+      "carbs_pct": 22.9,
+      "fat_pct": 45.6
+    },
+    {
+      "date": "2025-07-31",
+      "calories": 1431,
+      "protein": 98.0,
+      "carbs": 134.0,
+      "fat": 55.3,
+      "fiber": 14.0,
+      "sugar": 30.0,
+      "sodium": 867,
+      "protein_pct": 27.5,
+      "carbs_pct": 37.6,
+      "fat_pct": 34.9
+    },
+    {
+      "date": "2025-08-01",
+      "calories": 1777,
+      "protein": 174.9,
+      "carbs": 113.0,
+      "fat": 67.8,
+      "fiber": 0.8,
+      "sugar": 33.2,
+      "sodium": 290,
+      "protein_pct": 39.7,
+      "carbs_pct": 25.7,
+      "fat_pct": 34.6
+    },
+    {
+      "date": "2025-08-02",
+      "calories": 229,
+      "protein": 14.8,
+      "carbs": 28.6,
+      "fat": 6.9,
+      "fiber": 3.2,
+      "sugar": 12.4,
+      "sodium": 35,
+      "protein_pct": 25.1,
+      "carbs_pct": 48.5,
+      "fat_pct": 26.3
+    },
+    {
+      "date": "2025-08-03",
+      "calories": 1455,
+      "protein": 113.5,
+      "carbs": 100.9,
+      "fat": 66.4,
+      "fiber": 8.9,
+      "sugar": 17.3,
+      "sodium": 751,
+      "protein_pct": 31.2,
+      "carbs_pct": 27.7,
+      "fat_pct": 41.1
+    },
+    {
+      "date": "2025-08-05",
+      "calories": 619,
+      "protein": 45.9,
+      "carbs": 25.1,
+      "fat": 32.9,
+      "fiber": 4.4,
+      "sugar": 2.3,
+      "sodium": 318,
+      "protein_pct": 31.6,
+      "carbs_pct": 17.3,
+      "fat_pct": 51.0
+    },
+    {
+      "date": "2025-08-06",
+      "calories": 1607,
+      "protein": 65.7,
+      "carbs": 189.6,
+      "fat": 64.7,
+      "fiber": 7.4,
+      "sugar": 33.8,
+      "sodium": 378,
+      "protein_pct": 16.4,
+      "carbs_pct": 47.3,
+      "fat_pct": 36.3
+    },
+    {
+      "date": "2025-08-07",
+      "calories": 1290,
+      "protein": 71.6,
+      "carbs": 141.1,
+      "fat": 48.6,
+      "fiber": 5.4,
+      "sugar": 4.0,
+      "sodium": 469,
+      "protein_pct": 22.2,
+      "carbs_pct": 43.8,
+      "fat_pct": 34.0
+    },
+    {
+      "date": "2025-08-08",
+      "calories": 669,
+      "protein": 21.6,
+      "carbs": 75.2,
+      "fat": 32.0,
+      "fiber": 2.8,
+      "sugar": 5.8,
+      "sodium": 0,
+      "protein_pct": 12.8,
+      "carbs_pct": 44.5,
+      "fat_pct": 42.7
+    },
+    {
+      "date": "2025-08-09",
+      "calories": 592,
+      "protein": 49.7,
+      "carbs": 55.4,
+      "fat": 18.5,
+      "fiber": 5.2,
+      "sugar": 12.3,
+      "sodium": 879,
+      "protein_pct": 33.9,
+      "carbs_pct": 37.8,
+      "fat_pct": 28.4
+    },
+    {
+      "date": "2025-08-11",
+      "calories": 1431,
+      "protein": 85.6,
+      "carbs": 130.8,
+      "fat": 61.5,
+      "fiber": 0.4,
+      "sugar": 1.9,
+      "sodium": 499,
+      "protein_pct": 24.1,
+      "carbs_pct": 36.9,
+      "fat_pct": 39.0
+    },
+    {
+      "date": "2025-08-12",
+      "calories": 564,
+      "protein": 24.2,
+      "carbs": 68.4,
+      "fat": 20.4,
+      "fiber": 0.0,
+      "sugar": 5.4,
+      "sodium": 90,
+      "protein_pct": 17.5,
+      "carbs_pct": 49.4,
+      "fat_pct": 33.1
+    },
+    {
+      "date": "2025-08-16",
+      "calories": 950,
+      "protein": 68.9,
+      "carbs": 92.5,
+      "fat": 35.8,
+      "fiber": 3.5,
+      "sugar": 3.7,
+      "sodium": 478,
+      "protein_pct": 28.5,
+      "carbs_pct": 38.2,
+      "fat_pct": 33.3
+    },
+    {
+      "date": "2025-08-18",
+      "calories": 743,
+      "protein": 48.5,
+      "carbs": 66.0,
+      "fat": 30.4,
+      "fiber": 6.0,
+      "sugar": 5.9,
+      "sodium": 739,
+      "protein_pct": 26.5,
+      "carbs_pct": 36.1,
+      "fat_pct": 37.4
+    },
+    {
+      "date": "2025-09-03",
+      "calories": 509,
+      "protein": 29.2,
+      "carbs": 59.2,
+      "fat": 18.4,
+      "fiber": 8.7,
+      "sugar": 1.3,
+      "sodium": 327,
+      "protein_pct": 22.5,
+      "carbs_pct": 45.6,
+      "fat_pct": 31.9
+    },
+    {
+      "date": "2025-11-22",
+      "calories": 459,
+      "protein": 39.6,
+      "carbs": 46.7,
+      "fat": 12.5,
+      "fiber": 0.0,
+      "sugar": 0.4,
+      "sodium": 142,
+      "protein_pct": 34.6,
+      "carbs_pct": 40.8,
+      "fat_pct": 24.6
+    }
+  ],
+  "meal_distribution": [
+    {
+      "meal": "Breakfast",
+      "avg_calories": 447.0,
+      "avg_protein": 24.0
+    },
+    {
+      "meal": "Dinner",
+      "avg_calories": 729.0,
+      "avg_protein": 41.4
+    },
+    {
+      "meal": "Lunch",
+      "avg_calories": 548.0,
+      "avg_protein": 29.0
+    },
+    {
+      "meal": "Snacks",
+      "avg_calories": 233.0,
+      "avg_protein": 9.6
+    }
+  ],
+  "weekly_averages": [
+    {
+      "week": "2016-11-14",
+      "avg_calories": 1128.0,
+      "avg_protein": 46.9,
+      "days_logged": 2
+    },
+    {
+      "week": "2017-01-09",
+      "avg_calories": 1008.0,
+      "avg_protein": 54.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2017-07-24",
+      "avg_calories": 270.0,
+      "avg_protein": 19.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2018-01-22",
+      "avg_calories": 907.0,
+      "avg_protein": 28.9,
+      "days_logged": 6
+    },
+    {
+      "week": "2018-01-29",
+      "avg_calories": 509.0,
+      "avg_protein": 14.6,
+      "days_logged": 3
+    },
+    {
+      "week": "2018-04-09",
+      "avg_calories": 304.0,
+      "avg_protein": 16.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2018-04-16",
+      "avg_calories": 458.0,
+      "avg_protein": 24.4,
+      "days_logged": 2
+    },
+    {
+      "week": "2018-04-23",
+      "avg_calories": 503.0,
+      "avg_protein": 14.1,
+      "days_logged": 3
+    },
+    {
+      "week": "2018-04-30",
+      "avg_calories": 221.0,
+      "avg_protein": 10.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2018-06-25",
+      "avg_calories": 504.0,
+      "avg_protein": 15.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2019-10-07",
+      "avg_calories": 1091.0,
+      "avg_protein": 50.6,
+      "days_logged": 1
+    },
+    {
+      "week": "2020-05-25",
+      "avg_calories": 832.0,
+      "avg_protein": 37.3,
+      "days_logged": 1
+    },
+    {
+      "week": "2020-09-07",
+      "avg_calories": 994.0,
+      "avg_protein": 14.8,
+      "days_logged": 3
+    },
+    {
+      "week": "2020-09-14",
+      "avg_calories": 308.0,
+      "avg_protein": 10.7,
+      "days_logged": 3
+    },
+    {
+      "week": "2020-09-21",
+      "avg_calories": 506.0,
+      "avg_protein": 15.6,
+      "days_logged": 2
+    },
+    {
+      "week": "2020-10-05",
+      "avg_calories": 862.0,
+      "avg_protein": 39.9,
+      "days_logged": 1
+    },
+    {
+      "week": "2020-10-12",
+      "avg_calories": 902.0,
+      "avg_protein": 54.8,
+      "days_logged": 5
+    },
+    {
+      "week": "2020-10-19",
+      "avg_calories": 801.0,
+      "avg_protein": 39.1,
+      "days_logged": 3
+    },
+    {
+      "week": "2020-10-26",
+      "avg_calories": 556.0,
+      "avg_protein": 18.6,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-11-02",
+      "avg_calories": 1066.0,
+      "avg_protein": 62.3,
+      "days_logged": 5
+    },
+    {
+      "week": "2020-11-09",
+      "avg_calories": 1363.0,
+      "avg_protein": 49.8,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-11-16",
+      "avg_calories": 1450.0,
+      "avg_protein": 31.5,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-11-23",
+      "avg_calories": 1444.0,
+      "avg_protein": 57.7,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-11-30",
+      "avg_calories": 1441.0,
+      "avg_protein": 62.3,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-12-07",
+      "avg_calories": 1685.0,
+      "avg_protein": 47.6,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-12-14",
+      "avg_calories": 1323.0,
+      "avg_protein": 10.3,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-12-21",
+      "avg_calories": 1142.0,
+      "avg_protein": 26.3,
+      "days_logged": 7
+    },
+    {
+      "week": "2020-12-28",
+      "avg_calories": 827.0,
+      "avg_protein": 4.8,
+      "days_logged": 6
+    },
+    {
+      "week": "2021-01-04",
+      "avg_calories": 489.0,
+      "avg_protein": 16.8,
+      "days_logged": 5
+    },
+    {
+      "week": "2021-01-11",
+      "avg_calories": 770.0,
+      "avg_protein": 0.0,
+      "days_logged": 5
+    },
+    {
+      "week": "2021-01-25",
+      "avg_calories": 750.0,
+      "avg_protein": 0.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2021-02-01",
+      "avg_calories": 573.0,
+      "avg_protein": 38.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2021-02-08",
+      "avg_calories": 119.0,
+      "avg_protein": 7.1,
+      "days_logged": 1
+    },
+    {
+      "week": "2021-02-15",
+      "avg_calories": 775.0,
+      "avg_protein": 29.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2021-02-22",
+      "avg_calories": 378.0,
+      "avg_protein": 6.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2021-03-01",
+      "avg_calories": 831.0,
+      "avg_protein": 18.6,
+      "days_logged": 7
+    },
+    {
+      "week": "2021-03-08",
+      "avg_calories": 1149.0,
+      "avg_protein": 57.6,
+      "days_logged": 5
+    },
+    {
+      "week": "2021-03-15",
+      "avg_calories": 479.0,
+      "avg_protein": 25.5,
+      "days_logged": 4
+    },
+    {
+      "week": "2021-03-22",
+      "avg_calories": 226.0,
+      "avg_protein": 15.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2021-06-07",
+      "avg_calories": 1254.0,
+      "avg_protein": 75.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2021-06-21",
+      "avg_calories": 359.0,
+      "avg_protein": 10.3,
+      "days_logged": 1
+    },
+    {
+      "week": "2021-07-05",
+      "avg_calories": 702.0,
+      "avg_protein": 46.7,
+      "days_logged": 5
+    },
+    {
+      "week": "2021-07-19",
+      "avg_calories": 476.0,
+      "avg_protein": 31.3,
+      "days_logged": 3
+    },
+    {
+      "week": "2021-08-23",
+      "avg_calories": 542.0,
+      "avg_protein": 33.9,
+      "days_logged": 1
+    },
+    {
+      "week": "2021-11-29",
+      "avg_calories": 905.0,
+      "avg_protein": 39.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-01-03",
+      "avg_calories": 362.0,
+      "avg_protein": 8.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-01-10",
+      "avg_calories": 1146.0,
+      "avg_protein": 49.5,
+      "days_logged": 4
+    },
+    {
+      "week": "2022-01-17",
+      "avg_calories": 342.0,
+      "avg_protein": 23.2,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-02-21",
+      "avg_calories": 435.0,
+      "avg_protein": 22.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2022-02-28",
+      "avg_calories": 423.0,
+      "avg_protein": 16.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2022-03-07",
+      "avg_calories": 1379.0,
+      "avg_protein": 52.3,
+      "days_logged": 2
+    },
+    {
+      "week": "2022-03-21",
+      "avg_calories": 351.0,
+      "avg_protein": 31.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-03-28",
+      "avg_calories": 1280.0,
+      "avg_protein": 75.9,
+      "days_logged": 6
+    },
+    {
+      "week": "2022-04-04",
+      "avg_calories": 1042.0,
+      "avg_protein": 46.8,
+      "days_logged": 6
+    },
+    {
+      "week": "2022-04-11",
+      "avg_calories": 858.0,
+      "avg_protein": 28.9,
+      "days_logged": 2
+    },
+    {
+      "week": "2022-05-09",
+      "avg_calories": 713.0,
+      "avg_protein": 31.7,
+      "days_logged": 3
+    },
+    {
+      "week": "2022-05-16",
+      "avg_calories": 409.0,
+      "avg_protein": 20.9,
+      "days_logged": 4
+    },
+    {
+      "week": "2022-05-23",
+      "avg_calories": 403.0,
+      "avg_protein": 18.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-06-13",
+      "avg_calories": 1007.0,
+      "avg_protein": 60.5,
+      "days_logged": 2
+    },
+    {
+      "week": "2022-06-20",
+      "avg_calories": 852.0,
+      "avg_protein": 31.2,
+      "days_logged": 5
+    },
+    {
+      "week": "2022-06-27",
+      "avg_calories": 1233.0,
+      "avg_protein": 61.2,
+      "days_logged": 6
+    },
+    {
+      "week": "2022-07-04",
+      "avg_calories": 1632.0,
+      "avg_protein": 80.1,
+      "days_logged": 6
+    },
+    {
+      "week": "2022-07-11",
+      "avg_calories": 1155.0,
+      "avg_protein": 48.8,
+      "days_logged": 3
+    },
+    {
+      "week": "2022-07-18",
+      "avg_calories": 697.0,
+      "avg_protein": 1.2,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-08-29",
+      "avg_calories": 474.0,
+      "avg_protein": 56.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2022-10-10",
+      "avg_calories": 1034.0,
+      "avg_protein": 56.8,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-01-16",
+      "avg_calories": 1192.0,
+      "avg_protein": 13.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-01-23",
+      "avg_calories": 1353.0,
+      "avg_protein": 20.0,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-01-30",
+      "avg_calories": 827.0,
+      "avg_protein": 61.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-02-13",
+      "avg_calories": 1275.0,
+      "avg_protein": 67.6,
+      "days_logged": 6
+    },
+    {
+      "week": "2023-02-20",
+      "avg_calories": 310.0,
+      "avg_protein": 11.2,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-03-20",
+      "avg_calories": 868.0,
+      "avg_protein": 51.6,
+      "days_logged": 5
+    },
+    {
+      "week": "2023-04-24",
+      "avg_calories": 723.0,
+      "avg_protein": 24.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-05-01",
+      "avg_calories": 1159.0,
+      "avg_protein": 90.8,
+      "days_logged": 3
+    },
+    {
+      "week": "2023-05-29",
+      "avg_calories": 391.0,
+      "avg_protein": 36.3,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-06-19",
+      "avg_calories": 857.0,
+      "avg_protein": 42.5,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-06-26",
+      "avg_calories": 248.0,
+      "avg_protein": 8.2,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-07-03",
+      "avg_calories": 479.0,
+      "avg_protein": 33.3,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-07-10",
+      "avg_calories": 531.0,
+      "avg_protein": 35.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-07-17",
+      "avg_calories": 798.0,
+      "avg_protein": 36.1,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-08-21",
+      "avg_calories": 753.0,
+      "avg_protein": 45.9,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-09-04",
+      "avg_calories": 696.0,
+      "avg_protein": 57.2,
+      "days_logged": 2
+    },
+    {
+      "week": "2023-09-18",
+      "avg_calories": 885.0,
+      "avg_protein": 68.1,
+      "days_logged": 4
+    },
+    {
+      "week": "2023-09-25",
+      "avg_calories": 1335.0,
+      "avg_protein": 72.1,
+      "days_logged": 7
+    },
+    {
+      "week": "2023-10-02",
+      "avg_calories": 1151.0,
+      "avg_protein": 87.6,
+      "days_logged": 7
+    },
+    {
+      "week": "2023-10-09",
+      "avg_calories": 984.0,
+      "avg_protein": 44.7,
+      "days_logged": 5
+    },
+    {
+      "week": "2023-10-16",
+      "avg_calories": 1017.0,
+      "avg_protein": 43.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2023-12-25",
+      "avg_calories": 175.0,
+      "avg_protein": 20.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-01-01",
+      "avg_calories": 1161.0,
+      "avg_protein": 82.7,
+      "days_logged": 5
+    },
+    {
+      "week": "2024-01-08",
+      "avg_calories": 1421.0,
+      "avg_protein": 121.2,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-01-15",
+      "avg_calories": 1153.0,
+      "avg_protein": 72.5,
+      "days_logged": 6
+    },
+    {
+      "week": "2024-01-22",
+      "avg_calories": 899.0,
+      "avg_protein": 57.8,
+      "days_logged": 6
+    },
+    {
+      "week": "2024-01-29",
+      "avg_calories": 1185.0,
+      "avg_protein": 89.2,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-02-05",
+      "avg_calories": 1064.0,
+      "avg_protein": 52.7,
+      "days_logged": 5
+    },
+    {
+      "week": "2024-02-12",
+      "avg_calories": 483.0,
+      "avg_protein": 21.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-02-19",
+      "avg_calories": 748.0,
+      "avg_protein": 52.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-02-26",
+      "avg_calories": 805.0,
+      "avg_protein": 61.1,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-03-04",
+      "avg_calories": 949.0,
+      "avg_protein": 72.3,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-03-11",
+      "avg_calories": 1470.0,
+      "avg_protein": 108.8,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-03-18",
+      "avg_calories": 1322.0,
+      "avg_protein": 114.0,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-03-25",
+      "avg_calories": 572.0,
+      "avg_protein": 50.3,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-04-08",
+      "avg_calories": 295.0,
+      "avg_protein": 32.8,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-04-15",
+      "avg_calories": 1352.0,
+      "avg_protein": 88.8,
+      "days_logged": 6
+    },
+    {
+      "week": "2024-04-22",
+      "avg_calories": 1748.0,
+      "avg_protein": 123.9,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-04-29",
+      "avg_calories": 1045.0,
+      "avg_protein": 76.5,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-05-06",
+      "avg_calories": 1813.0,
+      "avg_protein": 137.9,
+      "days_logged": 5
+    },
+    {
+      "week": "2024-05-13",
+      "avg_calories": 1315.0,
+      "avg_protein": 82.3,
+      "days_logged": 7
+    },
+    {
+      "week": "2024-05-20",
+      "avg_calories": 776.0,
+      "avg_protein": 49.9,
+      "days_logged": 3
+    },
+    {
+      "week": "2024-05-27",
+      "avg_calories": 766.0,
+      "avg_protein": 67.4,
+      "days_logged": 3
+    },
+    {
+      "week": "2024-06-24",
+      "avg_calories": 579.0,
+      "avg_protein": 45.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-07-01",
+      "avg_calories": 772.0,
+      "avg_protein": 22.2,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-08-05",
+      "avg_calories": 431.0,
+      "avg_protein": 30.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-08-12",
+      "avg_calories": 424.0,
+      "avg_protein": 24.8,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-08-19",
+      "avg_calories": 524.0,
+      "avg_protein": 27.5,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-09-09",
+      "avg_calories": 1480.0,
+      "avg_protein": 94.7,
+      "days_logged": 6
+    },
+    {
+      "week": "2024-09-16",
+      "avg_calories": 1522.0,
+      "avg_protein": 93.8,
+      "days_logged": 5
+    },
+    {
+      "week": "2024-09-23",
+      "avg_calories": 1236.0,
+      "avg_protein": 81.1,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-09-30",
+      "avg_calories": 950.0,
+      "avg_protein": 61.9,
+      "days_logged": 2
+    },
+    {
+      "week": "2024-10-07",
+      "avg_calories": 607.0,
+      "avg_protein": 36.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-10-21",
+      "avg_calories": 925.0,
+      "avg_protein": 61.6,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-11-04",
+      "avg_calories": 569.0,
+      "avg_protein": 39.2,
+      "days_logged": 1
+    },
+    {
+      "week": "2024-12-16",
+      "avg_calories": 1341.0,
+      "avg_protein": 81.6,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-01-06",
+      "avg_calories": 1930.0,
+      "avg_protein": 148.0,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-02-24",
+      "avg_calories": 635.0,
+      "avg_protein": 42.5,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-03-03",
+      "avg_calories": 680.0,
+      "avg_protein": 51.6,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-04-14",
+      "avg_calories": 1014.0,
+      "avg_protein": 73.0,
+      "days_logged": 4
+    },
+    {
+      "week": "2025-04-21",
+      "avg_calories": 1566.0,
+      "avg_protein": 112.6,
+      "days_logged": 2
+    },
+    {
+      "week": "2025-05-19",
+      "avg_calories": 1889.0,
+      "avg_protein": 87.4,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-05-26",
+      "avg_calories": 1442.0,
+      "avg_protein": 95.3,
+      "days_logged": 3
+    },
+    {
+      "week": "2025-06-16",
+      "avg_calories": 1254.0,
+      "avg_protein": 149.7,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-07-28",
+      "avg_calories": 1225.0,
+      "avg_protein": 96.0,
+      "days_logged": 7
+    },
+    {
+      "week": "2025-08-04",
+      "avg_calories": 956.0,
+      "avg_protein": 50.9,
+      "days_logged": 5
+    },
+    {
+      "week": "2025-08-11",
+      "avg_calories": 982.0,
+      "avg_protein": 59.6,
+      "days_logged": 3
+    },
+    {
+      "week": "2025-08-18",
+      "avg_calories": 744.0,
+      "avg_protein": 48.5,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-09-01",
+      "avg_calories": 509.0,
+      "avg_protein": 29.2,
+      "days_logged": 1
+    },
+    {
+      "week": "2025-11-17",
+      "avg_calories": 459.0,
+      "avg_protein": 39.6,
+      "days_logged": 1
+    }
+  ],
+  "food_frequency": [
+    {
+      "food": "Boiled eggs",
+      "count": 18,
+      "total_calories": 3222,
+      "avg_calories": 179.0,
+      "avg_protein": 15.9,
+      "category": "Protein"
+    },
+    {
+      "food": "Avocado",
+      "count": 6,
+      "total_calories": 662,
+      "avg_calories": 110.0,
+      "avg_protein": 1.3,
+      "category": "Other"
+    },
+    {
+      "food": "Warburtons",
+      "count": 5,
+      "total_calories": 844,
+      "avg_calories": 169.0,
+      "avg_protein": 7.2,
+      "category": "Other"
+    },
+    {
+      "food": "tuna pasta",
+      "count": 4,
+      "total_calories": 1736,
+      "avg_calories": 434.0,
+      "avg_protein": 22.0,
+      "category": "Protein"
+    },
+    {
+      "food": "Two Chicke",
+      "count": 4,
+      "total_calories": 206,
+      "avg_calories": 52.0,
+      "avg_protein": 11.8,
+      "category": "Other"
+    },
+    {
+      "food": "Jason's sourdough",
+      "count": 4,
+      "total_calories": 666,
+      "avg_calories": 166.0,
+      "avg_protein": 7.5,
+      "category": "Carbs"
+    },
+    {
+      "food": "Max Crisps",
+      "count": 4,
+      "total_calories": 572,
+      "avg_calories": 143.0,
+      "avg_protein": 2.0,
+      "category": "Treats"
+    },
+    {
+      "food": "Mushrooms",
+      "count": 4,
+      "total_calories": 88,
+      "avg_calories": 22.0,
+      "avg_protein": 2.0,
+      "category": "Other"
+    },
+    {
+      "food": "Spinach raw fresh",
+      "count": 4,
+      "total_calories": 28,
+      "avg_calories": 7.0,
+      "avg_protein": 1.0,
+      "category": "Vegetables"
+    },
+    {
+      "food": "USN",
+      "count": 4,
+      "total_calories": 504,
+      "avg_calories": 126.0,
+      "avg_protein": 24.0,
+      "category": "Other"
+    },
+    {
+      "food": "Baked Chicken Breast",
+      "count": 4,
+      "total_calories": 1235,
+      "avg_calories": 309.0,
+      "avg_protein": 58.0,
+      "category": "Protein"
+    },
+    {
+      "food": "Avocado oil",
+      "count": 4,
+      "total_calories": 180,
+      "avg_calories": 45.0,
+      "avg_protein": 0.0,
+      "category": "Other"
+    },
+    {
+      "food": "Dark Chocolate with Sea Salt",
+      "count": 3,
+      "total_calories": 241,
+      "avg_calories": 80.0,
+      "avg_protein": 1.3,
+      "category": "Treats"
+    },
+    {
+      "food": "Veetee",
+      "count": 3,
+      "total_calories": 788,
+      "avg_calories": 263.0,
+      "avg_protein": 4.7,
+      "category": "Other"
+    },
+    {
+      "food": "Whole Fat Milk",
+      "count": 3,
+      "total_calories": 171,
+      "avg_calories": 57.0,
+      "avg_protein": 3.0,
+      "category": "Dairy"
+    },
+    {
+      "food": "Kiwi",
+      "count": 3,
+      "total_calories": 144,
+      "avg_calories": 48.0,
+      "avg_protein": 1.0,
+      "category": "Other"
+    },
+    {
+      "food": "emmi caffe latte skinny",
+      "count": 3,
+      "total_calories": 399,
+      "avg_calories": 133.0,
+      "avg_protein": 12.0,
+      "category": "Other"
+    },
+    {
+      "food": "tilda",
+      "count": 3,
+      "total_calories": 978,
+      "avg_calories": 326.0,
+      "avg_protein": 6.0,
+      "category": "Other"
+    },
+    {
+      "food": "Jason's Sourdough",
+      "count": 3,
+      "total_calories": 690,
+      "avg_calories": 230.0,
+      "avg_protein": 20.0,
+      "category": "Carbs"
+    },
+    {
+      "food": "Emporium",
+      "count": 3,
+      "total_calories": 294,
+      "avg_calories": 98.0,
+      "avg_protein": 6.0,
+      "category": "Other"
+    }
+  ],
+  "exercise_summary": [
+    {
+      "date": "2021-06-08",
+      "exercise": "Running (jogging), 5 mph (12 min mile)",
+      "calories": 125.0,
+      "minutes": 20
+    },
+    {
+      "date": "2021-06-10",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 342.0,
+      "minutes": 34
+    },
+    {
+      "date": "2022-01-10",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 370.0,
+      "minutes": 53
+    },
+    {
+      "date": "2022-01-11",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 597.0,
+      "minutes": 63
+    },
+    {
+      "date": "2022-01-12",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 252.0,
+      "minutes": 25
+    },
+    {
+      "date": "2022-01-13",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 466.0,
+      "minutes": 59
+    },
+    {
+      "date": "2022-03-01",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 317.0,
+      "minutes": 33
+    },
+    {
+      "date": "2022-03-08",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 85.0,
+      "minutes": 23
+    },
+    {
+      "date": "2022-03-29",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 408.0,
+      "minutes": 61
+    },
+    {
+      "date": "2022-03-30",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 345.0,
+      "minutes": 37
+    },
+    {
+      "date": "2022-03-30",
+      "exercise": "Swimming laps, freestyle, light/moderate",
+      "calories": 45.0,
+      "minutes": 25
+    },
+    {
+      "date": "2022-03-30",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 53.0,
+      "minutes": 12
+    },
+    {
+      "date": "2022-03-31",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 240.0,
+      "minutes": 45
+    },
+    {
+      "date": "2022-04-02",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 839.0,
+      "minutes": 79
+    },
+    {
+      "date": "2022-04-02",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 118.0,
+      "minutes": 12
+    },
+    {
+      "date": "2022-04-02",
+      "exercise": "Swimming laps, freestyle, light/moderate",
+      "calories": 54.0,
+      "minutes": 23
+    },
+    {
+      "date": "2022-04-04",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 394.0,
+      "minutes": 40
+    },
+    {
+      "date": "2022-04-05",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 597.0,
+      "minutes": 52
+    },
+    {
+      "date": "2022-04-05",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 87.0,
+      "minutes": 26
+    },
+    {
+      "date": "2022-04-06",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 399.0,
+      "minutes": 47
+    },
+    {
+      "date": "2022-04-13",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 307.0,
+      "minutes": 39
+    },
+    {
+      "date": "2022-04-13",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 84.0,
+      "minutes": 25
+    },
+    {
+      "date": "2022-06-29",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 223.0,
+      "minutes": 42
+    },
+    {
+      "date": "2022-07-06",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 324.0,
+      "minutes": 39
+    },
+    {
+      "date": "2022-07-07",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 412.0,
+      "minutes": 62
+    },
+    {
+      "date": "2022-07-07",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 54.0,
+      "minutes": 14
+    },
+    {
+      "date": "2022-07-07",
+      "exercise": "Walking, 2.5 mph, leisurely pace",
+      "calories": 61.0,
+      "minutes": 20
+    },
+    {
+      "date": "2022-07-08",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 55.0,
+      "minutes": 81
+    },
+    {
+      "date": "2022-07-13",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 344.0,
+      "minutes": 59
+    },
+    {
+      "date": "2022-08-31",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 352.0,
+      "minutes": 44
+    },
+    {
+      "date": "2022-10-13",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 276.0,
+      "minutes": 36
+    },
+    {
+      "date": "2023-01-19",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 502.0,
+      "minutes": 57
+    },
+    {
+      "date": "2023-01-24",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 237.0,
+      "minutes": 34
+    },
+    {
+      "date": "2023-02-13",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 309.0,
+      "minutes": 41
+    },
+    {
+      "date": "2023-02-14",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 286.0,
+      "minutes": 47
+    },
+    {
+      "date": "2023-02-15",
+      "exercise": "Strength training (weight lifting, weigh",
+      "calories": 326.0,
+      "minutes": 44
+    },
+    {
+      "date": "2023-07-18",
+      "exercise": "Walking, 3.0 mph, mod. pace, walking dog",
+      "calories": 316.0,
+      "minutes": 70
+    }
+  ],
+  "blood_test": {
+    "vitamin_d": {
+      "value": 28,
+      "unit": "nmol/L",
+      "min": 50,
+      "max": 200,
+      "status": "low"
+    },
+    "folate": {
+      "value": 3.1,
+      "unit": "ug/L",
+      "min": 3.0,
+      "max": 20.5,
+      "status": "borderline"
+    },
+    "b12": {
+      "value": 491,
+      "unit": "ng/L",
+      "min": 200,
+      "max": 900,
+      "status": "normal"
+    },
+    "ferritin": {
+      "value": 224,
+      "unit": "ug/L",
+      "min": 30,
+      "max": 300,
+      "status": "normal"
+    },
+    "sodium": {
+      "value": 139,
+      "unit": "mmol/L",
+      "min": 133,
+      "max": 146,
+      "status": "normal"
+    },
+    "potassium": {
+      "value": 4.4,
+      "unit": "mmol/L",
+      "min": 3.5,
+      "max": 5.3,
+      "status": "normal"
+    },
+    "tsh": {
+      "value": 1.33,
+      "unit": "miu/L",
+      "min": 0.35,
+      "max": 4.94,
+      "status": "normal"
+    },
+    "alt": {
+      "value": 33,
+      "unit": "u/L",
+      "min": 0,
+      "max": 55,
+      "status": "normal"
+    },
+    "egfr": {
+      "value": 90,
+      "unit": "mL/min",
+      "min": 90,
+      "max": 120,
+      "status": "normal"
+    },
+    "blood_pressure": {
+      "systolic": 116,
+      "diastolic": 75,
+      "status": "optimal"
+    },
+    "bmi": {
+      "value": 32.4,
+      "status": "obese_class_1"
+    }
+  },
+  "correlations": {
+    "calories_vs_weight_change": [
+      {
+        "avg_calories": 270.0,
+        "weight_change": 0.0,
+        "week": "2017-07-24"
+      },
+      {
+        "avg_calories": 907.0,
+        "weight_change": -3.0,
+        "week": "2018-01-22"
+      },
+      {
+        "avg_calories": 504.0,
+        "weight_change": 1.0,
+        "week": "2018-06-25"
+      },
+      {
+        "avg_calories": 1091.0,
+        "weight_change": -6.4,
+        "week": "2019-10-07"
+      },
+      {
+        "avg_calories": 994.0,
+        "weight_change": -3.8,
+        "week": "2020-09-07"
+      },
+      {
+        "avg_calories": 308.0,
+        "weight_change": 0.0,
+        "week": "2020-09-14"
+      },
+      {
+        "avg_calories": 556.0,
+        "weight_change": 1.7,
+        "week": "2020-10-26"
+      },
+      {
+        "avg_calories": 1065.0,
+        "weight_change": 0.0,
+        "week": "2020-11-02"
+      },
+      {
+        "avg_calories": 1450.0,
+        "weight_change": -4.9,
+        "week": "2020-11-16"
+      },
+      {
+        "avg_calories": 1443.0,
+        "weight_change": -0.4,
+        "week": "2020-11-23"
+      },
+      {
+        "avg_calories": 1441.0,
+        "weight_change": -0.4,
+        "week": "2020-11-30"
+      },
+      {
+        "avg_calories": 489.0,
+        "weight_change": -2.3,
+        "week": "2021-01-04"
+      },
+      {
+        "avg_calories": 770.0,
+        "weight_change": 0.0,
+        "week": "2021-01-11"
+      },
+      {
+        "avg_calories": 1254.0,
+        "weight_change": 4.5,
+        "week": "2021-06-07"
+      },
+      {
+        "avg_calories": 362.0,
+        "weight_change": 6.0,
+        "week": "2022-01-03"
+      },
+      {
+        "avg_calories": 852.0,
+        "weight_change": 3.6,
+        "week": "2022-06-20"
+      },
+      {
+        "avg_calories": 1232.0,
+        "weight_change": 0.0,
+        "week": "2022-06-27"
+      },
+      {
+        "avg_calories": 1033.0,
+        "weight_change": -1.6,
+        "week": "2022-10-10"
+      },
+      {
+        "avg_calories": 856.0,
+        "weight_change": 2.5,
+        "week": "2023-06-19"
+      },
+      {
+        "avg_calories": 248.0,
+        "weight_change": -0.1,
+        "week": "2023-06-26"
+      },
+      {
+        "avg_calories": 479.0,
+        "weight_change": -0.2,
+        "week": "2023-07-03"
+      },
+      {
+        "avg_calories": 531.0,
+        "weight_change": -0.4,
+        "week": "2023-07-10"
+      },
+      {
+        "avg_calories": 798.0,
+        "weight_change": -0.6,
+        "week": "2023-07-17"
+      },
+      {
+        "avg_calories": 1334.0,
+        "weight_change": 4.1,
+        "week": "2023-09-25"
+      },
+      {
+        "avg_calories": 1150.0,
+        "weight_change": 0.0,
+        "week": "2023-10-02"
+      },
+      {
+        "avg_calories": 1017.0,
+        "weight_change": -5.0,
+        "week": "2023-10-16"
+      },
+      {
+        "avg_calories": 175.0,
+        "weight_change": 2.8,
+        "week": "2023-12-25"
+      },
+      {
+        "avg_calories": 1161.0,
+        "weight_change": -0.5,
+        "week": "2024-01-01"
+      },
+      {
+        "avg_calories": 1421.0,
+        "weight_change": -0.6,
+        "week": "2024-01-08"
+      },
+      {
+        "avg_calories": 1153.0,
+        "weight_change": 0.0,
+        "week": "2024-01-15"
+      },
+      {
+        "avg_calories": 899.0,
+        "weight_change": 0.0,
+        "week": "2024-01-22"
+      },
+      {
+        "avg_calories": 1185.0,
+        "weight_change": 0.0,
+        "week": "2024-01-29"
+      },
+      {
+        "avg_calories": 1063.0,
+        "weight_change": 0.0,
+        "week": "2024-02-05"
+      },
+      {
+        "avg_calories": 483.0,
+        "weight_change": 0.0,
+        "week": "2024-02-12"
+      },
+      {
+        "avg_calories": 748.0,
+        "weight_change": 0.0,
+        "week": "2024-02-19"
+      },
+      {
+        "avg_calories": 805.0,
+        "weight_change": 0.0,
+        "week": "2024-02-26"
+      },
+      {
+        "avg_calories": 949.0,
+        "weight_change": 0.0,
+        "week": "2024-03-04"
+      },
+      {
+        "avg_calories": 1352.0,
+        "weight_change": -1.0,
+        "week": "2024-04-15"
+      },
+      {
+        "avg_calories": 1748.0,
+        "weight_change": 0.0,
+        "week": "2024-04-22"
+      },
+      {
+        "avg_calories": 424.0,
+        "weight_change": 5.0,
+        "week": "2024-08-12"
+      },
+      {
+        "avg_calories": 524.0,
+        "weight_change": 0.0,
+        "week": "2024-08-19"
+      },
+      {
+        "avg_calories": 1479.0,
+        "weight_change": -1.2,
+        "week": "2024-09-09"
+      },
+      {
+        "avg_calories": 1521.0,
+        "weight_change": -0.6,
+        "week": "2024-09-16"
+      },
+      {
+        "avg_calories": 1013.0,
+        "weight_change": 4.4,
+        "week": "2025-04-14"
+      },
+      {
+        "avg_calories": 1441.0,
+        "weight_change": 0.1,
+        "week": "2025-05-26"
+      },
+      {
+        "avg_calories": 1225.0,
+        "weight_change": 0.7,
+        "week": "2025-07-28"
+      },
+      {
+        "avg_calories": 955.0,
+        "weight_change": -0.5,
+        "week": "2025-08-04"
+      },
+      {
+        "avg_calories": 982.0,
+        "weight_change": -0.2,
+        "week": "2025-08-11"
+      }
+    ],
+    "calories_vs_weight_data": [
+      {
+        "week": "2017-01-09",
+        "avg_calories": 1008.0,
+        "avg_protein": 54.8,
+        "weight": 80.0
+      },
+      {
+        "week": "2017-07-24",
+        "avg_calories": 270.0,
+        "avg_protein": 19.0,
+        "weight": 80.0
+      },
+      {
+        "week": "2018-01-22",
+        "avg_calories": 907.0,
+        "avg_protein": 28.9,
+        "weight": 77.0
+      },
+      {
+        "week": "2018-06-25",
+        "avg_calories": 504.0,
+        "avg_protein": 15.7,
+        "weight": 78.0
+      },
+      {
+        "week": "2019-10-07",
+        "avg_calories": 1091.0,
+        "avg_protein": 50.6,
+        "weight": 71.6
+      },
+      {
+        "week": "2020-09-07",
+        "avg_calories": 994.0,
+        "avg_protein": 14.8,
+        "weight": 67.8
+      },
+      {
+        "week": "2020-09-14",
+        "avg_calories": 308.0,
+        "avg_protein": 10.7,
+        "weight": 67.8
+      },
+      {
+        "week": "2020-10-26",
+        "avg_calories": 556.0,
+        "avg_protein": 18.6,
+        "weight": 69.5
+      },
+      {
+        "week": "2020-11-02",
+        "avg_calories": 1065.0,
+        "avg_protein": 62.3,
+        "weight": 69.5
+      },
+      {
+        "week": "2020-11-16",
+        "avg_calories": 1450.0,
+        "avg_protein": 31.5,
+        "weight": 64.6
+      },
+      {
+        "week": "2020-11-23",
+        "avg_calories": 1443.0,
+        "avg_protein": 57.7,
+        "weight": 64.2
+      },
+      {
+        "week": "2020-11-30",
+        "avg_calories": 1441.0,
+        "avg_protein": 62.3,
+        "weight": 63.8
+      },
+      {
+        "week": "2021-01-04",
+        "avg_calories": 489.0,
+        "avg_protein": 16.8,
+        "weight": 61.5
+      },
+      {
+        "week": "2021-01-11",
+        "avg_calories": 770.0,
+        "avg_protein": 0.0,
+        "weight": 61.5
+      },
+      {
+        "week": "2021-06-07",
+        "avg_calories": 1254.0,
+        "avg_protein": 75.1,
+        "weight": 66.0
+      },
+      {
+        "week": "2022-01-03",
+        "avg_calories": 362.0,
+        "avg_protein": 8.4,
+        "weight": 72.0
+      },
+      {
+        "week": "2022-06-20",
+        "avg_calories": 852.0,
+        "avg_protein": 31.2,
+        "weight": 75.6
+      },
+      {
+        "week": "2022-06-27",
+        "avg_calories": 1232.0,
+        "avg_protein": 61.2,
+        "weight": 75.6
+      },
+      {
+        "week": "2022-10-10",
+        "avg_calories": 1033.0,
+        "avg_protein": 56.8,
+        "weight": 74.0
+      },
+      {
+        "week": "2023-06-19",
+        "avg_calories": 856.0,
+        "avg_protein": 42.5,
+        "weight": 76.5
+      },
+      {
+        "week": "2023-06-26",
+        "avg_calories": 248.0,
+        "avg_protein": 8.2,
+        "weight": 76.4
+      },
+      {
+        "week": "2023-07-03",
+        "avg_calories": 479.0,
+        "avg_protein": 33.3,
+        "weight": 76.2
+      },
+      {
+        "week": "2023-07-10",
+        "avg_calories": 531.0,
+        "avg_protein": 35.7,
+        "weight": 75.8
+      },
+      {
+        "week": "2023-07-17",
+        "avg_calories": 798.0,
+        "avg_protein": 36.1,
+        "weight": 75.2
+      },
+      {
+        "week": "2023-09-25",
+        "avg_calories": 1334.0,
+        "avg_protein": 72.1,
+        "weight": 79.3
+      },
+      {
+        "week": "2023-10-02",
+        "avg_calories": 1150.0,
+        "avg_protein": 87.6,
+        "weight": 79.3
+      },
+      {
+        "week": "2023-10-16",
+        "avg_calories": 1017.0,
+        "avg_protein": 43.4,
+        "weight": 74.3
+      },
+      {
+        "week": "2023-12-25",
+        "avg_calories": 175.0,
+        "avg_protein": 20.0,
+        "weight": 77.1
+      },
+      {
+        "week": "2024-01-01",
+        "avg_calories": 1161.0,
+        "avg_protein": 82.7,
+        "weight": 76.6
+      },
+      {
+        "week": "2024-01-08",
+        "avg_calories": 1421.0,
+        "avg_protein": 121.2,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-01-15",
+        "avg_calories": 1153.0,
+        "avg_protein": 72.5,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-01-22",
+        "avg_calories": 899.0,
+        "avg_protein": 57.8,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-01-29",
+        "avg_calories": 1185.0,
+        "avg_protein": 89.2,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-02-05",
+        "avg_calories": 1063.0,
+        "avg_protein": 52.7,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-02-12",
+        "avg_calories": 483.0,
+        "avg_protein": 21.4,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-02-19",
+        "avg_calories": 748.0,
+        "avg_protein": 52.1,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-02-26",
+        "avg_calories": 805.0,
+        "avg_protein": 61.1,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-03-04",
+        "avg_calories": 949.0,
+        "avg_protein": 72.3,
+        "weight": 76.0
+      },
+      {
+        "week": "2024-04-15",
+        "avg_calories": 1352.0,
+        "avg_protein": 88.8,
+        "weight": 75.0
+      },
+      {
+        "week": "2024-04-22",
+        "avg_calories": 1748.0,
+        "avg_protein": 123.9,
+        "weight": 75.0
+      },
+      {
+        "week": "2024-08-12",
+        "avg_calories": 424.0,
+        "avg_protein": 24.8,
+        "weight": 80.0
+      },
+      {
+        "week": "2024-08-19",
+        "avg_calories": 524.0,
+        "avg_protein": 27.5,
+        "weight": 80.0
+      },
+      {
+        "week": "2024-09-09",
+        "avg_calories": 1479.0,
+        "avg_protein": 94.7,
+        "weight": 78.8
+      },
+      {
+        "week": "2024-09-16",
+        "avg_calories": 1521.0,
+        "avg_protein": 93.8,
+        "weight": 78.2
+      },
+      {
+        "week": "2025-04-14",
+        "avg_calories": 1013.0,
+        "avg_protein": 73.0,
+        "weight": 82.6
+      },
+      {
+        "week": "2025-05-26",
+        "avg_calories": 1441.0,
+        "avg_protein": 95.3,
+        "weight": 82.7
+      },
+      {
+        "week": "2025-07-28",
+        "avg_calories": 1225.0,
+        "avg_protein": 96.0,
+        "weight": 83.4
+      },
+      {
+        "week": "2025-08-04",
+        "avg_calories": 955.0,
+        "avg_protein": 50.9,
+        "weight": 82.9
+      },
+      {
+        "week": "2025-08-11",
+        "avg_calories": 982.0,
+        "avg_protein": 59.6,
+        "weight": 82.7
+      }
+    ],
+    "calories_vs_weight_stats": {
+      "r": -0.247,
+      "p_value": 0.0903,
+      "interpretation": "weak"
+    }
+  },
+  "insights": [
+    {
+      "category": "weight",
+      "title": "Weight Change",
+      "text": "Weight changed by +3.9 kg over 777 days (2023-06-23 to 2025-08-08)",
+      "status": "neutral"
+    },
+    {
+      "category": "composition",
+      "title": "Body Fat Change",
+      "text": "Body fat changed from 22.9% to 25.0% (+2.1%)",
+      "status": "warning"
+    },
+    {
+      "category": "nutrition",
+      "title": "Protein Intake",
+      "text": "Average protein: 82g/day (0.99 g/kg). Target: 1.6-2.0 g/kg",
+      "status": "warning"
+    },
+    {
+      "category": "nutrition",
+      "title": "Fiber Intake",
+      "text": "Average fiber: 6g/day. Target: 25-30g/day",
+      "status": "warning"
+    },
+    {
+      "category": "blood",
+      "title": "Vitamin D Deficiency",
+      "text": "Vitamin D at 28 nmol/L (target: >50). Consider supplementation.",
+      "status": "warning"
+    }
+  ],
+  "current_stats": {
+    "date": "2025-08-08",
+    "weight": 82.7,
+    "body_fat_pct": 25.0,
+    "muscle_mass": 58.8,
+    "fat_mass": 20.7,
+    "visceral_fat": 12,
+    "bmr": 1704,
+    "bmi": 30.0
+  }
+}
