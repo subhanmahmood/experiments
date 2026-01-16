@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data
+pdfs/
+*.pdf
+chunks/
+qdrant_data/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
