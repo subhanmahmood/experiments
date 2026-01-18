@@ -320,6 +320,9 @@ def store_chunks(
         qdrant.upsert(collection_name=COLLECTION_NAME, points=batch)
 
 
+MAX_PAGES = 400  # Skip documents larger than this
+
+
 def process_pdf(
     pdf_path: Path,
     encoding,
@@ -329,8 +332,17 @@ def process_pdf(
     """Process a single PDF file. Returns number of chunks created."""
     print(f"\nProcessing: {pdf_path.name}")
 
+    # Check page count first
+    doc = fitz.open(pdf_path)
+    page_count = len(doc)
+    doc.close()
+
+    if page_count > MAX_PAGES:
+        print(f"  Skipping: {page_count} pages (max {MAX_PAGES})")
+        return 0
+
     # Extract text
-    print("  Extracting text...")
+    print(f"  Extracting text ({page_count} pages)...")
     pages = extract_text_from_pdf(pdf_path)
     if not pages:
         print("  No text found, skipping")
@@ -374,12 +386,21 @@ def main():
 
     setup_qdrant(qdrant_client)
 
-    # Process all PDFs
-    pdf_files = sorted(PDF_DIR.glob("*.pdf"))
+    # Process all PDFs (including in subdirectories)
+    pdf_files = sorted(PDF_DIR.glob("**/*.pdf"))
     print(f"Found {len(pdf_files)} PDF files")
 
+    # Exclude Mirza-Tahir-Ahmad (already processed separately)
+    pdf_files = [p for p in pdf_files if "Mirza-Tahir-Ahmad" not in str(p)]
+    print(f"After excluding Mirza-Tahir-Ahmad: {len(pdf_files)} PDF files")
+
+    # Check which ones are already processed (use relative path as key)
+    processed = {f.stem for f in CHUNKS_DIR.glob("*.json")}
+    to_process = [p for p in pdf_files if p.stem not in processed]
+    print(f"Already processed: {len(processed)}, remaining: {len(to_process)}")
+
     total_chunks = 0
-    for pdf_path in pdf_files:
+    for pdf_path in to_process:
         chunks = process_pdf(pdf_path, encoding, openai_client, qdrant_client)
         total_chunks += chunks
 

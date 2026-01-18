@@ -1,0 +1,4 @@
+storage:
+  storage_path: ./qdrant_data
+service:
+  http_port: 6333

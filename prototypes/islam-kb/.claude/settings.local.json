@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.alislam.org)"
+      "WebFetch(domain:www.alislam.org)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:ai-sdk.dev)"
     ]
   }
 }

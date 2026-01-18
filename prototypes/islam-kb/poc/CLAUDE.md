@@ -38,6 +38,21 @@ npm start       # Run the TUI
 npm run dev     # Run with watch mode
 ```
 
+### Web Interface (Next.js)
+
+```bash
+cd web
+npm install
+npm run dev     # Development server at http://localhost:3000
+npm run build   # Production build
+```
+
+Features:
+- Chat UI with GPT-4o and tool-calling
+- Dual search: Islamic texts (Qdrant) + web search (OpenAI built-in)
+- Interactive citations with source modal
+- Streaming markdown with Streamdown
+
 ## Architecture
 
 ```
@@ -48,7 +63,7 @@ npm run dev     # Run with watch mode
                                                                   │
                     ┌──────────────┐     ┌─────────────┐     ┌────▼────┐
                     │ query.py     │◀────│ OpenAI      │◀────│ Vector  │
-                    │ or TUI       │     │ GPT-5.2     │     │ Search  │
+                    │ TUI or Web   │     │ GPT-4o      │     │ Search  │
                     └──────────────┘     └─────────────┘     └─────────┘
 ```
 
@@ -57,6 +72,7 @@ npm run dev     # Run with watch mode
 2. `pipeline.py` - Extracts text via PyMuPDF, chunks with 512-token sliding window (50 overlap), embeds with OpenAI text-embedding-3-large, stores in Qdrant
 3. `query.py` - Embeds query, searches Qdrant for top-k chunks, sends to LLM with system prompt for RAG response
 4. `tui/` - React/Ink terminal interface that spawns query.py with `--stream` and renders results
+5. `web/` - Next.js web interface with AI SDK, tool-calling, and interactive citations
 
 **Key Configuration (in source files):**
 - `CHUNK_SIZE = 512` tokens, `CHUNK_OVERLAP = 50` tokens
@@ -64,12 +80,14 @@ npm run dev     # Run with watch mode
 - `COLLECTION_NAME = "islamic_books"` in Qdrant
 - `TOP_K = 10` chunks retrieved per query
 
-## Data Directories
+## Directories
 
 - `pdfs/` - Downloaded PDF files
 - `chunks/` - JSON files with chunked text (for inspection)
-- `qdrant_data/` - Local Qdrant database files
+- `qdrant_data/` - Local Qdrant database files (or `qdrant/` for Docker)
 - `.venv/` - Python virtual environment
+- `tui/` - Terminal UI (React/Ink)
+- `web/` - Web interface (Next.js)
 
 ## Environment Variables
 

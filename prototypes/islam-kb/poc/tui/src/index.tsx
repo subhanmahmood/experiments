@@ -143,7 +143,18 @@ function App() {
     setQuery("");
     setError("");
 
-    const proc = spawn(VENV_PYTHON, [PYTHON_SCRIPT, "--stream", value], {
+    // Build args with conversation history for context-aware search
+    const args = [PYTHON_SCRIPT, "--stream"];
+    if (conversation.length > 0) {
+      // Pass conversation history as JSON for query synthesis
+      const historyJson = JSON.stringify(
+        conversation.map((t) => ({ question: t.question, answer: t.answer }))
+      );
+      args.push("--history", historyJson);
+    }
+    args.push(value);
+
+    const proc = spawn(VENV_PYTHON, args, {
       cwd: POC_DIR,
     });
 
