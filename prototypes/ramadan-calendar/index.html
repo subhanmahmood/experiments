@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramadan 2026 - Guildford</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: #f0ebe1;
+    color: #2c2418;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 16px 80px;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #f0ebe1;
+    padding: 20px 0 12px;
+  }
+
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2c2418;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  .subtitle {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #8a7d6b;
+    margin-bottom: 12px;
+  }
+
+  .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+    background: linear-gradient(to top, #f0ebe1 60%, transparent);
+  }
+
+  .download-btn {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    background: #2c2418;
+    color: #f0ebe1;
+    border: none;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.02em;
+    transition: background 0.2s;
+  }
+
+  .download-btn:active {
+    background: #4a3828;
+  }
+
+  .download-btn svg {
+    vertical-align: -3px;
+    margin-right: 6px;
+  }
+
+  .day-card {
+    background: #faf6ef;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 4px 14px;
+    align-items: center;
+    border: 1px solid #e4dccb;
+  }
+
+  .day-card.today {
+    border-color: #2c2418;
+    background: #fff8eb;
+    box-shadow: 0 1px 6px rgba(44, 36, 24, 0.1);
+  }
+
+  .day-card.today .day-num {
+    background: #2c2418;
+    color: #f0ebe1;
+  }
+
+  .day-num {
+    grid-row: 1 / 3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8e0d0;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #5c4a32;
+  }
+
+  .day-date {
+    font-size: 0.82rem;
+    color: #8a7d6b;
+    grid-column: 2 / 4;
+  }
+
+  .time-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #9a8e7c;
+  }
+
+  .time-value {
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .suhoor .time-value { color: #4a6e5a; }
+  .iftar .time-value { color: #a0522d; }
+
+  .footer {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 24px 0 8px;
+    font-size: 0.75rem;
+    color: #a0957f;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Ramadan 2026</h1>
+    <p class="subtitle">Guildford, UK &middot; All times GMT</p>
+  </header>
+  <div id="timetable"></div>
+  <p class="footer">Times based on Guildford, UK (51.24&deg;N, 0.57&deg;W)</p>
+</div>
+<div class="sticky-footer">
+  <button class="download-btn" onclick="downloadICS()">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Download Calendar (.ics)
+  </button>
+</div>
+
+<script>
+const TIMETABLE = [
+  { day: 1,  date: "2026-02-19", suhoor: "05:38", iftar: "17:26" },
+  { day: 2,  date: "2026-02-20", suhoor: "05:36", iftar: "17:28" },
+  { day: 3,  date: "2026-02-21", suhoor: "05:34", iftar: "17:30" },
+  { day: 4,  date: "2026-02-22", suhoor: "05:32", iftar: "17:32" },
+  { day: 5,  date: "2026-02-23", suhoor: "05:30", iftar: "17:34" },
+  { day: 6,  date: "2026-02-24", suhoor: "05:28", iftar: "17:36" },
+  { day: 7,  date: "2026-02-25", suhoor: "05:25", iftar: "17:38" },
+  { day: 8,  date: "2026-02-26", suhoor: "05:23", iftar: "17:40" },
+  { day: 9,  date: "2026-02-27", suhoor: "05:21", iftar: "17:42" },
+  { day: 10, date: "2026-02-28", suhoor: "05:18", iftar: "17:44" },
+  { day: 11, date: "2026-03-01", suhoor: "05:16", iftar: "17:46" },
+  { day: 12, date: "2026-03-02", suhoor: "05:13", iftar: "17:48" },
+  { day: 13, date: "2026-03-03", suhoor: "05:11", iftar: "17:50" },
+  { day: 14, date: "2026-03-04", suhoor: "05:08", iftar: "17:52" },
+  { day: 15, date: "2026-03-05", suhoor: "05:06", iftar: "17:54" },
+  { day: 16, date: "2026-03-06", suhoor: "05:03", iftar: "17:56" },
+  { day: 17, date: "2026-03-07", suhoor: "05:01", iftar: "17:58" },
+  { day: 18, date: "2026-03-08", suhoor: "04:58", iftar: "18:00" },
+  { day: 19, date: "2026-03-09", suhoor: "04:55", iftar: "18:02" },
+  { day: 20, date: "2026-03-10", suhoor: "04:53", iftar: "18:04" },
+  { day: 21, date: "2026-03-11", suhoor: "04:50", iftar: "18:06" },
+  { day: 22, date: "2026-03-12", suhoor: "04:47", iftar: "18:08" },
+  { day: 23, date: "2026-03-13", suhoor: "04:44", iftar: "18:10" },
+  { day: 24, date: "2026-03-14", suhoor: "04:42", iftar: "18:12" },
+  { day: 25, date: "2026-03-15", suhoor: "04:39", iftar: "18:14" },
+  { day: 26, date: "2026-03-16", suhoor: "04:36", iftar: "18:16" },
+  { day: 27, date: "2026-03-17", suhoor: "04:33", iftar: "18:18" },
+  { day: 28, date: "2026-03-18", suhoor: "04:30", iftar: "18:20" },
+  { day: 29, date: "2026-03-19", suhoor: "04:27", iftar: "18:22" },
+];
+
+const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function formatDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  const dt = new Date(y, m - 1, d);
+  return `${DAYS[dt.getDay()]} ${d} ${MONTHS[dt.getMonth()]}`;
+}
+
+function formatTime12(t) {
+  const [h, m] = t.split(":").map(Number);
+  const suffix = h >= 12 ? "PM" : "AM";
+  const h12 = h % 12 || 12;
+  return `${h12}:${m.toString().padStart(2, "0")} ${suffix}`;
+}
+
+function todayISO() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+
+// Render timetable
+const container = document.getElementById("timetable");
+const today = todayISO();
+
+TIMETABLE.forEach(entry => {
+  const isToday = entry.date === today;
+  const card = document.createElement("div");
+  card.className = "day-card" + (isToday ? " today" : "");
+  card.innerHTML = `
+    <div class="day-num">${entry.day}</div>
+    <div class="day-date">${formatDate(entry.date)}</div>
+    <div class="time-block suhoor">
+      <span class="time-label">Suhoor Ends</span>
+      <span class="time-value">${formatTime12(entry.suhoor)}</span>
+    </div>
+    <div class="time-block iftar">
+      <span class="time-label">Iftar Begins</span>
+      <span class="time-value">${formatTime12(entry.iftar)}</span>
+    </div>
+  `;
+  container.appendChild(card);
+
+  if (isToday) {
+    requestAnimationFrame(() => card.scrollIntoView({ behavior: "smooth", block: "center" }));
+  }
+});
+
+// ICS generation
+function pad2(n) { return n.toString().padStart(2, "0"); }
+
+function addMinutes(dateISO, timeHHMM, mins) {
+  const [y, mo, d] = dateISO.split("-").map(Number);
+  const [h, m] = timeHHMM.split(":").map(Number);
+  const dt = new Date(Date.UTC(y, mo - 1, d, h, m + mins));
+  return `${dt.getUTCFullYear()}${pad2(dt.getUTCMonth()+1)}${pad2(dt.getUTCDate())}T${pad2(dt.getUTCHours())}${pad2(dt.getUTCMinutes())}00Z`;
+}
+
+function icsTimestamp(dateISO, timeHHMM) {
+  return addMinutes(dateISO, timeHHMM, 0);
+}
+
+function generateICS() {
+  const now = new Date();
+  const stamp = `${now.getUTCFullYear()}${pad2(now.getUTCMonth()+1)}${pad2(now.getUTCDate())}T${pad2(now.getUTCHours())}${pad2(now.getUTCMinutes())}${pad2(now.getUTCSeconds())}Z`;
+
+  let lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Ramadan 2026 Guildford//EN",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "X-WR-CALNAME:Ramadan 2026 - Guildford",
+  ];
+
+  TIMETABLE.forEach(entry => {
+    // Suhoor event
+    lines.push(
+      "BEGIN:VEVENT",
+      `UID:ramadan2026-suhoor-${entry.day}@guildford`,
+      `DTSTAMP:${stamp}`,
+      `DTSTART:${icsTimestamp(entry.date, entry.suhoor)}`,
+      `DTEND:${addMinutes(entry.date, entry.suhoor, 5)}`,
+      `SUMMARY:Suhoor Ends - Day ${entry.day}`,
+      `DESCRIPTION:End of Suhoor at ${formatTime12(entry.suhoor)}\\nRamadan Day ${entry.day}`,
+      "END:VEVENT"
+    );
+
+    // Iftar event
+    lines.push(
+      "BEGIN:VEVENT",
+      `UID:ramadan2026-iftar-${entry.day}@guildford`,
+      `DTSTAMP:${stamp}`,
+      `DTSTART:${icsTimestamp(entry.date, entry.iftar)}`,
+      `DTEND:${addMinutes(entry.date, entry.iftar, 5)}`,
+      `SUMMARY:Iftar Begins - Day ${entry.day}`,
+      `DESCRIPTION:Start of Iftar at ${formatTime12(entry.iftar)}\\nRamadan Day ${entry.day}`,
+      "END:VEVENT"
+    );
+  });
+
+  lines.push("END:VCALENDAR");
+  return lines.join("\r\n");
+}
+
+function downloadICS() {
+  const blob = new Blob([generateICS()], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "ramadan-2026-guildford.ics";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
