@@ -43,7 +43,28 @@
     text-align: center;
     font-size: 0.85rem;
     color: #8a7d6b;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    display: flex;
+    gap: 4px;
+    height: 4px;
+    margin-bottom: 2px;
+  }
+
+  .progress-seg {
+    flex: 1;
+    background: #e4dccb;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: #2c2418;
+    border-radius: 2px;
+    transition: width 0.3s;
   }
 
   .sticky-footer {
@@ -159,6 +180,23 @@
   .suhoor .time-value { color: #4a6e5a; }
   .iftar .time-value { color: #a0522d; }
 
+  .time-remaining {
+    grid-column: 2 / 4;
+    font-size: 0.8rem;
+    color: #bfb5a3;
+    padding-top: 4px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .time-remaining span {
+    font-weight: 600;
+  }
+
+  .time-remaining.suhoor span { color: #8cc4a0; }
+  .time-remaining.iftar span { color: #e4a96d; }
+
   .footer {
     font-family: Georgia, 'Times New Roman', serif;
     font-style: italic;
@@ -174,6 +212,11 @@
   <header>
     <h1>Ramadan 2026</h1>
     <p class="subtitle">Guildford, UK &middot; All times GMT</p>
+    <div class="progress" id="progress">
+      <div class="progress-seg"><div class="progress-fill" id="seg1"></div></div>
+      <div class="progress-seg"><div class="progress-fill" id="seg2"></div></div>
+      <div class="progress-seg"><div class="progress-fill" id="seg3"></div></div>
+    </div>
   </header>
   <div id="timetable"></div>
   <p class="footer">Times based on Guildford, UK (51.24&deg;N, 0.57&deg;W)</p>
@@ -234,16 +277,38 @@ function formatTime12(t) {
   return `${h12}:${m.toString().padStart(2, "0")} ${suffix}`;
 }
 
+const params = new URLSearchParams(window.location.search);
+
 function todayISO() {
-  const override = new URLSearchParams(window.location.search).get("date");
+  const override = params.get("date");
   if (override && /^\d{4}-\d{2}-\d{2}$/.test(override)) return override;
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 }
 
+function nowDate() {
+  const dateStr = params.get("date");
+  const timeStr = params.get("time");
+  if (dateStr && /^\d{4}-\d{2}-\d{2}$/.test(dateStr) && timeStr && /^\d{2}:\d{2}$/.test(timeStr)) {
+    const [y, mo, d] = dateStr.split("-").map(Number);
+    const [h, m] = timeStr.split(":").map(Number);
+    return new Date(Date.UTC(y, mo - 1, d, h, m));
+  }
+  return new Date();
+}
+
+// Progress bar
+const today = todayISO();
+const todayIdx = TIMETABLE.findIndex(e => e.date === today);
+const dayNum = todayIdx >= 0 ? todayIdx + 1 : 0;
+
+function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+document.getElementById("seg1").style.width = clamp(dayNum / 10 * 100, 0, 100) + "%";
+document.getElementById("seg2").style.width = clamp((dayNum - 10) / 10 * 100, 0, 100) + "%";
+document.getElementById("seg3").style.width = clamp((dayNum - 20) / 9 * 100, 0, 100) + "%";
+
 // Render timetable
 const container = document.getElementById("timetable");
-const today = todayISO();
 
 TIMETABLE.forEach(entry => {
   const isToday = entry.date === today;
@@ -267,6 +332,59 @@ TIMETABLE.forEach(entry => {
     requestAnimationFrame(() => card.scrollIntoView({ behavior: "smooth", block: "center" }));
   }
 });
+
+// Countdown on today card
+const todayEntry = TIMETABLE.find(e => e.date === today);
+let countdownEl = null;
+
+if (todayEntry) {
+  const todayCard = container.querySelector(".day-card.today");
+  if (todayCard) {
+    countdownEl = document.createElement("div");
+    countdownEl.className = "time-remaining";
+    todayCard.appendChild(countdownEl);
+  }
+}
+
+function toUTCMs(dateISO, timeHHMM) {
+  const [y, mo, d] = dateISO.split("-").map(Number);
+  const [h, m] = timeHHMM.split(":").map(Number);
+  return Date.UTC(y, mo - 1, d, h, m);
+}
+
+function updateCountdown() {
+  if (!todayEntry || !countdownEl) return;
+
+  const now = nowDate().getTime();
+  const suhoorMs = toUTCMs(todayEntry.date, todayEntry.suhoor);
+  const iftarMs = toUTCMs(todayEntry.date, todayEntry.iftar);
+
+  let target, label, cls;
+  if (now < suhoorMs) {
+    target = suhoorMs; label = "Suhoor"; cls = "suhoor";
+  } else if (now < iftarMs) {
+    target = iftarMs; label = "Iftar"; cls = "iftar";
+  } else {
+    countdownEl.style.display = "none"; return;
+  }
+
+  const diff = target - now;
+  const hrs = Math.floor(diff / 3600000);
+  const mins = Math.floor((diff % 3600000) / 60000);
+  const secs = Math.floor((diff % 60000) / 1000);
+
+  let parts = [];
+  if (hrs) parts.push(`${hrs}h`);
+  if (mins) parts.push(`${mins}m`);
+  if (secs && !hrs) parts.push(`${secs}s`);
+  if (!parts.length) parts.push("0s");
+
+  countdownEl.className = `time-remaining ${cls}`;
+  countdownEl.innerHTML = `<span>${parts.join(" ")}</span> to ${label}`;
+}
+
+updateCountdown();
+if (!params.get("time")) setInterval(updateCountdown, 1000);
 
 // ICS generation
 function pad2(n) { return n.toString().padStart(2, "0"); }
